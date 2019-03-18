@@ -4,6 +4,7 @@ import os
 
 client = discord.Client()
 
+
 @client.event
 async def on_message(message):
     if message.author == client.user:
@@ -12,9 +13,9 @@ async def on_message(message):
     if message.content == "!dex list":
 
         user_dex = dex_commands.get_dex(message.author.name)
-        if len(user_dex) == 0:
-            msg = "Oh? There aren't any pokemon in your dex yet! Why don't you try !dex add 'pokemon name here'"
-        else:
+        msg = "Oh? There aren't any pokemon in your dex yet! Why don't you try !dex add 'pokemon name here'"
+
+        if len(user_dex) > 0:
             msg = user_dex
 
         await client.send_message(message.channel, msg)
