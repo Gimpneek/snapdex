@@ -1,5 +1,6 @@
 import discord
 import dex_commands
+import os
 
 client = discord.Client()
 
@@ -21,4 +22,4 @@ async def on_message(message):
     if message.content == "!get my name":
         await client.send_message(message.channel, message.author.name)
 
-client.run('NTU2ODQ2ODAwMTQxNjgwNjQw.D2_8ww.zRzoHJrjb5WdawlfalW4Fxe1WV8')
+client.run(os.environ.get('DISCORD_KEY'))
