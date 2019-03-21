@@ -1,1 +1,1 @@
-discord==0.16.12
+git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]
