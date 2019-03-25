@@ -12,4 +12,4 @@ ADD . /src
 RUN pip install -r requirements.txt
 
 # Run Python
-ENTRYPOINT ["python", "snapdex_discord_bot.py"]
+ENTRYPOINT ["python", "main.py"]
