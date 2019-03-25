@@ -52,9 +52,13 @@ class SnapdexClient(Client):
             found_pokemon = self.get_pokemon_names(message)
             if not found_pokemon:
                 await message.channel.send('Who\'s that Pokemon?')
+                await self.handle_pokemon_name_options(message, images[0])
             if len(found_pokemon) > 1:
-                await self.handle_pokemon_name_options(
-                    found_pokemon, message, images[0])
+                options = '{0} or {1}'.format(
+                    ', '.join(found_pokemon[:-1]), found_pokemon[-1])
+                await message.channel.send(
+                    'Which Pokemon is it? {0}?'.format(options))
+                await self.handle_pokemon_name_options(message, images[0])
                 return
             self.pokemon_images[message.id] = PokedexEntry(
                 found_pokemon[0], images[0].url, message.author)
@@ -129,7 +133,7 @@ class SnapdexClient(Client):
             [word.title() for word in self.pokemon_list if word in content]
         return found_pokemon
 
-    async def handle_pokemon_name_options(self, pokemon, message, image):
+    async def handle_pokemon_name_options(self, message, image):
         """
         Handle asking the user to clarify which Pokemon was in the AR pic
         posted.
@@ -137,15 +141,11 @@ class SnapdexClient(Client):
         This takes advantage of the discord.Client.wait_for method which
         polls the channel for a reply
 
-        :param pokemon: A list of possible Pokemon the image could contain
         :param message: The message for the AR pic
         :param image: The AR pic
-        :type pokemon: basestring[]
         :type message: discord.Message
         :type image: discord.Attachment
         """
-        options = '{0} or {1}'.format(', '.join(pokemon[:-1]), pokemon[-1])
-        await message.channel.send('Which Pokemon is it? {0}?'.format(options))
 
         def handle_reply(reply_message):
             """
