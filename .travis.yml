@@ -1,5 +1,18 @@
+addons:
+  sonarcloud:
+    organization: "gimpneek-github"
+    token:
+      secure: $SONARQUBE_TOKEN
+services:
+  - docker
 language: python
 python:
   - 3.6
 script:
   - echo "This will do stuff"
+  - sonar-scanner
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh
+  on:
+    tags: true
