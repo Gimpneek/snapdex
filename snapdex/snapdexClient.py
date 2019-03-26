@@ -70,8 +70,6 @@ class SnapdexClient(Client):
                 original_message=message,
                 details=pokemon_details[0]
             )
-            await message.channel.send(
-                'That\'s a sick pic of {0}'.format(found_pokemon[0]))
 
         if '$snapdex show' in message.content:
             found_pokemon = self.get_pokemon_names(message)
