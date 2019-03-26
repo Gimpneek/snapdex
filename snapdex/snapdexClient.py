@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """ SnapdexClient Class """
-from discord import Client
+from discord import Client, Embed
 import logging
 from asyncio import TimeoutError
 from snapdex.pokedexEntry import PokedexEntry
@@ -61,7 +61,7 @@ class SnapdexClient(Client):
                 await self.handle_pokemon_name_options(message, images[0])
                 return
             self.pokemon_images[message.id] = PokedexEntry(
-                found_pokemon[0], images[0].url, message.author)
+                found_pokemon[0], images[0], message)
             await message.channel.send(
                 'That\'s a sick pic of {0}'.format(found_pokemon[0]))
         if '$snapdex show' in message.content:
@@ -69,9 +69,26 @@ class SnapdexClient(Client):
             for pokemon in found_pokemon:
                 for entry in self.pokedexes.get(message.author, []):
                     if entry.pokemon_name == pokemon:
-                        await message.channel.send(
-                            'Heres your {0} pic by {1}: {2}'.format(
-                                pokemon, entry.author, entry.image_url))
+                        dex_entry = Embed(
+                            description=entry.original_message.content,
+                            type="rich",
+                            title="{0} by {1}".format(pokemon, entry.author),
+                            color=0xff2600
+                        )
+                        dex_entry.set_thumbnail(url=entry.image.url)
+                        dex_entry.set_author(
+                            name=entry.author,
+                            icon_url=entry.author.avatar_url
+                        )
+                        dex_entry.add_field(
+                            name="Name",
+                            value=pokemon,
+                            inline=True)
+                        dex_entry.add_field(
+                            name="Date Added",
+                            value=entry.original_message.created_at,
+                            inline=True)
+                        await message.channel.send(embed=dex_entry)
 
     async def on_reaction_add(self, reaction, user):
         """
