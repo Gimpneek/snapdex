@@ -2,6 +2,7 @@
 """ SnapdexClient Class """
 from discord import Client, Embed
 import logging
+from pokedex.pokedex import Pokedex
 from asyncio import TimeoutError
 from snapdex.pokedexEntry import PokedexEntry
 
@@ -17,6 +18,7 @@ class SnapdexClient(Client):
         self.pokemon_list = pokemon_list
         self.pokedexes = {}
         self.pokemon_images = {}
+        self.pokedex = Pokedex()
 
     async def on_ready(self):
         """
@@ -60,10 +62,17 @@ class SnapdexClient(Client):
                     'Which Pokemon is it? {0}?'.format(options))
                 await self.handle_pokemon_name_options(message, images[0])
                 return
+            pokemon_details = \
+            self.pokedex.get_pokemon_by_name(found_pokemon[0])
             self.pokemon_images[message.id] = PokedexEntry(
-                found_pokemon[0], images[0], message)
+                pokemon_name=found_pokemon[0],
+                image=images[0],
+                original_message=message,
+                details=pokemon_details[0]
+            )
             await message.channel.send(
                 'That\'s a sick pic of {0}'.format(found_pokemon[0]))
+
         if '$snapdex show' in message.content:
             found_pokemon = self.get_pokemon_names(message)
             for pokemon in found_pokemon:
@@ -85,9 +94,21 @@ class SnapdexClient(Client):
                             value=pokemon,
                             inline=True)
                         dex_entry.add_field(
-                            name="Date Added",
+                            name="Pokedex Number",
+                            value=entry.details.get('number', ''),
+                            inline=True)
+                        dex_entry.add_field(
+                            name="Types",
+                            value="/".join(entry.details.get('types', [])),
+                            inline=True)
+                        dex_entry.add_field(
+                            name="Date Taken",
                             value=entry.original_message.created_at,
                             inline=True)
+                        dex_entry.set_footer(
+                            text=entry.details.get('description', ''),
+                            icon_url=entry.details.get('sprite', '')
+                        )
                         await message.channel.send(embed=dex_entry)
 
     async def on_reaction_add(self, reaction, user):
