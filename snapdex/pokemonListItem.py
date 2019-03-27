@@ -3,13 +3,17 @@
 import random
 
 
+MISSINGNO_SPRITE = 'https://cdn.bulbagarden.net/upload/9/98/Missingno_RB.png'
+
+
 class PokemonListItem(object):
     """
     Represents a Pokemon's entry in the list of Pokemon the bot supports
     """
 
-    def __init__(self, name, alias_list=[], number=0, types=[], dex_entries=[],
-                 sprite=None, legendary=False, mythic=False, regional=False):
+    def __init__(self, name, alias_list=None, number=0, types=None,
+                 dex_entries=None, sprite=None, legendary=False, mythic=False,
+                 regional=False):
         """
         Create the Pokemon List Item
 
@@ -32,12 +36,14 @@ class PokemonListItem(object):
         :param regional: Is the Pokemon a regional Pokemon?
         :type regional: bool
         """
+        if not name:
+            raise Exception('No name provided')
         self.name = name
-        self.alias_list = alias_list
+        self.alias_list = alias_list if alias_list else []
         self.number = number
-        self.types = types
-        self.dex_entries = dex_entries
-        self.sprite = sprite
+        self.types = types if types else []
+        self.dex_entries = dex_entries if dex_entries else []
+        self.sprite = sprite if sprite else MISSINGNO_SPRITE
         self.legendary = legendary
         self.mythic = mythic
         self.regional = regional
