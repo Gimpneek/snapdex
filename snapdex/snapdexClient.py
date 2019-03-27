@@ -49,9 +49,10 @@ class SnapdexClient(Client):
             'Got message: {0.content} from {0.author}'.format(message))
         if message.author == self.user:
             return
+        content = message.content
         images = self.get_images(message)
         if images:
-            found_pokemon = self.get_pokemon_names(message)
+            found_pokemon = self.get_pokemon_names(content)
             if not found_pokemon:
                 await message.channel.send('Who\'s that Pokemon?')
                 await self.handle_pokemon_name_options(message, images[0])
@@ -71,8 +72,8 @@ class SnapdexClient(Client):
                 details=pokemon_details[0]
             )
 
-        if '$snapdex show' in message.content:
-            found_pokemon = self.get_pokemon_names(message)
+        if '$snapdex show' in content:
+            found_pokemon = self.get_pokemon_names(content)
             for pokemon in found_pokemon:
                 for entry in self.pokedexes.get(message.author, []):
                     if entry.pokemon_name == pokemon:
@@ -154,20 +155,24 @@ class SnapdexClient(Client):
                 images.append(attachment)
         return images
 
-    def get_pokemon_names(self, message):
+    def get_pokemon_names(self, content):
         """
         Extract the Pokemon referenced in the posted message
 
-        :param message: The message posted to discord that accompanied the
+        :param content: The text posted to discord that accompanied the
             AR pic
-        :type message: discord.Message
+        :type content: basestring
         :return: A list of Pokemon names extracted from the message content
         :rtype: basestring[]
         """
-        content = message.content.lower()
+        content = content.lower()
         found_pokemon = \
-            [word.title() for word in self.pokemon_list if word in content]
-        return found_pokemon
+            [pokemon for pokemon in self.pokemon_list if pokemon in content]
+        if len(found_pokemon) > 1:
+            words = content.split(' ')
+            found_pokemon = \
+                [pokemon for pokemon in found_pokemon if pokemon in words]
+        return [pokemon.title() for pokemon in found_pokemon]
 
     async def handle_pokemon_name_options(self, message, image):
         """
@@ -194,7 +199,7 @@ class SnapdexClient(Client):
             :rtype: bool
             """
             if reply_message.author == message.author:
-                reply_pokemon = self.get_pokemon_names(reply_message)
+                reply_pokemon = self.get_pokemon_names(reply_message.content)
                 if len(reply_pokemon) == 1:
                     return True
 
@@ -205,7 +210,7 @@ class SnapdexClient(Client):
         except TimeoutError:
             await message.channel.send('Sorry, you took too long to respond')
         else:
-            found_pokemon = self.get_pokemon_names(reply)
+            found_pokemon = self.get_pokemon_names(reply.content)
             self.pokemon_images[message.id] = PokedexEntry(
                 found_pokemon[0], image.url, message.author)
             await message.channel.send(
