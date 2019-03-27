@@ -14,5 +14,9 @@ class TestGetNameSearchList(TestCase):
         Test that the official Pokemon name and any alias names are returned
         """
         self.assertEqual(
-            [POKEMON_NAME.lower(), ALIAS_ONE.lower(), ALIAS_TWO.lower()],
+            r'\b{0}\b|\b{1}\b|\b{2}\b'.format(
+                POKEMON_NAME.lower(),
+                ALIAS_ONE.lower(),
+                ALIAS_TWO.lower()
+            ),
             self.list_item.get_name_search_list())

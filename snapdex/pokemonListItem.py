@@ -55,7 +55,9 @@ class PokemonListItem(object):
         :return: List of names
         :rtype: basestring[]
         """
-        return [self.name.lower()] + [name.lower() for name in self.alias_list]
+        names = [self.name.lower()] + \
+                [name.lower() for name in self.alias_list]
+        return r'|'.join([r'\b{0}\b'.format(name) for name in names])
 
     def get_types(self):
         """

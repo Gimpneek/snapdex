@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """ SnapdexClient Class """
+import re
 from discord import Client, Embed
 import logging
 from pokedex.pokedex import Pokedex
@@ -166,13 +167,12 @@ class SnapdexClient(Client):
         :rtype: basestring[]
         """
         content = content.lower()
-        found_pokemon = \
-            [pokemon for pokemon in self.pokemon_list if pokemon in content]
-        if len(found_pokemon) > 1:
-            words = content.split(' ')
-            found_pokemon = \
-                [pokemon for pokemon in found_pokemon if pokemon in words]
-        return [pokemon.title() for pokemon in found_pokemon]
+        found_pokemon = []
+        for pokemon in self.pokemon_list:
+            names = pokemon.get_name_search_list()
+            if re.findall(names, content):
+                found_pokemon.append(pokemon)
+        return [pokemon.name.title() for pokemon in found_pokemon]
 
     async def handle_pokemon_name_options(self, message, image):
         """

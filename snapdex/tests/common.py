@@ -14,6 +14,15 @@ Its gestures and motions convince watchers that somthing unseeable
 actually exists. Once the watchers are convinced, the unseeable thing 
 exists as if it were real."""
 
+ITEM_ONE_NAME = 'Mew'
+ITEM_ONE_ALIASES = []
+
+ITEM_TWO_NAME = 'Mewtwo'
+ITEM_TWO_ALIASES = ['Mew Two']
+
+ITEM_THREE_NAME = 'Haunter'
+ITEM_THREE_ALIASES = ['Spooky Boi', 'Spooky Lad']
+
 
 def get_test_pokemon_list_item():
     """
@@ -32,3 +41,22 @@ def get_test_pokemon_list_item():
             legendary=True,
             mythic=True,
             regional=True)
+
+
+def get_test_pokemon_list():
+    """
+    Get an example list of PokemonListItems for use with testing
+
+    :returns: list of pokemon
+    :rtype: snapdex.pokemonListItem.PokemonListItem[]
+    """
+    item_one = PokemonListItem(
+        name=ITEM_ONE_NAME,
+        alias_list=ITEM_ONE_ALIASES)
+    item_two = PokemonListItem(
+        name=ITEM_TWO_NAME,
+        alias_list=ITEM_TWO_ALIASES)
+    item_three = PokemonListItem(
+        name=ITEM_THREE_NAME,
+        alias_list=ITEM_THREE_ALIASES)
+    return [item_one, item_two, item_three]

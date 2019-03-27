@@ -1,5 +1,6 @@
 from unittest import TestCase
 from snapdex.snapdexClient import SnapdexClient
+from snapdex.tests.common import get_test_pokemon_list
 
 
 POKEMON_TEXT = 'This is a pic of {0} I took'
@@ -9,10 +10,7 @@ class TestGetPokemonNames(TestCase):
 
     def setUp(self):
         super(TestGetPokemonNames, self).setUp()
-        self.pokemon_list = [
-            'mew',
-            'mewtwo'
-        ]
+        self.pokemon_list = get_test_pokemon_list()
         self.client = SnapdexClient(self.pokemon_list)
 
     def test_finds_pokemon(self):
@@ -33,3 +31,12 @@ class TestGetPokemonNames(TestCase):
         text_to_test = POKEMON_TEXT.format('mewtwo')
         found_pokemon = self.client.get_pokemon_names(text_to_test)
         self.assertEqual(['Mewtwo'], found_pokemon)
+
+    def test_finds_pokemon_by_alias(self):
+        """
+        Test that when using an alias name (such as Spooky Boi when describing
+        Haunter) that it returns that Pokemon
+        """
+        text_to_test = POKEMON_TEXT.format('Spooky Boi')
+        found_pokemon = self.client.get_pokemon_names(text_to_test)
+        self.assertEqual(['Haunter'], found_pokemon)
