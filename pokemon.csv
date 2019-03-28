@@ -441,420 +441,419 @@ Number,Name,Types,Species,Legendary,Mythical,Generation,Sprite,Description
 422,Shellos,Water,Sea Slug,False,False,4,https://pokeres.bastionbot.org/images/pokemon/422.png,"Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed."
 423,Gastrodon,Ground|Water,Sea Slug,False,False,4,https://pokeres.bastionbot.org/images/pokemon/423.png,"It has a pliable body without any bones. If any part of its body is torn off, it grows right back."
 424,Ambipom,Normal,Long Tail,False,False,4,https://pokeres.bastionbot.org/images/pokemon/424.png,"They work in large colonies and make rings by linking their tails, apparently in friendship."
-425,Drifloon,Flying|Ghost,,,,,,
-426,Drifblim,Flying|Ghost,,,,,,
-427,Buneary,Normal,,,,,,
-428,Lopunny,Normal,,,,,,
-429,Mismagius,Ghost,,,,,,
-430,Honchkrow,Flying|Dark,,,,,,
-431,Glameow,Normal,,,,,,
-432,Purugly,Normal,,,,,,
-433,Chingling,Psychic,,,,,,
-434,Stunky,Dark|Poison,,,,,,
-435,Skuntank,Dark|Poison,,,,,,
-436,Bronzor,Psychic|Steel,,,,,,
-437,Bronzong,Psychic|Steel,,,,,,
-438,Bonsly,Rock,,,,,,
-439,Mime Jr.,Psychic|Fairy,,,,,,
-440,Happiny,Normal,,,,,,
-441,Chatot,Flying|Normal,,,,,,
-442,Spiritomb,Dark|Ghost,,,,,,
-443,Gible,Ground|Dragon,,,,,,
-444,Gabite,Ground|Dragon,,,,,,
-445,Garchomp,Ground|Dragon,,,,,,
-446,Munchlax,Normal,,,,,,
-447,Riolu,Fighting,,,,,,
-448,Lucario,Steel|Fighting,,,,,,
-449,Hippopotas,Ground,,,,,,
-450,Hippowdon,Ground,,,,,,
-451,Skorupi,Bug|Poison,,,,,,
-452,Drapion,Dark|Poison,,,,,,
-453,Croagunk,Fighting|Poison,,,,,,
-454,Toxicroak,Fighting|Poison,,,,,,
-455,Carnivine,Grass,,,,,,
-456,Finneon,Water,,,,,,
-457,Lumineon,Water,,,,,,
-458,Mantyke,Flying|Water,,,,,,
-459,Snover,Ice|Grass,,,,,,
-460,Abomasnow,Ice|Grass,,,,,,
-461,Weavile,Dark|Ice,,,,,,
-462,Magnezone,Electric|Steel,,,,,,
-463,Lickilicky,Normal,,,,,,
-464,Rhyperior,Ground|Rock,,,,,,
-465,Tangrowth,Grass,,,,,,
-466,Electivire,Electric,,,,,,
-467,Magmortar,Fire,,,,,,
-468,Togekiss,Flying|Fairy,,,,,,
-469,Yanmega,Flying|Bug,,,,,,
-470,Leafeon,Grass,,,,,,
-471,Glaceon,Ice,,,,,,
-472,Gliscor,Flying|Ground,,,,,,
-473,Mamoswine,Ice|Ground,,,,,,
-474,Porygon-Z,Normal,,,,,,
-475,Gallade,Psychic|Fighting,,,,,,
-476,Probopass,Steel|Rock,,,,,,
-477,Dusknoir,Ghost,,,,,,
-478,Froslass,Ice|Ghost,,,,,,
-479,Rotom,Electric|Ghost,,,,,,
-480,Uxie,Psychic,,,,,,
-481,Mesprit,Psychic,,,,,,
-482,Azelf,Psychic,,,,,,
-483,Dialga,Dragon|Steel,,,,,,
-484,Palkia,Water|Dragon,,,,,,
-485,Heatran,Fire|Steel,,,,,,
-486,Regigigas,Normal,,,,,,
-487,Giratina,Dragon|Ghost,,,,,,
-488,Cresselia,Psychic,,,,,,
-489,Phione,Water,,,,,,
-490,Manaphy,Water,,,,,,
-491,Darkrai,Dark,,,,,,
-492,Shaymin,Grass,,,,,,
-493,Arceus,Normal,,,,,,
-494,Victini,Fire|Psychic,,,,,,
-495,Snivy,Grass,,,,,,
-496,Servine,Grass,,,,,,
-497,Serperior,Grass,,,,,,
-498,Tepig,Fire,,,,,,
-499,Pignite,Fire|Fighting,,,,,,
-500,Emboar,Fire|Fighting,,,,,,
-501,Oshawott,Water,,,,,,
-502,Dewott,Water,,,,,,
-503,Samurott,Water,,,,,,
-504,Patrat,Normal,,,,,,
-505,Watchog,Normal,,,,,,
-506,Lillipup,Normal,,,,,,
-507,Herdier,Normal,,,,,,
-508,Stoutland,Normal,,,,,,
-509,Purrloin,Dark,,,,,,
-510,Liepard,Dark,,,,,,
-511,Pansage,Grass,,,,,,
-512,Simisage,Grass,,,,,,
-513,Pansear,Fire,,,,,,
-514,Simisear,Fire,,,,,,
-515,Panpour,Water,,,,,,
-516,Simipour,Water,,,,,,
-517,Munna,Psychic,,,,,,
-518,Musharna,Psychic,,,,,,
-519,Pidove,Flying|Normal,,,,,,
-520,Tranquill,Flying|Normal,,,,,,
-521,Unfezant,Flying|Normal,,,,,,
-522,Blitzle,Electric,,,,,,
-523,Zebstrika,Electric,,,,,,
-524,Roggenrola,Rock,,,,,,
-525,Boldore,Rock,,,,,,
-526,Gigalith,Rock,,,,,,
-527,Woobat,Flying|Psychic,,,,,,
-528,Swoobat,Flying|Psychic,,,,,,
-529,Drilbur,Ground,,,,,,
-530,Excadrill,Ground|Steel,,,,,,
-531,Audino,Normal,,,,,,
-532,Timburr,Fighting,,,,,,
-533,Gurdurr,Fighting,,,,,,
-534,Conkeldurr,Fighting,,,,,,
-535,Tympole,Water,,,,,,
-536,Palpitoad,Ground|Water,,,,,,
-537,Seismitoad,Ground|Water,,,,,,
-538,Throh,Fighting,,,,,,
-539,Sawk,Fighting,,,,,,
-540,Sewaddle,Grass|Bug,,,,,,
-541,Swadloon,Grass|Bug,,,,,,
-542,Leavanny,Grass|Bug,,,,,,
-543,Venipede,Bug|Poison,,,,,,
-544,Whirlipede,Bug|Poison,,,,,,
-545,Scolipede,Bug|Poison,,,,,,
-546,Cottonee,Grass|Fairy,,,,,,
-547,Whimsicott,Grass|Fairy,,,,,,
-548,Petilil,Grass,,,,,,
-549,Lilligant,Grass,,,,,,
-550,Basculin,Water,,,,,,
-551,Sandile,Dark|Ground,,,,,,
-552,Krokorok,Dark|Ground,,,,,,
-553,Krookodile,Dark|Ground,,,,,,
-554,Darumaka,Fire,,,,,,
-555,Darmanitan,Fire,,,,,,
-556,Maractus,Grass,,,,,,
-557,Dwebble,Bug|Rock,,,,,,
-558,Crustle,Bug|Rock,,,,,,
-559,Scraggy,Dark|Fighting,,,,,,
-560,Scrafty,Dark|Fighting,,,,,,
-561,Sigilyph,Flying|Psychic,,,,,,
-562,Yamask,Ghost,,,,,,
-563,Cofagrigus,Ghost,,,,,,
-564,Tirtouga,Water|Rock,,,,,,
-565,Carracosta,Water|Rock,,,,,,
-566,Archen,Flying|Rock,,,,,,
-567,Archeops,Flying|Rock,,,,,,
-568,Trubbish,Poison,,,,,,
-569,Garbodor,Poison,,,,,,
-570,Zorua,Dark,,,,,,
-571,Zoroark,Dark,,,,,,
-572,Minccino,Normal,,,,,,
-573,Cinccino,Normal,,,,,,
-574,Gothita,Psychic,,,,,,
-575,Gothorita,Psychic,,,,,,
-576,Gothitelle,Psychic,,,,,,
-577,Solosis,Psychic,,,,,,
-578,Duosion,Psychic,,,,,,
-579,Reuniclus,Psychic,,,,,,
-580,Ducklett,Flying|Water,,,,,,
-581,Swanna,Flying|Water,,,,,,
-582,Vanillite,Ice,,,,,,
-583,Vanillish,Ice,,,,,,
-584,Vanilluxe,Ice,,,,,,
-585,Deerling,Grass|Normal,,,,,,
-586,Sawsbuck,Grass|Normal,,,,,,
-587,Emolga,Flying|Electric,,,,,,
-588,Karrablast,Bug,,,,,,
-589,Escavalier,Steel|Bug,,,,,,
-590,Foongus,Grass|Poison,,,,,,
-591,Amoonguss,Grass|Poison,,,,,,
-592,Frillish,Water|Ghost,,,,,,
-593,Jellicent,Water|Ghost,,,,,,
-594,Alomomola,Water,,,,,,
-595,Joltik,Electric|Bug,,,,,,
-596,Galvantula,Electric|Bug,,,,,,
-597,Ferroseed,Grass|Steel,,,,,,
-598,Ferrothorn,Grass|Steel,,,,,,
-599,Klink,Steel,,,,,,
-600,Klang,Steel,,,,,,
-601,Klinklang,Steel,,,,,,
-602,Tynamo,Electric,,,,,,
-603,Eelektrik,Electric,,,,,,
-604,Eelektross,Electric,,,,,,
-605,Elgyem,Psychic,,,,,,
-606,Beheeyem,Psychic,,,,,,
-607,Litwick,Fire|Ghost,,,,,,
-608,Lampent,Fire|Ghost,,,,,,
-609,Chandelure,Fire|Ghost,,,,,,
-610,Axew,Dragon,,,,,,
-611,Fraxure,Dragon,,,,,,
-612,Haxorus,Dragon,,,,,,
-613,Cubchoo,Ice,,,,,,
-614,Beartic,Ice,,,,,,
-615,Cryogonal,Ice,,,,,,
-616,Shelmet,Bug,,,,,,
-617,Accelgor,Bug,,,,,,
-618,Stunfisk,Ground|Electric,,,,,,
-619,Mienfoo,Fighting,,,,,,
-620,Mienshao,Fighting,,,,,,
-621,Druddigon,Dragon,,,,,,
-622,Golett,Ground|Ghost,,,,,,
-623,Golurk,Ground|Ghost,,,,,,
-624,Pawniard,Dark|Steel,,,,,,
-625,Bisharp,Dark|Steel,,,,,,
-626,Bouffalant,Normal,,,,,,
-627,Rufflet,Flying|Normal,,,,,,
-628,Braviary,Flying|Normal,,,,,,
-629,Vullaby,Flying|Dark,,,,,,
-630,Mandibuzz,Flying|Dark,,,,,,
-631,Heatmor,Fire,,,,,,
-632,Durant,Steel|Bug,,,,,,
-633,Deino,Dark|Dragon,,,,,,
-634,Zweilous,Dark|Dragon,,,,,,
-635,Hydreigon,Dark|Dragon,,,,,,
-636,Larvesta,Fire|Bug,,,,,,
-637,Volcarona,Fire|Bug,,,,,,
-638,Cobalion,Fighting|Steel,,,,,,
-639,Terrakion,Fighting|Rock,,,,,,
-640,Virizion,Grass|Fighting,,,,,,
-641,TornadusIncarnate Forme,Flying,,,,,,
-641,TornadusTherian Forme,Flying,,,,,,
-642,ThundurusIncarnate Forme,Flying|Electric,,,,,,
-642,ThundurusTherian Forme,Flying|Electric,,,,,,
-643,Reshiram,Fire|Dragon,,,,,,
-644,Zekrom,Electric|Dragon,,,,,,
-645,LandorusIncarnate Forme,Flying|Ground,,,,,,
-645,LandorusTherian Forme,Flying|Ground,,,,,,
-646,Kyurem,Ice|Dragon,,,,,,
-646,KyuremBlack Kyurem,Ice|Dragon,,,,,,
-646,KyuremWhite Kyurem,Ice|Dragon,,,,,,
-647,KeldeoOrdinary Forme,Water|Fighting,,,,,,
-647,KeldeoResolute Forme,Water|Fighting,,,,,,
-648,MeloettaAria Forme,Psychic|Normal,,,,,,
-648,MeloettaPirouette Forme,Fighting|Normal,,,,,,
-649,Genesect,Steel|Bug,,,,,,
-650,Chespin,Grass,,,,,,
-651,Quilladin,Grass,,,,,,
-652,Chesnaught,Grass|Fighting,,,,,,
-653,Fennekin,Fire,,,,,,
-654,Braixen,Fire,,,,,,
-655,Delphox,Fire|Psychic,,,,,,
-656,Froakie,Water,,,,,,
-657,Frogadier,Water,,,,,,
-658,Greninja,Dark|Water,,,,,,
-658,GreninjaAsh-Greninja,Dark|Water,,,,,,
-659,Bunnelby,Normal,,,,,,
-660,Diggersby,Ground|Normal,,,,,,
-661,Fletchling,Flying|Normal,,,,,,
-662,Fletchinder,Fire|Flying,,,,,,
-663,Talonflame,Fire|Flying,,,,,,
-664,Scatterbug,Bug,,,,,,
-665,Spewpa,Bug,,,,,,
-666,Vivillon,Flying|Bug,,,,,,
-667,Litleo,Fire|Normal,,,,,,
-668,Pyroar,Fire|Normal,,,,,,
-669,Flabébé,Fairy,,,,,,
-670,Floette,Fairy,,,,,,
-671,Florges,Fairy,,,,,,
-672,Skiddo,Grass,,,,,,
-673,Gogoat,Grass,,,,,,
-674,Pancham,Fighting,,,,,,
-675,Pangoro,Dark|Fighting,,,,,,
-676,Furfrou,Normal,,,,,,
-677,Espurr,Psychic,,,,,,
-678,MeowsticFemale,Psychic,,,,,,
-678,MeowsticMale,Psychic,,,,,,
-679,Honedge,Ghost|Steel,,,,,,
-680,Doublade,Ghost|Steel,,,,,,
-681,AegislashBlade Forme,Ghost|Steel,,,,,,
-681,AegislashShield Forme,Ghost|Steel,,,,,,
-682,Spritzee,Fairy,,,,,,
-683,Aromatisse,Fairy,,,,,,
-684,Swirlix,Fairy,,,,,,
-685,Slurpuff,Fairy,,,,,,
-686,Inkay,Dark|Psychic,,,,,,
-687,Malamar,Dark|Psychic,,,,,,
-688,Binacle,Water|Rock,,,,,,
-689,Barbaracle,Water|Rock,,,,,,
-690,Skrelp,Water|Poison,,,,,,
-691,Dragalge,Dragon|Poison,,,,,,
-692,Clauncher,Water,,,,,,
-693,Clawitzer,Water,,,,,,
-694,Helioptile,Electric|Normal,,,,,,
-695,Heliolisk,Electric|Normal,,,,,,
-696,Tyrunt,Dragon|Rock,,,,,,
-697,Tyrantrum,Dragon|Rock,,,,,,
-698,Amaura,Ice|Rock,,,,,,
-699,Aurorus,Ice|Rock,,,,,,
-700,Sylveon,Fairy,,,,,,
-701,Hawlucha,Flying|Fighting,,,,,,
-702,Dedenne,Electric|Fairy,,,,,,
-703,Carbink,Fairy|Rock,,,,,,
-704,Goomy,Dragon,,,,,,
-705,Sliggoo,Dragon,,,,,,
-706,Goodra,Dragon,,,,,,
-707,Klefki,Steel|Fairy,,,,,,
-708,Phantump,Grass|Ghost,,,,,,
-709,Trevenant,Grass|Ghost,,,,,,
-710,PumpkabooAverage Size,Grass|Ghost,,,,,,
-710,PumpkabooLarge Size,Grass|Ghost,,,,,,
-710,PumpkabooSmall Size,Grass|Ghost,,,,,,
-710,PumpkabooSuper Size,Grass|Ghost,,,,,,
-711,GourgeistAverage Size,Grass|Ghost,,,,,,
-711,GourgeistLarge Size,Grass|Ghost,,,,,,
-711,GourgeistSmall Size,Grass|Ghost,,,,,,
-711,GourgeistSuper Size,Grass|Ghost,,,,,,
-712,Bergmite,Ice,,,,,,
-713,Avalugg,Ice,,,,,,
-714,Noibat,Flying|Dragon,,,,,,
-715,Noivern,Flying|Dragon,,,,,,
-716,Xerneas,Fairy,,,,,,
-717,Yveltal,Flying|Dark,,,,,,
-718,Zygarde10% Forme,Ground|Dragon,,,,,,
-718,Zygarde50% Forme,Ground|Dragon,,,,,,
-718,ZygardeComplete Forme,Ground|Dragon,,,,,,
-719,Diancie,Fairy|Rock,,,,,,
-719,DiancieMega Diancie,Fairy|Rock,,,,,,
-720,HoopaHoopa Confined,Psychic|Ghost,,,,,,
-720,HoopaHoopa Unbound,Dark|Psychic,,,,,,
-721,Volcanion,Fire|Water,,,,,,
-722,Rowlet,Flying|Grass,,,,,,
-723,Dartrix,Flying|Grass,,,,,,
-724,Decidueye,Grass|Ghost,,,,,,
-725,Litten,Fire,,,,,,
-726,Torracat,Fire,,,,,,
-727,Incineroar,Fire|Dark,,,,,,
-728,Popplio,Water,,,,,,
-729,Brionne,Water,,,,,,
-730,Primarina,Water|Fairy,,,,,,
-731,Pikipek,Flying|Normal,,,,,,
-732,Trumbeak,Flying|Normal,,,,,,
-733,Toucannon,Flying|Normal,,,,,,
-734,Yungoos,Normal,,,,,,
-735,Gumshoos,Normal,,,,,,
-736,Grubbin,Bug,,,,,,
-737,Charjabug,Electric|Bug,,,,,,
-738,Vikavolt,Electric|Bug,,,,,,
-739,Crabrawler,Fighting,,,,,,
-740,Crabominable,Ice|Fighting,,,,,,
-741,OricorioBaile Style,Fire|Flying,,,,,,
-741,OricorioPa'u Style,Flying|Psychic,,,,,,
-741,OricorioPom-Pom Style,Flying|Electric,,,,,,
-741,OricorioSensu Style,Flying|Ghost,,,,,,
-742,Cutiefly,Bug|Fairy,,,,,,
-743,Ribombee,Bug|Fairy,,,,,,
-744,Rockruff,Rock,,,,,,
-744,RockruffOwn Tempo Rockruff,Rock,,,,,,
-745,LycanrocDusk Form,Rock,,,,,,
-745,LycanrocMidday Form,Rock,,,,,,
-745,LycanrocMidnight Form,Rock,,,,,,
-746,WishiwashiSchool Form,Water,,,,,,
-746,WishiwashiSolo Form,Water,,,,,,
-747,Mareanie,Water|Poison,,,,,,
-748,Toxapex,Water|Poison,,,,,,
-749,Mudbray,Ground,,,,,,
-750,Mudsdale,Ground,,,,,,
-751,Dewpider,Water|Bug,,,,,,
-752,Araquanid,Water|Bug,,,,,,
-753,Fomantis,Grass,,,,,,
-754,Lurantis,Grass,,,,,,
-755,Morelull,Grass|Fairy,,,,,,
-756,Shiinotic,Grass|Fairy,,,,,,
-757,Salandit,Fire|Poison,,,,,,
-758,Salazzle,Fire|Poison,,,,,,
-759,Stufful,Fighting|Normal,,,,,,
-760,Bewear,Fighting|Normal,,,,,,
-761,Bounsweet,Grass,,,,,,
-762,Steenee,Grass,,,,,,
-763,Tsareena,Grass,,,,,,
-764,Comfey,Fairy,,,,,,
-765,Oranguru,Psychic|Normal,,,,,,
-766,Passimian,Fighting,,,,,,
-767,Wimpod,Water|Bug,,,,,,
-768,Golisopod,Water|Bug,,,,,,
-769,Sandygast,Ground|Ghost,,,,,,
-770,Palossand,Ground|Ghost,,,,,,
-771,Pyukumuku,Water,,,,,,
-772,Type: Null,Normal,,,,,,
-773,Silvally,Normal,,,,,,
-774,MiniorCore Form,Flying|Rock,,,,,,
-774,MiniorMeteor Form,Flying|Rock,,,,,,
-775,Komala,Normal,,,,,,
-776,Turtonator,Fire|Dragon,,,,,,
-777,Togedemaru,Electric|Steel,,,,,,
-778,Mimikyu,Ghost|Fairy,,,,,,
-779,Bruxish,Water|Psychic,,,,,,
-780,Drampa,Dragon|Normal,,,,,,
-781,Dhelmise,Grass|Ghost,,,,,,
-782,Jangmo-o,Dragon,,,,,,
-783,Hakamo-o,Dragon|Fighting,,,,,,
-784,Kommo-o,Dragon|Fighting,,,,,,
-785,Tapu Koko,Electric|Fairy,,,,,,
-786,Tapu Lele,Psychic|Fairy,,,,,,
-787,Tapu Bulu,Grass|Fairy,,,,,,
-788,Tapu Fini,Water|Fairy,,,,,,
-789,Cosmog,Psychic,,,,,,
-790,Cosmoem,Psychic,,,,,,
-791,Solgaleo,Psychic|Steel,,,,,,
-792,Lunala,Psychic|Ghost,,,,,,
-793,Nihilego,Poison|Rock,,,,,,
-794,Buzzwole,Fighting|Bug,,,,,,
-795,Pheromosa,Fighting|Bug,,,,,,
-796,Xurkitree,Electric,,,,,,
-797,Celesteela,Flying|Steel,,,,,,
-798,Kartana,Grass|Steel,,,,,,
-799,Guzzlord,Dark|Dragon,,,,,,
-800,Necrozma,Psychic,,,,,,
-800,NecrozmaDawn Wings Necrozma,Psychic|Ghost,,,,,,
-800,NecrozmaDusk Mane Necrozma,Psychic|Steel,,,,,,
-800,NecrozmaUltra Necrozma,Dragon|Psychic,,,,,,
-801,Magearna,Steel|Fairy,,,,,,
-802,Marshadow,Ghost|Fighting,,,,,,
-803,Poipole,Poison,,,,,,
-804,Naganadel,Dragon|Poison,,,,,,
-805,Stakataka,Steel|Rock,,,,,,
-806,Blacephalon,Fire|Ghost,,,,,,
-807,Zeraora,Electric,,,,,,
+425,Drifloon,Flying|Ghost,Balloon,False,False,4,https://pokeres.bastionbot.org/images/pokemon/425.png,"It tugs on the hands of children to steal them away. However, it gets pulled around instead."
+426,Drifblim,Flying|Ghost,Blimp,False,False,4,https://pokeres.bastionbot.org/images/pokemon/426.png,"It’s drowzy in daytime, but flies off in the evening in big groups. No one knows where they go."
+427,Buneary,Normal,Rabbit,False,False,4,https://pokeres.bastionbot.org/images/pokemon/427.png,"When it senses danger, it perks up its ears. On cold nights, it sleeps with its head tucked into its fur."
+428,Lopunny,Normal,Rabbit,False,False,4,https://pokeres.bastionbot.org/images/pokemon/428.png,An extremely cautious Pokémon. It cloaks its body with its fluffy ear fur when it senses danger.
+429,Mismagius,Ghost,Magical,False,False,4,https://pokeres.bastionbot.org/images/pokemon/429.png,Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations.
+430,Honchkrow,Flying|Dark,Big Boss,False,False,4,https://pokeres.bastionbot.org/images/pokemon/430.png,"It makes its MURKROW cronies bring it food. It idles its time away, grooming itself in its nest."
+431,Glameow,Normal,Catty,False,False,4,https://pokeres.bastionbot.org/images/pokemon/431.png,It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.
+432,Purugly,Normal,Tiger Cat,False,False,4,https://pokeres.bastionbot.org/images/pokemon/432.png,It is a brazen brute that barges its way into another Pokémon’s nest and claims it as its own.
+433,Chingling,Psychic,Bell,False,False,4,https://pokeres.bastionbot.org/images/pokemon/433.png,"Each time it hops, it makes a ringing sound. It deafens foes by emitting high-frequency cries."
+434,Stunky,Dark|Poison,Skunk,False,False,4,https://pokeres.bastionbot.org/images/pokemon/434.png,It protects itself by spraying a noxious fluid from its rear. The stench lingers for 24 hours.
+435,Skuntank,Dark|Poison,Skunk,False,False,4,https://pokeres.bastionbot.org/images/pokemon/435.png,It sprays a stinky fluid from its tail. The fluid smells worse the longer it is allowed to fester.
+436,Bronzor,Psychic|Steel,Bronze,False,False,4,https://pokeres.bastionbot.org/images/pokemon/436.png,Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.
+437,Bronzong,Psychic|Steel,Bronze Bell,False,False,4,https://pokeres.bastionbot.org/images/pokemon/437.png,"One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep."
+438,Bonsly,Rock,Bonsai,False,False,4,https://pokeres.bastionbot.org/images/pokemon/438.png,It looks as if it is always crying. It is actually adjusting its body’s fluid levels by eliminating excess.
+439,Mime Jr.,Psychic|Fairy,Mime,False,False,4,https://pokeres.bastionbot.org/images/pokemon/439.png,"It likes places where people gather. It mimics foes to confuse them, then makes its getaway."
+440,Happiny,Normal,Playhouse,False,False,4,https://pokeres.bastionbot.org/images/pokemon/440.png,It loves round white things. It carries an egg-shaped rock in imitation of CHANSEY.
+441,Chatot,Flying|Normal,Music Note,False,False,4,https://pokeres.bastionbot.org/images/pokemon/441.png,"It can learn and speak human words. If they gather, they all learn the same saying."
+442,Spiritomb,Dark|Ghost,Forbidden,False,False,4,https://pokeres.bastionbot.org/images/pokemon/442.png,It was bound to a fissure in an odd keystone as punishment for misdeeds 500 years ago.
+443,Gible,Ground|Dragon,Land Shark,False,False,4,https://pokeres.bastionbot.org/images/pokemon/443.png,"It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close."
+444,Gabite,Ground|Dragon,Cave,False,False,4,https://pokeres.bastionbot.org/images/pokemon/444.png,There is a long-held belief that medicine made from its scales will heal even incurable illnesses.
+445,Garchomp,Ground|Dragon,Mach,False,False,4,https://pokeres.bastionbot.org/images/pokemon/445.png,"When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed."
+446,Munchlax,Normal,Big Eater,False,False,4,https://pokeres.bastionbot.org/images/pokemon/446.png,"It wolfs down its weight in food once a day, swallowing food whole with almost no chewing."
+447,Riolu,Fighting,Emanation,False,False,4,https://pokeres.bastionbot.org/images/pokemon/447.png,Its body is lithe yet powerful. It can crest three mountains and cross two canyons in one night.
+448,Lucario,Steel|Fighting,Aura,False,False,4,https://pokeres.bastionbot.org/images/pokemon/448.png,"By catching the aura emanating from others, it can read their thoughts and movements."
+449,Hippopotas,Ground,Hippo,False,False,4,https://pokeres.bastionbot.org/images/pokemon/449.png,It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.
+450,Hippowdon,Ground,Heavyweight,False,False,4,https://pokeres.bastionbot.org/images/pokemon/450.png,It blasts internally stored sand from ports on its body to create a towering twister for attack.
+451,Skorupi,Bug|Poison,Scorpion,False,False,4,https://pokeres.bastionbot.org/images/pokemon/451.png,It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.
+452,Drapion,Dark|Poison,Ogre Scorpion,False,False,4,https://pokeres.bastionbot.org/images/pokemon/452.png,It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.
+453,Croagunk,Fighting|Poison,Toxic Mouth,False,False,4,https://pokeres.bastionbot.org/images/pokemon/453.png,Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.
+454,Toxicroak,Fighting|Poison,Toxic Mouth,False,False,4,https://pokeres.bastionbot.org/images/pokemon/454.png,The toxin made in its poison sacs is pumped to the knuckle claws through tubes down its arms.
+455,Carnivine,Grass,Bug Catcher,False,False,4,https://pokeres.bastionbot.org/images/pokemon/455.png,"It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey."
+456,Finneon,Water,Wing Fish,False,False,4,https://pokeres.bastionbot.org/images/pokemon/456.png,"After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives."
+457,Lumineon,Water,Neon,False,False,4,https://pokeres.bastionbot.org/images/pokemon/457.png,"To avoid detection by predators, it crawls along the seafloor using the two fins on its chest."
+458,Mantyke,Flying|Water,Kite,False,False,4,https://pokeres.bastionbot.org/images/pokemon/458.png,A friendly Pokémon that captures the subtle flows of seawater using its two antennae.
+459,Snover,Ice|Grass,Frost Tree,False,False,4,https://pokeres.bastionbot.org/images/pokemon/459.png,"It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive."
+460,Abomasnow,Ice|Grass,Frost Tree,False,False,4,https://pokeres.bastionbot.org/images/pokemon/460.png,It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.
+461,Weavile,Dark|Ice,Sharp Claw,False,False,4,https://pokeres.bastionbot.org/images/pokemon/461.png,"They live in cold regions, forming groups of four or five that hunt prey with impressive coordination."
+462,Magnezone,Electric|Steel,Magnet Area,False,False,4,https://pokeres.bastionbot.org/images/pokemon/462.png,"A group tried to use scientific means to make MAGNEZONE evolve, but their efforts ended in failure."
+463,Lickilicky,Normal,Licking,False,False,4,https://pokeres.bastionbot.org/images/pokemon/463.png,It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.
+464,Rhyperior,Ground|Rock,Spikes,False,False,4,https://pokeres.bastionbot.org/images/pokemon/464.png,It puts rocks in holes in its palms and uses its muscles to shoot them. GEODUDE are shot at rare times.
+465,Tangrowth,Grass,Vine,False,False,4,https://pokeres.bastionbot.org/images/pokemon/465.png,Its arms are made of plants that bind themselves to things. They grow back right away if cut.
+466,Electivire,Electric,Thunderbolt,False,False,4,https://pokeres.bastionbot.org/images/pokemon/466.png,"It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power."
+467,Magmortar,Fire,Blast,False,False,4,https://pokeres.bastionbot.org/images/pokemon/467.png,"It blasts fireballs of over 3,600 degrees F from the ends of its arms. It lives in volcanic craters."
+468,Togekiss,Flying|Fairy,Jubilee,False,False,4,https://pokeres.bastionbot.org/images/pokemon/468.png,It shares many blessings with people who respect one another’s rights and avoid needless strife.
+469,Yanmega,Flying|Bug,Ogre Darner,False,False,4,https://pokeres.bastionbot.org/images/pokemon/469.png,"By churning its wings, it creates shock waves that inflict critical internal injuries to foes."
+470,Leafeon,Grass,Verdant,False,False,4,https://pokeres.bastionbot.org/images/pokemon/470.png,"It basically does not fight. With cells similar to those of plants, it can perform photosynthesis."
+471,Glaceon,Ice,Fresh Snow,False,False,4,https://pokeres.bastionbot.org/images/pokemon/471.png,"As a protective technique, it can completely freeze its fur to make its hairs stand like needles."
+472,Gliscor,Flying|Ground,Fang Scorpion,False,False,4,https://pokeres.bastionbot.org/images/pokemon/472.png,"It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!"
+473,Mamoswine,Ice|Ground,Twin Tusk,False,False,4,https://pokeres.bastionbot.org/images/pokemon/473.png,Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.
+474,Porygon-Z,Normal,Virtual,False,False,4,https://pokeres.bastionbot.org/images/pokemon/474.png,"Additional software was installed to make it a better Pokémon. It began acting oddly, however."
+475,Gallade,Psychic|Fighting,Blade,False,False,4,https://pokeres.bastionbot.org/images/pokemon/475.png,"When trying to protect someone, it extends its elbows as if they were swords and fights savagely."
+476,Probopass,Steel|Rock,Compass,False,False,4,https://pokeres.bastionbot.org/images/pokemon/476.png,It exudes strong magnetism from all over. It controls three small units called Mini-Noses.
+477,Dusknoir,Ghost,Gripper,False,False,4,https://pokeres.bastionbot.org/images/pokemon/477.png,The antenna on its head captures radio waves from the world of spirits that command it to take people there.
+478,Froslass,Ice|Ghost,Snow Land,False,False,4,https://pokeres.bastionbot.org/images/pokemon/478.png,It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.
+479,Rotom,Electric|Ghost,Plasma,False,False,4,https://pokeres.bastionbot.org/images/pokemon/479.png,Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.
+480,Uxie,Psychic,Knowledge,True,False,4,https://pokeres.bastionbot.org/images/pokemon/480.png,Known as “The Being of Knowledge.” It is said that it can wipe out the memory of those who see its eyes.
+481,Mesprit,Psychic,Emotion,True,False,4,https://pokeres.bastionbot.org/images/pokemon/481.png,"Known as “The Being of Emotion.” It taught humans the nobility of sorrow, pain, and joy."
+482,Azelf,Psychic,Willpower,True,False,4,https://pokeres.bastionbot.org/images/pokemon/482.png,Known as “The Being of Willpower.” It sleeps at the bottom of a lake to keep the world in balance.
+483,Dialga,Dragon|Steel,Temporal,True,False,4,https://pokeres.bastionbot.org/images/pokemon/483.png,A Pokémon spoken of in legend. It is said that time began moving when DIALGA was born.
+484,Palkia,Water|Dragon,Spatial,True,False,4,https://pokeres.bastionbot.org/images/pokemon/484.png,It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology.
+485,Heatran,Fire|Steel,Lava Dome,True,False,4,https://pokeres.bastionbot.org/images/pokemon/485.png,It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.
+486,Regigigas,Normal,Colossal,True,False,4,https://pokeres.bastionbot.org/images/pokemon/486.png,"It is said to have made Pokémon that look like itself from a special ice mountain, rocks, and magma."
+487,Giratina,Dragon|Ghost,Renegade,True,False,4,https://pokeres.bastionbot.org/images/pokemon/487-altered.png,A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.
+488,Cresselia,Psychic,Lunar,True,False,4,https://pokeres.bastionbot.org/images/pokemon/488.png,Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.
+489,Phione,Water,Sea Drifter,False,False,4,https://pokeres.bastionbot.org/images/pokemon/489.png,A Pokémon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food.
+490,Manaphy,Water,Seafaring,False,True,4,https://pokeres.bastionbot.org/images/pokemon/490.png,"Born on a cold seafloor, it will swim great distances to return to its birthplace."
+491,Darkrai,Dark,Pitch-Black,False,True,4,https://pokeres.bastionbot.org/images/pokemon/491.png,"Folklore has it that on moonless nights, this Pokémon will make people see horrific nightmares."
+492,Shaymin,Grass,Gratitude,False,True,4,https://pokeres.bastionbot.org/images/pokemon/492-land.png,It lives in flower patches and avoids detection by curling up to look like a flowering plant.
+493,Arceus,Normal,Alpha,False,True,4,https://pokeres.bastionbot.org/images/pokemon/493.png,"It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms."
+494,Victini,Fire|Psychic,Victory,False,True,5,https://pokeres.bastionbot.org/images/pokemon/494.png,"This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter."
+495,Snivy,Grass,Grass Snake,False,False,5,https://pokeres.bastionbot.org/images/pokemon/495.png,"They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop."
+496,Servine,Grass,Grass Snake,False,False,5,https://pokeres.bastionbot.org/images/pokemon/496.png,They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.
+497,Serperior,Grass,Regal,False,False,5,https://pokeres.bastionbot.org/images/pokemon/497.png,They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.
+498,Tepig,Fire,Fire Pig,False,False,5,https://pokeres.bastionbot.org/images/pokemon/498.png,It can deftly dodge its foe’s attacks while shooting fireballs from its nose. It roasts berries before it eats them.
+499,Pignite,Fire|Fighting,Fire Pig,False,False,5,https://pokeres.bastionbot.org/images/pokemon/499.png,"Whatever it eats becomes fuel for the flame in its stomach. When it is angered, the intensity of the flame increases."
+500,Emboar,Fire|Fighting,Mega Fire Pig,False,False,5,https://pokeres.bastionbot.org/images/pokemon/500.png,It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.
+501,Oshawott,Water,Sea Otter,False,False,5,https://pokeres.bastionbot.org/images/pokemon/501.png,The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.
+502,Dewott,Water,Discipline,False,False,5,https://pokeres.bastionbot.org/images/pokemon/502.png,Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.
+503,Samurott,Water,Formidable,False,False,5,https://pokeres.bastionbot.org/images/pokemon/503.png,One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.
+504,Patrat,Normal,Scout,False,False,5,https://pokeres.bastionbot.org/images/pokemon/504.png,"Extremely cautious, they take shifts to maintain a constant watch of their nest. They feel insecure without a lookout."
+505,Watchog,Normal,Lookout,False,False,5,https://pokeres.bastionbot.org/images/pokemon/505.png,They make the patterns on their bodies shine in order to threaten predators. Keen eyesight lets them see in the dark.
+506,Lillipup,Normal,Puppy,False,False,5,https://pokeres.bastionbot.org/images/pokemon/506.png,"It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees."
+507,Herdier,Normal,Loyal Dog,False,False,5,https://pokeres.bastionbot.org/images/pokemon/507.png,"It has black, cape-like fur that is very hard and decreases the amount of damage it receives."
+508,Stoutland,Normal,Big-Hearted,False,False,5,https://pokeres.bastionbot.org/images/pokemon/508.png,It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.
+509,Purrloin,Dark,Devious,False,False,5,https://pokeres.bastionbot.org/images/pokemon/509.png,"They steal from people for fun, but their victims can’t help but forgive them. Their deceptively cute act is perfect."
+510,Liepard,Dark,Cruel,False,False,5,https://pokeres.bastionbot.org/images/pokemon/510.png,These Pokémon vanish and appear unexpectedly. Many Trainers are drawn to their beautiful form and fur.
+511,Pansage,Grass,Grass Monkey,False,False,5,https://pokeres.bastionbot.org/images/pokemon/511.png,This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.
+512,Simisage,Grass,Thorn Monkey,False,False,5,https://pokeres.bastionbot.org/images/pokemon/512.png,"Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter."
+513,Pansear,Fire,High Temp,False,False,5,https://pokeres.bastionbot.org/images/pokemon/513.png,"When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries."
+514,Simisear,Fire,Ember,False,False,5,https://pokeres.bastionbot.org/images/pokemon/514.png,A flame burns inside its body. It scatters embers from its head and tail to sear its opponents.
+515,Panpour,Water,Spray,False,False,5,https://pokeres.bastionbot.org/images/pokemon/515.png,It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.
+516,Simipour,Water,Geyser,False,False,5,https://pokeres.bastionbot.org/images/pokemon/516.png,"The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail."
+517,Munna,Psychic,Dream Eater,False,False,5,https://pokeres.bastionbot.org/images/pokemon/517.png,Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.
+518,Musharna,Psychic,Drowsing,False,False,5,https://pokeres.bastionbot.org/images/pokemon/518.png,The mist emanating from their foreheads is packed with the dreams of people and Pokémon.
+519,Pidove,Flying|Normal,Tiny Pigeon,False,False,5,https://pokeres.bastionbot.org/images/pokemon/519.png,"Each follows its Trainer’s orders as best it can, but they sometimes fail to understand complicated commands."
+520,Tranquill,Flying|Normal,Wild Pigeon,False,False,5,https://pokeres.bastionbot.org/images/pokemon/520.png,"Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war."
+521,Unfezant,Flying|Normal,Wild Pigeon,False,False,5,https://pokeres.bastionbot.org/images/pokemon/521.png,Males swing their head plumage to threaten opponents. The females’ flying abilities surpass those of the males.
+522,Blitzle,Electric,Electrified,False,False,5,https://pokeres.bastionbot.org/images/pokemon/522.png,Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.
+523,Zebstrika,Electric,Thunderbolt,False,False,5,https://pokeres.bastionbot.org/images/pokemon/523.png,"This ill-tempered Pokémon is dangerous because when it’s angry, it shoots lightning from its mane in all directions."
+524,Roggenrola,Rock,Mantle,False,False,5,https://pokeres.bastionbot.org/images/pokemon/524.png,They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.
+525,Boldore,Rock,Ore,False,False,5,https://pokeres.bastionbot.org/images/pokemon/525.png,"When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves."
+526,Gigalith,Rock,Compressed,False,False,5,https://pokeres.bastionbot.org/images/pokemon/526.png,Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.
+527,Woobat,Flying|Psychic,Bat,False,False,5,https://pokeres.bastionbot.org/images/pokemon/527.png,Suction from its nostrils enables it to stick to cave walls during sleep. It leaves a heart-shaped mark behind.
+528,Swoobat,Flying|Psychic,Courting,False,False,5,https://pokeres.bastionbot.org/images/pokemon/528.png,Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.
+529,Drilbur,Ground,Mole,False,False,5,https://pokeres.bastionbot.org/images/pokemon/529.png,It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.
+530,Excadrill,Ground|Steel,Subterrene,False,False,5,https://pokeres.bastionbot.org/images/pokemon/530.png,"More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels."
+531,Audino,Normal,Hearing,False,False,5,https://pokeres.bastionbot.org/images/pokemon/531.png,Its auditory sense is astounding. It has a radarlike ability to understand its surroundings through slight sounds.
+532,Timburr,Fighting,Muscular,False,False,5,https://pokeres.bastionbot.org/images/pokemon/532.png,It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.
+533,Gurdurr,Fighting,Muscular,False,False,5,https://pokeres.bastionbot.org/images/pokemon/533.png,This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.
+534,Conkeldurr,Fighting,Muscular,False,False,5,https://pokeres.bastionbot.org/images/pokemon/534.png,They use concrete pillars as walking canes. They know moves that enable them to swing the pillars freely in battle.
+535,Tympole,Water,Tadpole,False,False,5,https://pokeres.bastionbot.org/images/pokemon/535.png,They warn others of danger by vibrating their cheeks to create a high-pitched sound.
+536,Palpitoad,Ground|Water,Vibration,False,False,5,https://pokeres.bastionbot.org/images/pokemon/536.png,"When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land."
+537,Seismitoad,Ground|Water,Vibration,False,False,5,https://pokeres.bastionbot.org/images/pokemon/537.png,They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.
+538,Throh,Fighting,Judo,False,False,5,https://pokeres.bastionbot.org/images/pokemon/538.png,"When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five."
+539,Sawk,Fighting,Karate,False,False,5,https://pokeres.bastionbot.org/images/pokemon/539.png,Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.
+540,Sewaddle,Grass|Bug,Sweing,False,False,5,https://pokeres.bastionbot.org/images/pokemon/540.png,This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.
+541,Swadloon,Grass|Bug,Leaf-Wrapped,False,False,5,https://pokeres.bastionbot.org/images/pokemon/541.png,Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.
+542,Leavanny,Grass|Bug,Nurturing,False,False,5,https://pokeres.bastionbot.org/images/pokemon/542.png,It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.
+543,Venipede,Bug|Poison,Centipede,False,False,5,https://pokeres.bastionbot.org/images/pokemon/543.png,It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive.
+544,Whirlipede,Bug|Poison,Cspriteipede,False,False,5,https://pokeres.bastionbot.org/images/pokemon/544.png,"It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent."
+545,Scolipede,Bug|Poison,Megapede,False,False,5,https://pokeres.bastionbot.org/images/pokemon/545.png,"With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails."
+546,Cottonee,Grass|Fairy,Cotton Puff,False,False,5,https://pokeres.bastionbot.org/images/pokemon/546.png,"They go wherever the wind takes them. On rainy days, their bodies are heavier, so they take shelter beneath big trees."
+547,Whimsicott,Grass|Fairy,Windvelled,False,False,5,https://pokeres.bastionbot.org/images/pokemon/547.png,"Riding whirlwinds, they appear. These Pokémon sneak through gaps into houses and cause all sorts of mischief."
+548,Petilil,Grass,Bulb,False,False,5,https://pokeres.bastionbot.org/images/pokemon/548.png,"Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants."
+549,Lilligant,Grass,Flowering,False,False,5,https://pokeres.bastionbot.org/images/pokemon/549.png,Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.
+550,Basculin,Water,Hostile,False,False,5,https://pokeres.bastionbot.org/images/pokemon/550.png,"Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other’s school."
+551,Sandile,Dark|Ground,Desert Croc,False,False,5,https://pokeres.bastionbot.org/images/pokemon/551.png,"It moves along below the sand’s surface, except for its nose and eyes. A dark membrane shields its eyes from the sun."
+552,Krokorok,Dark|Ground,Desert Croc,False,False,5,https://pokeres.bastionbot.org/images/pokemon/552.png,"The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings even in darkness."
+553,Krookodile,Dark|Ground,Intimidation,False,False,5,https://pokeres.bastionbot.org/images/pokemon/553.png,"It can expand the focus of its eyes, enabling it to see objects in the far distance as if it were using binoculars."
+554,Darumaka,Fire,Zen Charm,False,False,5,https://pokeres.bastionbot.org/images/pokemon/554.png,"When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep."
+555,Darmanitan,Fire,Blazing,False,False,5,https://pokeres.bastionbot.org/images/pokemon/555.png,"Its internal fire burns at 2,500° F, making enough power that it can destroy a dump truck with one punch."
+556,Maractus,Grass,Cactus,False,False,5,https://pokeres.bastionbot.org/images/pokemon/556.png,It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.
+557,Dwebble,Bug|Rock,Rock Inn,False,False,5,https://pokeres.bastionbot.org/images/pokemon/557.png,"It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement."
+558,Crustle,Bug|Rock,Stone Home,False,False,5,https://pokeres.bastionbot.org/images/pokemon/558.png,"It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land."
+559,Scraggy,Dark|Fighting,Shedding,False,False,5,https://pokeres.bastionbot.org/images/pokemon/559.png,"Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck."
+560,Scrafty,Dark|Fighting,Hoodium,False,False,5,https://pokeres.bastionbot.org/images/pokemon/560.png,Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.
+561,Sigilyph,Flying|Psychic,Avianoid,False,False,5,https://pokeres.bastionbot.org/images/pokemon/561.png,"The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory."
+562,Yamask,Ghost,Spirit,False,False,5,https://pokeres.bastionbot.org/images/pokemon/562.png,These Pokémon arose from the spirits of people interred in graves in past ages. Each retains memories of its former life.
+563,Cofagrigus,Ghost,Coffin,False,False,5,https://pokeres.bastionbot.org/images/pokemon/563.png,It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.
+564,Tirtouga,Water|Rock,Prototurtle,False,False,5,https://pokeres.bastionbot.org/images/pokemon/564.png,"About 100 million years ago, these Pokémon swam in oceans. It is thought they also went on land to attack prey."
+565,Carracosta,Water|Rock,Prototurtle,False,False,5,https://pokeres.bastionbot.org/images/pokemon/565.png,They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.
+566,Archen,Flying|Rock,First Bird,False,False,5,https://pokeres.bastionbot.org/images/pokemon/566.png,"Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another."
+567,Archeops,Flying|Rock,First Bird,False,False,5,https://pokeres.bastionbot.org/images/pokemon/567.png,"They are intelligent and will cooperate to catch prey. From the ground, they use a running start to take flight."
+568,Trubbish,Poison,Trash Bag,False,False,5,https://pokeres.bastionbot.org/images/pokemon/568.png,The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.
+569,Garbodor,Poison,Trash Heap,False,False,5,https://pokeres.bastionbot.org/images/pokemon/569.png,It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.
+570,Zorua,Dark,Tricky Fox,False,False,5,https://pokeres.bastionbot.org/images/pokemon/570.png,"To protect themselves from danger, they hide their true identities by transforming into people and Pokémon."
+571,Zoroark,Dark,Illusion Fox,False,False,5,https://pokeres.bastionbot.org/images/pokemon/571.png,Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.
+572,Minccino,Normal,Chinchilla,False,False,5,https://pokeres.bastionbot.org/images/pokemon/572.png,"They greet one another by rubbing each other with their tails, which are always kept well groomed and clean."
+573,Cinccino,Normal,Scarf,False,False,5,https://pokeres.bastionbot.org/images/pokemon/573.png,Their white fur feels amazing to touch. Their fur repels dust and prevents static electricity from building up.
+574,Gothita,Psychic,Fixation,False,False,5,https://pokeres.bastionbot.org/images/pokemon/574.png,"They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see."
+575,Gothorita,Psychic,Manipulate,False,False,5,https://pokeres.bastionbot.org/images/pokemon/575.png,They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.
+576,Gothitelle,Psychic,Astral Body,False,False,5,https://pokeres.bastionbot.org/images/pokemon/576.png,Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.
+577,Solosis,Psychic,Cell,False,False,5,https://pokeres.bastionbot.org/images/pokemon/577.png,"Because their bodies are enveloped in a special liquid, they can survive in any environment."
+578,Duosion,Psychic,Mitosis,False,False,5,https://pokeres.bastionbot.org/images/pokemon/578.png,"When their brains, now divided in two, are thinking the same thoughts, these Pokémon exhibit their maximum power."
+579,Reuniclus,Psychic,Multiplying,False,False,5,https://pokeres.bastionbot.org/images/pokemon/579.png,These remarkably intelligent Pokémon fight by controlling arms that can grip with rock-crushing power.
+580,Ducklett,Flying|Water,Water Bird,False,False,5,https://pokeres.bastionbot.org/images/pokemon/580.png,These bird Pokémon are excellent divers. They swim around in the water eating their favorite food--peat moss.
+581,Swanna,Flying|Water,White Bird,False,False,5,https://pokeres.bastionbot.org/images/pokemon/581.png,"It administers sharp, powerful pecks with its bill. It whips its long neck to deliver forceful repeated strikes."
+582,Vanillite,Ice,Fresh Snow,False,False,5,https://pokeres.bastionbot.org/images/pokemon/582.png,The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them.
+583,Vanillish,Ice,Icy Snow,False,False,5,https://pokeres.bastionbot.org/images/pokemon/583.png,"Snowy mountains are this Pokémon’s habitat. During an ancient ice age, they moved to southern areas."
+584,Vanilluxe,Ice,Snowstorm,False,False,5,https://pokeres.bastionbot.org/images/pokemon/584.png,"Swallowing large amounts of water, they make snow clouds inside their bodies and attack their foes with violent blizzards."
+585,Deerling,Grass|Normal,Season,False,False,5,https://pokeres.bastionbot.org/images/pokemon/585-spring.png,"The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass."
+586,Sawsbuck,Grass|Normal,Season,False,False,5,https://pokeres.bastionbot.org/images/pokemon/586-spring.png,The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.
+587,Emolga,Flying|Electric,Sky Squirrel,False,False,5,https://pokeres.bastionbot.org/images/pokemon/587.png,The energy made in its cheeks’ electric pouches is stored inside its membrane and released while it is gliding.
+588,Karrablast,Bug,Clamping,False,False,5,https://pokeres.bastionbot.org/images/pokemon/588.png,These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.
+589,Escavalier,Steel|Bug,Cavalry,False,False,5,https://pokeres.bastionbot.org/images/pokemon/589.png,"They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely."
+590,Foongus,Grass|Poison,Mushroom,False,False,5,https://pokeres.bastionbot.org/images/pokemon/590.png,"It lures people in with its Poké Ball pattern, then releases poison spores. Why it resembles a Poké Ball is unknown."
+591,Amoonguss,Grass|Poison,Mushroom,False,False,5,https://pokeres.bastionbot.org/images/pokemon/591.png,"It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion."
+592,Frillish,Water|Ghost,Floating,False,False,5,https://pokeres.bastionbot.org/images/pokemon/592.png,"With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor."
+593,Jellicent,Water|Ghost,Floating,False,False,5,https://pokeres.bastionbot.org/images/pokemon/593.png,They propel themselves by expelling absorbed seawater from their bodies. Their favorite food is life energy.
+594,Alomomola,Water,Caring,False,False,5,https://pokeres.bastionbot.org/images/pokemon/594.png,"Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore."
+595,Joltik,Electric|Bug,Attaching,False,False,5,https://pokeres.bastionbot.org/images/pokemon/595.png,Joltik that live in cities have learned a technique for sucking electricity from the outlets in houses.
+596,Galvantula,Electric|Bug,EleSpider,False,False,5,https://pokeres.bastionbot.org/images/pokemon/596.png,"They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it."
+597,Ferroseed,Grass|Steel,Thorn Seed,False,False,5,https://pokeres.bastionbot.org/images/pokemon/597.png,"When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away."
+598,Ferrothorn,Grass|Steel,Thorn Pod,False,False,5,https://pokeres.bastionbot.org/images/pokemon/598.png,It fights by swinging around its three spiky feelers. A hit from these steel spikes can reduce a boulder to rubble.
+599,Klink,Steel,Gear,False,False,5,https://pokeres.bastionbot.org/images/pokemon/599.png,The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.
+600,Klang,Steel,Gear,False,False,5,https://pokeres.bastionbot.org/images/pokemon/600.png,"By changing the direction in which it rotates, it communicates its feelings to others. When angry, it rotates faster."
+601,Klinklang,Steel,Gear,False,False,5,https://pokeres.bastionbot.org/images/pokemon/601.png,Its red core functions as an energy tank. It fires the charged energy through its spikes into an area.
+602,Tynamo,Electric,EleFish,False,False,5,https://pokeres.bastionbot.org/images/pokemon/602.png,"These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger."
+603,Eelektrik,Electric,EleFish,False,False,5,https://pokeres.bastionbot.org/images/pokemon/603.png,They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.
+604,Eelektross,Electric,EleFish,False,False,5,https://pokeres.bastionbot.org/images/pokemon/604.png,They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.
+605,Elgyem,Psychic,Cerebral,False,False,5,https://pokeres.bastionbot.org/images/pokemon/605.png,"It uses its strong psychic power to squeeze its opponent’s brain, causing unendurable headaches."
+606,Beheeyem,Psychic,Cerebral,False,False,5,https://pokeres.bastionbot.org/images/pokemon/606.png,"It can manipulate an opponent’s memory. Apparently, it communicates by flashing its three different-colored fingers."
+607,Litwick,Fire|Ghost,Candle,False,False,5,https://pokeres.bastionbot.org/images/pokemon/607.png,"Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns."
+608,Lampent,Fire|Ghost,Lamp,False,False,5,https://pokeres.bastionbot.org/images/pokemon/608.png,"This ominous Pokémon is feared. Through cities it wanders, searching for the spirits of the fallen."
+609,Chandelure,Fire|Ghost,Luring,False,False,5,https://pokeres.bastionbot.org/images/pokemon/609.png,"It absorbs a spirit, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance."
+610,Axew,Dragon,Tusk,False,False,5,https://pokeres.bastionbot.org/images/pokemon/610.png,"They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly."
+611,Fraxure,Dragon,Axe Jaw,False,False,5,https://pokeres.bastionbot.org/images/pokemon/611.png,"Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they’ve been fighting."
+612,Haxorus,Dragon,Axe Jaw,False,False,5,https://pokeres.bastionbot.org/images/pokemon/612.png,They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.
+613,Cubchoo,Ice,Chill,False,False,5,https://pokeres.bastionbot.org/images/pokemon/613.png,Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.
+614,Beartic,Ice,Freezing,False,False,5,https://pokeres.bastionbot.org/images/pokemon/614.png,"It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey."
+615,Cryogonal,Ice,Crystallizing,False,False,5,https://pokeres.bastionbot.org/images/pokemon/615.png,"When its body temperature goes up, it turns into steam and vanishes. When its temperature lowers, it returns to ice."
+616,Shelmet,Bug,Snail,False,False,5,https://pokeres.bastionbot.org/images/pokemon/616.png,"When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid."
+617,Accelgor,Bug,Shell Out,False,False,5,https://pokeres.bastionbot.org/images/pokemon/617.png,"When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane."
+618,Stunfisk,Ground|Electric,Trap,False,False,5,https://pokeres.bastionbot.org/images/pokemon/618.png,"Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity."
+619,Mienfoo,Fighting,Martial Arts,False,False,5,https://pokeres.bastionbot.org/images/pokemon/619.png,"In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies."
+620,Mienshao,Fighting,Martial Arts,False,False,5,https://pokeres.bastionbot.org/images/pokemon/620.png,It wields the fur on its arms like a whip. Its arm attacks come with such rapidity that they cannot even be seen.
+621,Druddigon,Dragon,Cave,False,False,5,https://pokeres.bastionbot.org/images/pokemon/621.png,"It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move."
+622,Golett,Ground|Ghost,Automation,False,False,5,https://pokeres.bastionbot.org/images/pokemon/622.png,These Pokémon are thought to have been created by the science of an ancient and mysterious civilization.
+623,Golurk,Ground|Ghost,Automation,False,False,5,https://pokeres.bastionbot.org/images/pokemon/623.png,It flies across the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.
+624,Pawniard,Dark|Steel,Sharp Blade,False,False,5,https://pokeres.bastionbot.org/images/pokemon/624.png,"Blades comprise this Pokémon’s entire body. If battling dulls the blades, it sharpens them on stones by the river."
+625,Bisharp,Dark|Steel,Sword Blade,False,False,5,https://pokeres.bastionbot.org/images/pokemon/625.png,"It leads a group of Pawniard. It battles to become the boss, but will be driven from the group if it loses."
+626,Bouffalant,Normal,Bash Buffalo,False,False,5,https://pokeres.bastionbot.org/images/pokemon/626.png,"Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt."
+627,Rufflet,Flying|Normal,Eaglet,False,False,5,https://pokeres.bastionbot.org/images/pokemon/627.png,"They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is."
+628,Braviary,Flying|Normal,Valiant,False,False,5,https://pokeres.bastionbot.org/images/pokemon/628.png,They fight for their friends without any thought about danger to themselves. One can carry a car while flying.
+629,Vullaby,Flying|Dark,Diapered,False,False,5,https://pokeres.bastionbot.org/images/pokemon/629.png,"Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing."
+630,Mandibuzz,Flying|Dark,Bone Vulture,False,False,5,https://pokeres.bastionbot.org/images/pokemon/630.png,"Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones."
+631,Heatmor,Fire,Anteater,False,False,5,https://pokeres.bastionbot.org/images/pokemon/631.png,"Using their very hot, flame-covered tongues, they burn through Durant’s steel bodies and consume their insides."
+632,Durant,Steel|Bug,Iron Ant,False,False,5,https://pokeres.bastionbot.org/images/pokemon/632.png,"They attack in groups, covering themselves in steel armor to protect themselves from Heatmor."
+633,Deino,Dark|Dragon,Irate,False,False,5,https://pokeres.bastionbot.org/images/pokemon/633.png,"They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds."
+634,Zweilous,Dark|Dragon,Hostile,False,False,5,https://pokeres.bastionbot.org/images/pokemon/634.png,"After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along."
+635,Hydreigon,Dark|Dragon,Brutal,False,False,5,https://pokeres.bastionbot.org/images/pokemon/635.png,"This brutal Pokémon travels the skies on its six wings. Anything that moves seems like a foe to it, triggering its attack."
+636,Larvesta,Fire|Bug,Torch,False,False,5,https://pokeres.bastionbot.org/images/pokemon/636.png,"This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames."
+637,Volcarona,Fire|Bug,Sun,False,False,5,https://pokeres.bastionbot.org/images/pokemon/637.png,"When volcanic ash darkened the atmosphere, it is said that Volcarona’s fire provided a replacement for the sun."
+638,Cobalion,Fighting|Steel,Iron Will,True,False,5,https://pokeres.bastionbot.org/images/pokemon/638.png,This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.
+639,Terrakion,Fighting|Rock,Cavern,True,False,5,https://pokeres.bastionbot.org/images/pokemon/639.png,This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.
+640,Virizion,Grass|Fighting,Grassland,True,False,5,https://pokeres.bastionbot.org/images/pokemon/640.png,This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.
+641,TornadusIncarnate Forme,Flying,Cyclone,True,False,5,https://pokeres.bastionbot.org/images/pokemon/641-incarnate.png,The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.
+641,TornadusTherian Forme,Flying,Cyclone,True,False,5,https://pokeres.bastionbot.org/images/pokemon/641-incarnate.png,The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.
+642,ThundurusIncarnate Forme,Flying|Electric,Bolt Strike,True,False,5,https://pokeres.bastionbot.org/images/pokemon/642-incarnate.png,Countless charred remains mar the landscape of places through which Thundurus has passed.
+642,ThundurusTherian Forme,Flying|Electric,Bolt Strike,True,False,5,https://pokeres.bastionbot.org/images/pokemon/642-incarnate.png,Countless charred remains mar the landscape of places through which Thundurus has passed.
+643,Reshiram,Fire|Dragon,Vast White,True,False,5,https://pokeres.bastionbot.org/images/pokemon/643.png,"This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it."
+644,Zekrom,Electric|Dragon,Deep Black,True,False,5,https://pokeres.bastionbot.org/images/pokemon/644.png,"Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail."
+645,LandorusIncarnate Forme,Flying|Ground,Abundance,True,False,5,https://pokeres.bastionbot.org/images/pokemon/645-incarnate.png,Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”
+645,LandorusTherian Forme,Flying|Ground,Abundance,True,False,5,https://pokeres.bastionbot.org/images/pokemon/645-incarnate.png,Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”
+646,Kyurem,Ice|Dragon,Kyurem,True,False,5,https://pokeres.bastionbot.org/images/pokemon/646.png,"It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out."
+646,KyuremBlack Kyurem,Ice|Dragon,Kyurem,True,False,5,https://pokeres.bastionbot.org/images/pokemon/646.png,"It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out."
+646,KyuremWhite Kyurem,Ice|Dragon,Kyurem,True,False,5,https://pokeres.bastionbot.org/images/pokemon/646.png,"It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out."
+647,KeldeoOrdinary Forme,Water|Fighting,Colt,False,True,5,https://pokeres.bastionbot.org/images/pokemon/647-ordinary.png,"By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling."
+647,KeldeoResolute Forme,Water|Fighting,Colt,False,True,5,https://pokeres.bastionbot.org/images/pokemon/647-ordinary.png,"By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling."
+648,MeloettaAria Forme,Psychic|Normal,Melody,False,True,5,https://pokeres.bastionbot.org/images/pokemon/648-aria.png,Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.
+648,MeloettaPirouette Forme,Fighting|Normal,Melody,False,True,5,https://pokeres.bastionbot.org/images/pokemon/648-aria.png,Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.
+649,Genesect,Steel|Bug,Paleozoic,False,True,5,https://pokeres.bastionbot.org/images/pokemon/649.png,"Over 300 million years ago, it was feared as the strongest of hunters. It has been modified by Team Plasma."
+650,Chespin,Grass,Spiny Nut,False,False,6,https://pokeres.bastionbot.org/images/pokemon/650.png,"The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock."
+651,Quilladin,Grass,Spiny Armor,False,False,6,https://pokeres.bastionbot.org/images/pokemon/651.png,It relies on its sturdy shell to deflect predators’ attacks. It counterattacks with its sharp quills.
+652,Chesnaught,Grass|Fighting,Spiny Armor,False,False,6,https://pokeres.bastionbot.org/images/pokemon/652.png,Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.
+653,Fennekin,Fire,Fox,False,False,6,https://pokeres.bastionbot.org/images/pokemon/653.png,"Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit."
+654,Braixen,Fire,Fox,False,False,6,https://pokeres.bastionbot.org/images/pokemon/654.png,"It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle."
+655,Delphox,Fire|Psychic,Fox,False,False,6,https://pokeres.bastionbot.org/images/pokemon/655.png,"It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future."
+656,Froakie,Water,Bubble Frog,False,False,6,https://pokeres.bastionbot.org/images/pokemon/656.png,It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.
+657,Frogadier,Water,Bubble Frog,False,False,6,https://pokeres.bastionbot.org/images/pokemon/657.png,"It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away."
+658,Greninja,Dark|Water,Ninja,False,False,6,https://pokeres.bastionbot.org/images/pokemon/658.png,"It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two."
+658,GreninjaAsh-Greninja,Dark|Water,Ninja,False,False,6,https://pokeres.bastionbot.org/images/pokemon/658.png,"It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two."
+659,Bunnelby,Normal,Digging,False,False,6,https://pokeres.bastionbot.org/images/pokemon/659.png,It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.
+660,Diggersby,Ground|Normal,Digging,False,False,6,https://pokeres.bastionbot.org/images/pokemon/660.png,"With their powerful ears, they can heft boulders of a ton or more with ease. They can be a big help at construction sites."
+661,Fletchling,Flying|Normal,Tiny Robin,False,False,6,https://pokeres.bastionbot.org/images/pokemon/661.png,These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.
+662,Fletchinder,Fire|Flying,Ember,False,False,6,https://pokeres.bastionbot.org/images/pokemon/662.png,"From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass."
+663,Talonflame,Fire|Flying,Scorching,False,False,6,https://pokeres.bastionbot.org/images/pokemon/663.png,"In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air."
+664,Scatterbug,Bug,Scatterdust,False,False,6,https://pokeres.bastionbot.org/images/pokemon/664.png,"When under attack from bird Pokémon, it spews a poisonous black powder that causes paralysis on contact."
+665,Spewpa,Bug,Scatterdust,False,False,6,https://pokeres.bastionbot.org/images/pokemon/665.png,"It lives hidden within thicket shadows. When predators attack, it quickly bristles the fur covering its body in an effort to threaten them."
+666,Vivillon,Flying|Bug,Scale,False,False,6,https://pokeres.bastionbot.org/images/pokemon/666.png,Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.
+667,Litleo,Fire|Normal,Lion Cub,False,False,6,https://pokeres.bastionbot.org/images/pokemon/667.png,"The stronger the opponent it faces, the more heat surges from its mane and the more power flows through its body."
+668,Pyroar,Fire|Normal,Royal,False,False,6,https://pokeres.bastionbot.org/images/pokemon/668.png,"With fiery breath of more than 10,000 degrees Fahrenheit, they viciously threaten any challenger. The females protect the pride’s cubs."
+669,Flabébé,Fairy,Single Bloom,False,False,6,https://pokeres.bastionbot.org/images/pokemon/669.png,It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.
+670,Floette,Fairy,Single Bloom,False,False,6,https://pokeres.bastionbot.org/images/pokemon/670.png,It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the hidden power of flowers to battle.
+671,Florges,Fairy,Garden,False,False,6,https://pokeres.bastionbot.org/images/pokemon/671.png,"It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants."
+672,Skiddo,Grass,Mount,False,False,6,https://pokeres.bastionbot.org/images/pokemon/672.png,"Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition."
+673,Gogoat,Grass,Mount,False,False,6,https://pokeres.bastionbot.org/images/pokemon/673.png,It can tell how its Trainer is feeling by subtle shifts in the grip on its horns. This empathic sense lets them run as if one being.
+674,Pancham,Fighting,Playful,False,False,6,https://pokeres.bastionbot.org/images/pokemon/674.png,"It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark."
+675,Pangoro,Dark|Fighting,Daunting,False,False,6,https://pokeres.bastionbot.org/images/pokemon/675.png,"Although it possesses a violent temperament, it won’t put up with bullying. It uses the leaf in its mouth to sense the movements of its enemies."
+676,Furfrou,Normal,Poodle,False,False,6,https://pokeres.bastionbot.org/images/pokemon/676.png,Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.
+677,Espurr,Psychic,Restraint,False,False,6,https://pokeres.bastionbot.org/images/pokemon/677.png,The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.
+678,MeowsticFemale,Psychic,Constraint,False,False,6,https://pokeres.bastionbot.org/images/pokemon/678.png,The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.
+678,MeowsticMale,Psychic,Constraint,False,False,6,https://pokeres.bastionbot.org/images/pokemon/678.png,The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.
+679,Honedge,Ghost|Steel,Sword,False,False,6,https://pokeres.bastionbot.org/images/pokemon/679.png,Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.
+680,Doublade,Ghost|Steel,Sword,False,False,6,https://pokeres.bastionbot.org/images/pokemon/680.png,"When Honedge evolves, it divides into two swords, which cooperate via telepathy to coordinate attacks and slash their enemies to ribbons."
+681,AegislashBlade Forme,Ghost|Steel,Royal Sword,False,False,6,https://pokeres.bastionbot.org/images/pokemon/681.png,"Generations of kings were attended by these Pokémon, which used their spectral power to manipulate and control people and Pokémon."
+681,AegislashShield Forme,Ghost|Steel,Royal Sword,False,False,6,https://pokeres.bastionbot.org/images/pokemon/681.png,"Generations of kings were attended by these Pokémon, which used their spectral power to manipulate and control people and Pokémon."
+682,Spritzee,Fairy,Perfume,False,False,6,https://pokeres.bastionbot.org/images/pokemon/682.png,"In the past, rather than using perfume, royal ladies carried a Spritzee that would waft a fragrance they liked."
+683,Aromatisse,Fairy,Fragrance,False,False,6,https://pokeres.bastionbot.org/images/pokemon/683.png,"Its scent is so overpowering that, unless a Trainer happens to really enjoy the smell, he or she will have a hard time walking alongside it."
+684,Swirlix,Fairy,Cotton Candy,False,False,6,https://pokeres.bastionbot.org/images/pokemon/684.png,"To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy."
+685,Slurpuff,Fairy,Meringue,False,False,6,https://pokeres.bastionbot.org/images/pokemon/685.png,"Its sense of smell is 100 million times better than a human’s, so even the faintest scent tells it about everything in the area. It’s like it can see with its nose!"
+686,Inkay,Dark|Psychic,Revolving,False,False,6,https://pokeres.bastionbot.org/images/pokemon/686.png,Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.
+687,Malamar,Dark|Psychic,Overturning,False,False,6,https://pokeres.bastionbot.org/images/pokemon/687.png,"It lures its prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids."
+688,Binacle,Water|Rock,Two-Handed,False,False,6,https://pokeres.bastionbot.org/images/pokemon/688.png,"They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline."
+689,Barbaracle,Water|Rock,Collective,False,False,6,https://pokeres.bastionbot.org/images/pokemon/689.png,"Barbaracle’s legs and hands have minds of their own, and they will move independently. But they usually follow the head’s orders."
+690,Skrelp,Water|Poison,Mock Kelp,False,False,6,https://pokeres.bastionbot.org/images/pokemon/690.png,"Camouflaged as rotten kelp, they spray liquid poison on prey that approaches unawares and then finish it off."
+691,Dragalge,Dragon|Poison,Mock Kelp,False,False,6,https://pokeres.bastionbot.org/images/pokemon/691.png,"Their poison is strong enough to eat through the hull of a tanker, and they spit it indiscriminately at anything that enters their territory."
+692,Clauncher,Water,Water Gun,False,False,6,https://pokeres.bastionbot.org/images/pokemon/692.png,"Through controlled explosions of internal gas, it can expel water like a pistol shot. At close distances, it can shatter rock."
+693,Clawitzer,Water,Howitzer,False,False,6,https://pokeres.bastionbot.org/images/pokemon/693.png,"By expelling water from the nozzle in the back of its claw, it can move at a speed of 60 knots."
+694,Helioptile,Electric|Normal,Generator,False,False,6,https://pokeres.bastionbot.org/images/pokemon/694.png,"They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement."
+695,Heliolisk,Electric|Normal,Generator,False,False,6,https://pokeres.bastionbot.org/images/pokemon/695.png,They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.
+696,Tyrunt,Dragon|Rock,Royal Heir,False,False,6,https://pokeres.bastionbot.org/images/pokemon/696.png,"This Pokémon was restored from a fossil. If something happens that it doesn’t like, it throws a tantrum and runs wild."
+697,Tyrantrum,Dragon|Rock,Despot,False,False,6,https://pokeres.bastionbot.org/images/pokemon/697.png,"Thanks to its gargantuan jaws, which could shred thick metal plates as if they were paper, it was invincible in the ancient world it once inhabited."
+698,Amaura,Ice|Rock,Tundra,False,False,6,https://pokeres.bastionbot.org/images/pokemon/698.png,This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.
+699,Aurorus,Ice|Rock,Tundra,False,False,6,https://pokeres.bastionbot.org/images/pokemon/699.png,"The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice."
+700,Sylveon,Fairy,Intertwining,False,False,6,https://pokeres.bastionbot.org/images/pokemon/700.png,It wraps its ribbonlike feelers around the arm of its beloved Trainer and walks with him or her.
+701,Hawlucha,Flying|Fighting,Wrestling,False,False,6,https://pokeres.bastionbot.org/images/pokemon/701.png,"Although its body is small, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama."
+702,Dedenne,Electric|Fairy,Antenna,False,False,6,https://pokeres.bastionbot.org/images/pokemon/702.png,"It uses its tail to absorb electricity from power plants or from outlets in houses, and then it fires the electricity from its whiskers."
+703,Carbink,Fairy|Rock,Jewel,False,False,6,https://pokeres.bastionbot.org/images/pokemon/703.png,It has slept underground for hundreds of millions of years since its birth. It’s occasionally found during the excavation of caves.
+704,Goomy,Dragon,Soft Tissue,False,False,6,https://pokeres.bastionbot.org/images/pokemon/704.png,"The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn’t dry out."
+705,Sliggoo,Dragon,Soft Tissue,False,False,6,https://pokeres.bastionbot.org/images/pokemon/705.png,"Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose."
+706,Goodra,Dragon,Dragon,False,False,6,https://pokeres.bastionbot.org/images/pokemon/706.png,"This very friendly Dragon-type Pokémon will hug its beloved Trainer, leaving that Trainer covered in sticky slime."
+707,Klefki,Steel|Fairy,Key Ring,False,False,6,https://pokeres.bastionbot.org/images/pokemon/707.png,These key collectors threaten any attackers by fiercely jingling their keys at them.
+708,Phantump,Grass|Ghost,Stump,False,False,6,https://pokeres.bastionbot.org/images/pokemon/708.png,These Pokémon are created when spirits possess rotten tree stumps. They prefer to live in abandoned forests.
+709,Trevenant,Grass|Ghost,Elder Tree,False,False,6,https://pokeres.bastionbot.org/images/pokemon/709.png,"Using its roots as a nervous system, it controls the trees in the forest. It’s kind to the Pokémon that reside in its body."
+710,PumpkabooAverage Size,Grass|Ghost,Pumpkin,False,False,6,https://pokeres.bastionbot.org/images/pokemon/710.png,"The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active."
+710,PumpkabooLarge Size,Grass|Ghost,Pumpkin,False,False,6,https://pokeres.bastionbot.org/images/pokemon/710.png,"The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active."
+710,PumpkabooSmall Size,Grass|Ghost,Pumpkin,False,False,6,https://pokeres.bastionbot.org/images/pokemon/710.png,"The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active."
+710,PumpkabooSuper Size,Grass|Ghost,Pumpkin,False,False,6,https://pokeres.bastionbot.org/images/pokemon/710.png,"The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active."
+711,GourgeistAverage Size,Grass|Ghost,Pumpkin,False,False,6,https://pokeres.bastionbot.org/images/pokemon/711.png,"Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed."
+711,GourgeistLarge Size,Grass|Ghost,Pumpkin,False,False,6,https://pokeres.bastionbot.org/images/pokemon/711.png,"Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed."
+711,GourgeistSmall Size,Grass|Ghost,Pumpkin,False,False,6,https://pokeres.bastionbot.org/images/pokemon/711.png,"Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed."
+711,GourgeistSuper Size,Grass|Ghost,Pumpkin,False,False,6,https://pokeres.bastionbot.org/images/pokemon/711.png,"Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed."
+712,Bergmite,Ice,Ice Chunk,False,False,6,https://pokeres.bastionbot.org/images/pokemon/712.png,"Using air of -150 degrees Fahrenheit, they freeze opponents solid. They live in herds above the snow line on mountains."
+713,Avalugg,Ice,Iceberg,False,False,6,https://pokeres.bastionbot.org/images/pokemon/713.png,Its ice-covered body is as hard as steel. Its cumbersome frame crushes anything that stands in its way.
+714,Noibat,Flying|Dragon,Sound Wave,False,False,6,https://pokeres.bastionbot.org/images/pokemon/714.png,"Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves."
+715,Noivern,Flying|Dragon,Sound Wave,False,False,6,https://pokeres.bastionbot.org/images/pokemon/715.png,The ultrasonic waves it emits from its ears can reduce a large boulder to pebbles. It swoops out of the dark to attack.
+716,Xerneas,Fairy,Life,True,False,6,https://pokeres.bastionbot.org/images/pokemon/716.png,Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.
+717,Yveltal,Flying|Dark,Destruction,True,False,6,https://pokeres.bastionbot.org/images/pokemon/717.png,"When this legendary Pokémon’s wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures."
+718,Zygarde10% Forme,Ground|Dragon,Order,True,False,6,https://pokeres.bastionbot.org/images/pokemon/718-complete.png,It’s hypothesized that it’s monitoring those who destroy the ecosystem from deep in the cave where it lives.
+718,Zygarde50% Forme,Ground|Dragon,Order,True,False,6,https://pokeres.bastionbot.org/images/pokemon/718-complete.png,It’s hypothesized that it’s monitoring those who destroy the ecosystem from deep in the cave where it lives.
+718,ZygardeComplete Forme,Ground|Dragon,Order,True,False,6,https://pokeres.bastionbot.org/images/pokemon/718-complete.png,It’s hypothesized that it’s monitoring those who destroy the ecosystem from deep in the cave where it lives.
+719,Diancie,Fairy|Rock,Jewel,False,True,6,https://pokeres.bastionbot.org/images/pokemon/719.png,"A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world."
+719,DiancieMega Diancie,Fairy|Rock,Jewel,False,True,6,https://pokeres.bastionbot.org/images/pokemon/719.png,"A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world."
+720,HoopaHoopa Confined,Psychic|Ghost,Mischief,False,True,6,https://pokeres.bastionbot.org/images/pokemon/720-confined.png,"This troublemaker sends anything and everything to faraway places using its loop, which can warp space."
+720,HoopaHoopa Unbound,Dark|Psychic,Mischief,False,True,6,https://pokeres.bastionbot.org/images/pokemon/720-confined.png,"This troublemaker sends anything and everything to faraway places using its loop, which can warp space."
+721,Volcanion,Fire|Water,Steam,False,True,6,https://pokeres.bastionbot.org/images/pokemon/721.png,It lets out billows of steam and disappears into the dense fog. It’s said to live in mountains where humans do not tread.
+722,Rowlet,Flying|Grass,Grass Quill,False,False,7,https://pokeres.bastionbot.org/images/pokemon/722.png,"Silently it glides, drawing near its targets. Before they even notice it, it begins to pelt them with vicious kicks."
+723,Dartrix,Flying|Grass,Blade Quill,False,False,7,https://pokeres.bastionbot.org/images/pokemon/723.png,"A bit of a dandy, it spends its free time preening its wings. Its preoccupation with any dirt on its plumage can leave it unable to battle."
+724,Decidueye,Grass|Ghost,Arrow Quill,False,False,7,https://pokeres.bastionbot.org/images/pokemon/724.png,"It fires arrow quills from its wings with such precision, they can pierce a pebble at distances over a hundred yards."
+725,Litten,Fire,Fire Cat,False,False,7,https://pokeres.bastionbot.org/images/pokemon/725.png,"While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs."
+726,Torracat,Fire,Fire Cat,False,False,7,https://pokeres.bastionbot.org/images/pokemon/726.png,"It can act spoiled if it grows close to its Trainer. A powerful Pokémon, its sharp claws can leave its Trainer’s whole body covered in scratches."
+727,Incineroar,Fire|Dark,Heel,False,False,7,https://pokeres.bastionbot.org/images/pokemon/727.png,"This Pokémon has a violent, selfish disposition. If it’s not in the mood to listen, it will ignore its Trainer’s orders with complete nonchalance."
+728,Popplio,Water,Sea Lion,False,False,7,https://pokeres.bastionbot.org/images/pokemon/728.png,"This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It’s famous for being a hard worker."
+729,Brionne,Water,Pop Star,False,False,7,https://pokeres.bastionbot.org/images/pokemon/729.png,"It cares deeply for its companions. When its Trainer is feeling down, it performs a cheery dance to try and help."
+730,Primarina,Water|Fairy,Soloist,False,False,7,https://pokeres.bastionbot.org/images/pokemon/730.png,It controls its water balloons with song. The melody is learned from others of its kind and is passed down from one generation to the next.
+731,Pikipek,Flying|Normal,Woodpecker,False,False,7,https://pokeres.bastionbot.org/images/pokemon/731.png,"This Pokémon feeds on berries, whose leftover seeds become the ammunition for the attacks it fires off from its mouth."
+732,Trumbeak,Flying|Normal,Bugle Beak,False,False,7,https://pokeres.bastionbot.org/images/pokemon/732.png,"It eats berries and stores their seeds in its beak. When it encounters enemies or prey, it fires off all the seeds in a burst."
+733,Toucannon,Flying|Normal,Cannon,False,False,7,https://pokeres.bastionbot.org/images/pokemon/733.png,"When it battles, its beak heats up. The temperature can easily exceed 212 degrees Fahrenheit, causing severe burns when it hits."
+734,Yungoos,Normal,Loitering,False,False,7,https://pokeres.bastionbot.org/images/pokemon/734.png,"It wanders around in a never-ending search for food. At dusk, it collapses from exhaustion and falls asleep on the spot."
+735,Gumshoos,Normal,Stakeout,False,False,7,https://pokeres.bastionbot.org/images/pokemon/735.png,"When it finds a trace of its prey, it patiently stakes out the location...but it’s always snoozing by nightfall."
+736,Grubbin,Bug,Larva,False,False,7,https://pokeres.bastionbot.org/images/pokemon/736.png,They often gather near places frequented by electric Pokémon in order to avoid being attacked by bird Pokémon.
+737,Charjabug,Electric|Bug,Battery,False,False,7,https://pokeres.bastionbot.org/images/pokemon/737.png,"Its body is capable of storing electricity. On camping trips, people are grateful to have one around."
+738,Vikavolt,Electric|Bug,Stag Beetle,False,False,7,https://pokeres.bastionbot.org/images/pokemon/738.png,"It zips around, on sharp lookout for an opening. It concentrates electrical energy within its large jaws and uses it to zap its enemies."
+739,Crabrawler,Fighting,Boxing,False,False,7,https://pokeres.bastionbot.org/images/pokemon/739.png,"While guarding its weak points with its pincers, it looks for an opening and unleashes punches. When it loses, it foams at the mouth and faints."
+740,Crabominable,Ice|Fighting,Woolly Crab,False,False,7,https://pokeres.bastionbot.org/images/pokemon/740.png,"It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pokémon evolved and grew fur."
+741,OricorioBaile Style,Fire|Flying,Dancing,False,False,7,https://pokeres.bastionbot.org/images/pokemon/741-baile.png,"It beats its wings together to create fire. As it moves in the steps of its beautiful dance, it bathes opponents in intense flames."
+741,OricorioPa'u Style,Flying|Psychic,Dancing,False,False,7,https://pokeres.bastionbot.org/images/pokemon/741-baile.png,"It beats its wings together to create fire. As it moves in the steps of its beautiful dance, it bathes opponents in intense flames."
+741,OricorioPom-Pom Style,Flying|Electric,Dancing,False,False,7,https://pokeres.bastionbot.org/images/pokemon/741-baile.png,"It beats its wings together to create fire. As it moves in the steps of its beautiful dance, it bathes opponents in intense flames."
+741,OricorioSensu Style,Flying|Ghost,Dancing,False,False,7,https://pokeres.bastionbot.org/images/pokemon/741-baile.png,"It beats its wings together to create fire. As it moves in the steps of its beautiful dance, it bathes opponents in intense flames."
+742,Cutiefly,Bug|Fairy,Bee Fly,False,False,7,https://pokeres.bastionbot.org/images/pokemon/742.png,"It feeds on the nectar and pollen of flowers. Because it’s able to sense auras, it can identify which flowers are about to bloom."
+743,Ribombee,Bug|Fairy,Bee Fly,False,False,7,https://pokeres.bastionbot.org/images/pokemon/743.png,"It rolls up pollen into puffs. It makes many different varieties, some used as food and others used in battle."
+744,Rockruff,Rock,Puppy,False,False,7,https://pokeres.bastionbot.org/images/pokemon/744.png,This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer’s side.
+744,RockruffOwn Tempo Rockruff,Rock,Puppy,False,False,7,https://pokeres.bastionbot.org/images/pokemon/744.png,This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer’s side.
+745,LycanrocDusk Form,Rock,Wolf,False,False,7,https://pokeres.bastionbot.org/images/pokemon/745-midday.png,"Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons."
+745,LycanrocMidday Form,Rock,Wolf,False,False,7,https://pokeres.bastionbot.org/images/pokemon/745-midday.png,"Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons."
+745,LycanrocMidnight Form,Rock,Wolf,False,False,7,https://pokeres.bastionbot.org/images/pokemon/745-midday.png,"Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons."
+746,WishiwashiSchool Form,Water,Small Fry,False,False,7,https://pokeres.bastionbot.org/images/pokemon/746-solo.png,"When it’s in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies."
+746,WishiwashiSolo Form,Water,Small Fry,False,False,7,https://pokeres.bastionbot.org/images/pokemon/746-solo.png,"When it’s in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies."
+747,Mareanie,Water|Poison,Brutal Star,False,False,7,https://pokeres.bastionbot.org/images/pokemon/747.png,"It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles."
+748,Toxapex,Water|Poison,Brutal Star,False,False,7,https://pokeres.bastionbot.org/images/pokemon/748.png,"Those attacked by Toxapex’s poison will suffer intense pain for three days and three nights. Post-recovery, there will be some aftereffects."
+749,Mudbray,Ground,Donkey,False,False,7,https://pokeres.bastionbot.org/images/pokemon/749.png,"It has a stubborn, individualistic disposition. Eating dirt, making mud, and playing in the mire all form part of its daily routine."
+750,Mudsdale,Ground,Draft Horse,False,False,7,https://pokeres.bastionbot.org/images/pokemon/750.png,"Its heavy, mud-covered kicks are its best means of attack, and it can reduce large trucks to scrap without breaking a sweat."
+751,Dewpider,Water|Bug,Water Bubble,False,False,7,https://pokeres.bastionbot.org/images/pokemon/751.png,"When two Dewpider meet, they display their water bubbles to each other. Then the one with the smaller bubble gets out of the other’s way."
+752,Araquanid,Water|Bug,Water Bubble,False,False,7,https://pokeres.bastionbot.org/images/pokemon/752.png,"Despite what its appearance suggests, it cares for others. If it finds vulnerable, weak Pokémon, it protectively brings them into its water bubble."
+753,Fomantis,Grass,Sickle Grass,False,False,7,https://pokeres.bastionbot.org/images/pokemon/753.png,"When the sun rises, Fomantis spreads its four leaves and bathes in the sunlight. The tip of its head has a pleasant aroma."
+754,Lurantis,Grass,Bloom Sickle,False,False,7,https://pokeres.bastionbot.org/images/pokemon/754.png,"It requires a lot of effort to maintain Lurantis’s vivid coloring, but some collectors enjoy this work and treat it as their hobby."
+755,Morelull,Grass|Fairy,Illuminating,False,False,7,https://pokeres.bastionbot.org/images/pokemon/755.png,"As it drowses the day away, it nourishes itself by sucking from tree roots. It wakens at the fall of night, wandering off in search of a new tree."
+756,Shiinotic,Grass|Fairy,Illuminating,False,False,7,https://pokeres.bastionbot.org/images/pokemon/756.png,Forests where Shiinotic live are treacherous to enter at night. People confused by its strange lights can never find their way home again.
+757,Salandit,Fire|Poison,Toxic Lizard,False,False,7,https://pokeres.bastionbot.org/images/pokemon/757.png,"Volcanoes or dry, craggy places are its home. It emanates a sweet-smelling poisonous gas that attracts bug Pokémon, then attacks them."
+758,Salazzle,Fire|Poison,Toxic Lizard,False,False,7,https://pokeres.bastionbot.org/images/pokemon/758.png,"For some reason, only females have been found. It creates a reverse harem of male Salandit that it lives with."
+759,Stufful,Fighting|Normal,Flailing,False,False,7,https://pokeres.bastionbot.org/images/pokemon/759.png,"Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling."
+760,Bewear,Fighting|Normal,Strong Arm,False,False,7,https://pokeres.bastionbot.org/images/pokemon/760.png,This Pokémon has the habit of hugging its companions. Many Trainers have left this world after their spines were squashed by its hug.
+761,Bounsweet,Grass,Fruit,False,False,7,https://pokeres.bastionbot.org/images/pokemon/761.png,"Although it’s too sugary for human consumption, Bounsweet’s sweat can be watered down into a juice with just the right amount of sweetness."
+762,Steenee,Grass,Fruit,False,False,7,https://pokeres.bastionbot.org/images/pokemon/762.png,"The sepals on its head developed to protect its body. These are quite hard, so even if pecked by bird Pokémon, this Pokémon is totally fine."
+763,Tsareena,Grass,Fruit,False,False,7,https://pokeres.bastionbot.org/images/pokemon/763.png,"Its long, striking legs aren’t just for show but to be used to kick with skill. In victory, it shows off by kicking the defeated, laughing boisterously."
+764,Comfey,Fairy,Posy Picker,False,False,7,https://pokeres.bastionbot.org/images/pokemon/764.png,"It stretches sticky vines out from its head and picks flowers to adorn itself with. When it doesn’t have any flowers, it feels uneasy."
+765,Oranguru,Psychic|Normal,Sage,False,False,7,https://pokeres.bastionbot.org/images/pokemon/765.png,"Known for its extreme intelligence, this Pokémon will look down on inexperienced Trainers, so it’s best suited to veteran Trainers."
+766,Passimian,Fighting,Teamwork,False,False,7,https://pokeres.bastionbot.org/images/pokemon/766.png,"They battle with hard berries for weapons. Their techniques are passed from the boss to the group, generation upon generation."
+767,Wimpod,Water|Bug,Turn Tail,False,False,7,https://pokeres.bastionbot.org/images/pokemon/767.png,"Its habitat varies from beaches to seabeds. A natural scavenger, it will gleefully chow down on anything edible, no matter how rotten."
+768,Golisopod,Water|Bug,Hard Scale,False,False,7,https://pokeres.bastionbot.org/images/pokemon/768.png,"It battles skillfully with its six arms, but spends most of its time peacefully meditating in caves deep beneath the sea."
+769,Sandygast,Ground|Ghost,Sand Heap,False,False,7,https://pokeres.bastionbot.org/images/pokemon/769.png,It takes control of anyone who puts a hand in its mouth. And so it adds to the accumulation of its sand-mound body.
+770,Palossand,Ground|Ghost,Sand Castle,False,False,7,https://pokeres.bastionbot.org/images/pokemon/770.png,"Possessed people controlled by this Pokémon transformed its sand mound into a castle. As it evolved, its power to curse grew ever stronger."
+771,Pyukumuku,Water,Sea Cucumber,False,False,7,https://pokeres.bastionbot.org/images/pokemon/771.png,"It lives in shallow seas, such as areas near a beach. It can eject its internal organs, which it uses to engulf its prey or battle enemies."
+772,Type: Null,Normal,Synthetic,False,False,7,https://pokeres.bastionbot.org/images/pokemon/772.png,The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.
+773,Silvally,Normal,Synthetic,False,False,7,https://pokeres.bastionbot.org/images/pokemon/773.png,"Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle."
+774,MiniorCore Form,Flying|Rock,Meteor,False,False,7,https://pokeres.bastionbot.org/images/pokemon/774-meteor.png,"Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy."
+774,MiniorMeteor Form,Flying|Rock,Meteor,False,False,7,https://pokeres.bastionbot.org/images/pokemon/774-meteor.png,"Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy."
+775,Komala,Normal,Drowsing,False,False,7,https://pokeres.bastionbot.org/images/pokemon/775.png,"It is born asleep, and it dies asleep. All its movements are apparently no more than the results of it tossing and turning in its dreams."
+776,Turtonator,Fire|Dragon,Blast Turtle,False,False,7,https://pokeres.bastionbot.org/images/pokemon/776.png,The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.
+777,Togedemaru,Electric|Steel,Rogedemaru,False,False,7,https://pokeres.bastionbot.org/images/pokemon/777.png,"The spiny fur on its back is normally at rest. When this Pokémon becomes agitated, its fur stands on end and stabs into its attackers."
+778,Mimikyu,Ghost|Fairy,Disguise,False,False,7,https://pokeres.bastionbot.org/images/pokemon/778-disguised.png,Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock.
+779,Bruxish,Water|Psychic,Gnash Teeth,False,False,7,https://pokeres.bastionbot.org/images/pokemon/779.png,"When it unleashes its psychic power from the protuberance on its head, the grating sound of grinding teeth echoes through the area."
+780,Drampa,Dragon|Normal,Placid,False,False,7,https://pokeres.bastionbot.org/images/pokemon/780.png,This Pokémon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.
+781,Dhelmise,Grass|Ghost,Sea Creeper,False,False,7,https://pokeres.bastionbot.org/images/pokemon/781.png,The soul of seaweed adrift in the waves became reborn as this Pokémon. It maintains itself with new infusions of seabed detritus and seaweed.
+782,Jangmo-o,Dragon,Scaly,False,False,7,https://pokeres.bastionbot.org/images/pokemon/782.png,It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.
+783,Hakamo-o,Dragon|Fighting,Scaly,False,False,7,https://pokeres.bastionbot.org/images/pokemon/783.png,It sheds and regrows its scales on a continuous basis. The scales become harder and sharper each time they’re regrown.
+784,Kommo-o,Dragon|Fighting,Scaly,False,False,7,https://pokeres.bastionbot.org/images/pokemon/784.png,"Its rigid scales function as offense and defense. In the past, its scales were processed and used to make weapons and other commodities."
+785,Tapu Koko,Electric|Fairy,Land Spirit,True,False,7,https://pokeres.bastionbot.org/images/pokemon/785.png,It confuses its enemies by flying too quickly for the eye to follow. It has a hair-trigger temper but forgets what made it angry an instant later.
+786,Tapu Lele,Psychic|Fairy,Land Spirit,True,False,7,https://pokeres.bastionbot.org/images/pokemon/786.png,"As it flutters about, it scatters its strangely glowing scales. Touching them is said to restore good health on the spot."
+787,Tapu Bulu,Grass|Fairy,Land Spirit,True,False,7,https://pokeres.bastionbot.org/images/pokemon/787.png,The guardian deity of Ula’ula is a lazy Pokémon. It commands plants to immobilize its foes and then deals them a savage blow with its horns.
+788,Tapu Fini,Water|Fairy,Land Spirit,True,False,7,https://pokeres.bastionbot.org/images/pokemon/788.png,The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.
+789,Cosmog,Psychic,Nebula,True,False,7,https://pokeres.bastionbot.org/images/pokemon/789.png,"In ages past, it was called the child of the stars. It’s said to be a Pokémon from another world, but no specific details are known."
+790,Cosmoem,Psychic,Protostar,True,False,7,https://pokeres.bastionbot.org/images/pokemon/790.png,There’s something accumulating around the black core within its hard shell. People think this Pokémon may come from another world.
+791,Solgaleo,Psychic|Steel,Sunne,True,False,7,https://pokeres.bastionbot.org/images/pokemon/791.png,It is said to live in another world. The intense light it radiates from the surface of its body can make the darkest of nights light up like midday.
+792,Lunala,Psychic|Ghost,Moone,True,False,7,https://pokeres.bastionbot.org/images/pokemon/792.png,"Said to live in another world, this Pokémon devours light, drawing the moonless dark veil of night over the brightness of day."
+793,Nihilego,Poison|Rock,Parasite,False,False,7,https://pokeres.bastionbot.org/images/pokemon/793.png,"One of the Ultra Beasts. It’s unclear whether or not this Pokémon is sentient, but sometimes it can be observed behaving like a young girl."
+794,Buzzwole,Fighting|Bug,Swollen,False,False,7,https://pokeres.bastionbot.org/images/pokemon/794.png,"This Ultra Beast appeared from another world. It shows off its body, but whether that display is a boast or a threat remains unclear."
+795,Pheromosa,Fighting|Bug,Lissome,False,False,7,https://pokeres.bastionbot.org/images/pokemon/795.png,"One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world."
+796,Xurkitree,Electric,Glowing,False,False,7,https://pokeres.bastionbot.org/images/pokemon/796.png,"One of the mysterious life-forms known as Ultra Beasts. Astonishing electric shocks emanate from its entire body, according to witnesses."
+797,Celesteela,Flying|Steel,Launch,False,False,7,https://pokeres.bastionbot.org/images/pokemon/797.png,One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.
+798,Kartana,Grass|Steel,Drawn Sword,False,False,7,https://pokeres.bastionbot.org/images/pokemon/798.png,"This Ultra Beast came from the Ultra Wormhole. It seems not to attack enemies on its own, but its sharp body is a dangerous weapon in itself."
+799,Guzzlord,Dark|Dragon,Junkivore,False,False,7,https://pokeres.bastionbot.org/images/pokemon/799.png,"A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found."
+800,Necrozma,Psychic,Prism,True,False,7,https://pokeres.bastionbot.org/images/pokemon/800.png,"Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times."
+800,NecrozmaDawn Wings Necrozma,Psychic|Ghost,Prism,True,False,7,https://pokeres.bastionbot.org/images/pokemon/800.png,"Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times."
+800,NecrozmaDusk Mane Necrozma,Psychic|Steel,Prism,True,False,7,https://pokeres.bastionbot.org/images/pokemon/800.png,"Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times."
+800,NecrozmaUltra Necrozma,Dragon|Psychic,Prism,True,False,7,https://pokeres.bastionbot.org/images/pokemon/800.png,"Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times."
+801,Magearna,Steel|Fairy,Artificial,False,True,7,https://pokeres.bastionbot.org/images/pokemon/801.png,"This artificial Pokémon, constructed more than 500 years ago, can understand human speech but cannot itself speak."
+802,Marshadow,Ghost|Fighting,Gloomdweller,False,True,7,https://pokeres.bastionbot.org/images/pokemon/802.png,"It slips into the shadows of others and mimics their powers and movements. As it improves, it becomes stronger than those it’s imitating."
+803,Poipole,Poison,Poison Pin,False,False,7,https://pokeres.bastionbot.org/images/pokemon/803.png,"An Ultra Beast that lives in a different world, it cackles wildly as it sprays its opponents with poison from the needles on its head."
+804,Naganadel,Dragon|Poison,Poison Pin,False,False,7,https://pokeres.bastionbot.org/images/pokemon/804.png,"One kind of Ultra Beast, it fires a glowing, venomous liquid from its needles. This liquid is also immensely adhesive."
+805,Stakataka,Steel|Rock,Rampart,False,False,7,https://pokeres.bastionbot.org/images/pokemon/805.png,"When stone walls started moving and attacking, the brute’s true identity was this mysterious life-form, which brings to mind an Ultra Beast."
+806,Blacephalon,Fire|Ghost,Fireworks,False,False,7,https://pokeres.bastionbot.org/images/pokemon/806.png,"A UB that appeared from an Ultra Wormhole, it causes explosions, then takes advantage of opponents’ surprise to rob them of their vitality."
+807,Zeraora,Electric,Thunderclap,False,True,7,https://pokeres.bastionbot.org/images/pokemon/807.png,"It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they’ll be electrocuted by the flying sparks."
 808,Meltan,Steel,,,,,,
 809,Melmetal,Steel,,,,,,
-,,,,,,,,
