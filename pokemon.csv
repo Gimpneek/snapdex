@@ -1,1421 +1,860 @@
-#,Name,Type,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed
-001,Bulbasaur,Grass,318,45,49,49,65,65,45
-001,Bulbasaur,Poison,318,45,49,49,65,65,45
-002,Ivysaur,Grass,405,60,62,63,80,80,60
-002,Ivysaur,Poison,405,60,62,63,80,80,60
-003,Venusaur,Grass,525,80,82,83,100,100,80
-003,Venusaur,Poison,525,80,82,83,100,100,80
-003,VenusaurMega Venusaur,Grass,625,80,100,123,122,120,80
-003,VenusaurMega Venusaur,Poison,625,80,100,123,122,120,80
-004,Charmander,Fire,309,39,52,43,60,50,65
-005,Charmeleon,Fire,405,58,64,58,80,65,80
-006,Charizard,Fire,534,78,84,78,109,85,100
-006,Charizard,Flying,534,78,84,78,109,85,100
-006,CharizardMega Charizard X,Fire,634,78,130,111,130,85,100
-006,CharizardMega Charizard X,Dragon,634,78,130,111,130,85,100
-006,CharizardMega Charizard Y,Fire,634,78,104,78,159,115,100
-006,CharizardMega Charizard Y,Flying,634,78,104,78,159,115,100
-007,Squirtle,Water,314,44,48,65,50,64,43
-008,Wartortle,Water,405,59,63,80,65,80,58
-009,Blastoise,Water,530,79,83,100,85,105,78
-009,BlastoiseMega Blastoise,Water,630,79,103,120,135,115,78
-010,Caterpie,Bug,195,45,30,35,20,20,45
-011,Metapod,Bug,205,50,20,55,25,25,30
-012,Butterfree,Bug,395,60,45,50,90,80,70
-012,Butterfree,Flying,395,60,45,50,90,80,70
-013,Weedle,Bug,195,40,35,30,20,20,50
-013,Weedle,Poison,195,40,35,30,20,20,50
-014,Kakuna,Bug,205,45,25,50,25,25,35
-014,Kakuna,Poison,205,45,25,50,25,25,35
-015,Beedrill,Bug,395,65,90,40,45,80,75
-015,Beedrill,Poison,395,65,90,40,45,80,75
-015,BeedrillMega Beedrill,Bug,495,65,150,40,15,80,145
-015,BeedrillMega Beedrill,Poison,495,65,150,40,15,80,145
-016,Pidgey,Normal,251,40,45,40,35,35,56
-016,Pidgey,Flying,251,40,45,40,35,35,56
-017,Pidgeotto,Normal,349,63,60,55,50,50,71
-017,Pidgeotto,Flying,349,63,60,55,50,50,71
-018,Pidgeot,Normal,479,83,80,75,70,70,101
-018,Pidgeot,Flying,479,83,80,75,70,70,101
-018,PidgeotMega Pidgeot,Normal,579,83,80,80,135,80,121
-018,PidgeotMega Pidgeot,Flying,579,83,80,80,135,80,121
-019,Rattata,Normal,253,30,56,35,25,35,72
-019,RattataAlolan Rattata,Dark,253,30,56,35,25,35,72
-019,RattataAlolan Rattata,Normal,253,30,56,35,25,35,72
-020,Raticate,Normal,413,55,81,60,50,70,97
-020,RaticateAlolan Raticate,Dark,413,75,71,70,40,80,77
-020,RaticateAlolan Raticate,Normal,413,75,71,70,40,80,77
-021,Spearow,Normal,262,40,60,30,31,31,70
-021,Spearow,Flying,262,40,60,30,31,31,70
-022,Fearow,Normal,442,65,90,65,61,61,100
-022,Fearow,Flying,442,65,90,65,61,61,100
-023,Ekans,Poison,288,35,60,44,40,54,55
-024,Arbok,Poison,448,60,95,69,65,79,80
-025,Pikachu,Electric,320,35,55,40,50,50,90
-025,PikachuPartner Pikachu,Electric,430,45,80,50,75,60,120
-026,Raichu,Electric,485,60,90,55,90,80,110
-026,RaichuAlolan Raichu,Electric,485,60,85,50,95,85,110
-026,RaichuAlolan Raichu,Psychic,485,60,85,50,95,85,110
-027,Sandshrew,Ground,300,50,75,85,20,30,40
-027,SandshrewAlolan Sandshrew,Ice,300,50,75,90,10,35,40
-027,SandshrewAlolan Sandshrew,Steel,300,50,75,90,10,35,40
-028,Sandslash,Ground,450,75,100,110,45,55,65
-028,SandslashAlolan Sandslash,Ice,450,75,100,120,25,65,65
-028,SandslashAlolan Sandslash,Steel,450,75,100,120,25,65,65
-029,Nidoran♀,Poison,275,55,47,52,40,40,41
-030,Nidorina,Poison,365,70,62,67,55,55,56
-031,Nidoqueen,Poison,505,90,92,87,75,85,76
-031,Nidoqueen,Ground,505,90,92,87,75,85,76
-032,Nidoran♂,Poison,273,46,57,40,40,40,50
-033,Nidorino,Poison,365,61,72,57,55,55,65
-034,Nidoking,Poison,505,81,102,77,85,75,85
-034,Nidoking,Ground,505,81,102,77,85,75,85
-035,Clefairy,Fairy,323,70,45,48,60,65,35
-036,Clefable,Fairy,483,95,70,73,95,90,60
-037,Vulpix,Fire,299,38,41,40,50,65,65
-037,VulpixAlolan Vulpix,Ice,299,38,41,40,50,65,65
-038,Ninetales,Fire,505,73,76,75,81,100,100
-038,NinetalesAlolan Ninetales,Ice,505,73,67,75,81,100,109
-038,NinetalesAlolan Ninetales,Fairy,505,73,67,75,81,100,109
-039,Jigglypuff,Normal,270,115,45,20,45,25,20
-039,Jigglypuff,Fairy,270,115,45,20,45,25,20
-040,Wigglytuff,Normal,435,140,70,45,85,50,45
-040,Wigglytuff,Fairy,435,140,70,45,85,50,45
-041,Zubat,Poison,245,40,45,35,30,40,55
-041,Zubat,Flying,245,40,45,35,30,40,55
-042,Golbat,Poison,455,75,80,70,65,75,90
-042,Golbat,Flying,455,75,80,70,65,75,90
-043,Oddish,Grass,320,45,50,55,75,65,30
-043,Oddish,Poison,320,45,50,55,75,65,30
-044,Gloom,Grass,395,60,65,70,85,75,40
-044,Gloom,Poison,395,60,65,70,85,75,40
-045,Vileplume,Grass,490,75,80,85,110,90,50
-045,Vileplume,Poison,490,75,80,85,110,90,50
-046,Paras,Bug,285,35,70,55,45,55,25
-046,Paras,Grass,285,35,70,55,45,55,25
-047,Parasect,Bug,405,60,95,80,60,80,30
-047,Parasect,Grass,405,60,95,80,60,80,30
-048,Venonat,Bug,305,60,55,50,40,55,45
-048,Venonat,Poison,305,60,55,50,40,55,45
-049,Venomoth,Bug,450,70,65,60,90,75,90
-049,Venomoth,Poison,450,70,65,60,90,75,90
-050,Diglett,Ground,265,10,55,25,35,45,95
-050,DiglettAlolan Diglett,Ground,265,10,55,30,35,45,90
-050,DiglettAlolan Diglett,Steel,265,10,55,30,35,45,90
-051,Dugtrio,Ground,425,35,100,50,50,70,120
-051,DugtrioAlolan Dugtrio,Ground,425,35,100,60,50,70,110
-051,DugtrioAlolan Dugtrio,Steel,425,35,100,60,50,70,110
-052,Meowth,Normal,290,40,45,35,40,40,90
-052,MeowthAlolan Meowth,Dark,290,40,35,35,50,40,90
-053,Persian,Normal,440,65,70,60,65,65,115
-053,PersianAlolan Persian,Dark,440,65,60,60,75,65,115
-054,Psyduck,Water,320,50,52,48,65,50,55
-055,Golduck,Water,500,80,82,78,95,80,85
-056,Mankey,Fighting,305,40,80,35,35,45,70
-057,Primeape,Fighting,455,65,105,60,60,70,95
-058,Growlithe,Fire,350,55,70,45,70,50,60
-059,Arcanine,Fire,555,90,110,80,100,80,95
-060,Poliwag,Water,300,40,50,40,40,40,90
-061,Poliwhirl,Water,385,65,65,65,50,50,90
-062,Poliwrath,Water,510,90,95,95,70,90,70
-062,Poliwrath,Fighting,510,90,95,95,70,90,70
-063,Abra,Psychic,310,25,20,15,105,55,90
-064,Kadabra,Psychic,400,40,35,30,120,70,105
-065,Alakazam,Psychic,500,55,50,45,135,95,120
-065,AlakazamMega Alakazam,Psychic,600,55,50,65,175,105,150
-066,Machop,Fighting,305,70,80,50,35,35,35
-067,Machoke,Fighting,405,80,100,70,50,60,45
-068,Machamp,Fighting,505,90,130,80,65,85,55
-069,Bellsprout,Grass,300,50,75,35,70,30,40
-069,Bellsprout,Poison,300,50,75,35,70,30,40
-070,Weepinbell,Grass,390,65,90,50,85,45,55
-070,Weepinbell,Poison,390,65,90,50,85,45,55
-071,Victreebel,Grass,490,80,105,65,100,70,70
-071,Victreebel,Poison,490,80,105,65,100,70,70
-072,Tentacool,Water,335,40,40,35,50,100,70
-072,Tentacool,Poison,335,40,40,35,50,100,70
-073,Tentacruel,Water,515,80,70,65,80,120,100
-073,Tentacruel,Poison,515,80,70,65,80,120,100
-074,Geodude,Rock,300,40,80,100,30,30,20
-074,Geodude,Ground,300,40,80,100,30,30,20
-074,GeodudeAlolan Geodude,Rock,300,40,80,100,30,30,20
-074,GeodudeAlolan Geodude,Electric,300,40,80,100,30,30,20
-075,Graveler,Rock,390,55,95,115,45,45,35
-075,Graveler,Ground,390,55,95,115,45,45,35
-075,GravelerAlolan Graveler,Rock,390,55,95,115,45,45,35
-075,GravelerAlolan Graveler,Electric,390,55,95,115,45,45,35
-076,Golem,Rock,495,80,120,130,55,65,45
-076,Golem,Ground,495,80,120,130,55,65,45
-076,GolemAlolan Golem,Rock,495,80,120,130,55,65,45
-076,GolemAlolan Golem,Electric,495,80,120,130,55,65,45
-077,Ponyta,Fire,410,50,85,55,65,65,90
-078,Rapidash,Fire,500,65,100,70,80,80,105
-079,Slowpoke,Water,315,90,65,65,40,40,15
-079,Slowpoke,Psychic,315,90,65,65,40,40,15
-080,Slowbro,Water,490,95,75,110,100,80,30
-080,Slowbro,Psychic,490,95,75,110,100,80,30
-080,SlowbroMega Slowbro,Water,590,95,75,180,130,80,30
-080,SlowbroMega Slowbro,Psychic,590,95,75,180,130,80,30
-081,Magnemite,Electric,325,25,35,70,95,55,45
-081,Magnemite,Steel,325,25,35,70,95,55,45
-082,Magneton,Electric,465,50,60,95,120,70,70
-082,Magneton,Steel,465,50,60,95,120,70,70
-083,Farfetch'd,Normal,377,52,90,55,58,62,60
-083,Farfetch'd,Flying,377,52,90,55,58,62,60
-084,Doduo,Normal,310,35,85,45,35,35,75
-084,Doduo,Flying,310,35,85,45,35,35,75
-085,Dodrio,Normal,470,60,110,70,60,60,110
-085,Dodrio,Flying,470,60,110,70,60,60,110
-086,Seel,Water,325,65,45,55,45,70,45
-087,Dewgong,Water,475,90,70,80,70,95,70
-087,Dewgong,Ice,475,90,70,80,70,95,70
-088,Grimer,Poison,325,80,80,50,40,50,25
-088,GrimerAlolan Grimer,Poison,325,80,80,50,40,50,25
-088,GrimerAlolan Grimer,Dark,325,80,80,50,40,50,25
-089,Muk,Poison,500,105,105,75,65,100,50
-089,MukAlolan Muk,Poison,500,105,105,75,65,100,50
-089,MukAlolan Muk,Dark,500,105,105,75,65,100,50
-090,Shellder,Water,305,30,65,100,45,25,40
-091,Cloyster,Water,525,50,95,180,85,45,70
-091,Cloyster,Ice,525,50,95,180,85,45,70
-092,Gastly,Ghost,310,30,35,30,100,35,80
-092,Gastly,Poison,310,30,35,30,100,35,80
-093,Haunter,Ghost,405,45,50,45,115,55,95
-093,Haunter,Poison,405,45,50,45,115,55,95
-094,Gengar,Ghost,500,60,65,60,130,75,110
-094,Gengar,Poison,500,60,65,60,130,75,110
-094,GengarMega Gengar,Ghost,600,60,65,80,170,95,130
-094,GengarMega Gengar,Poison,600,60,65,80,170,95,130
-095,Onix,Rock,385,35,45,160,30,45,70
-095,Onix,Ground,385,35,45,160,30,45,70
-096,Drowzee,Psychic,328,60,48,45,43,90,42
-097,Hypno,Psychic,483,85,73,70,73,115,67
-098,Krabby,Water,325,30,105,90,25,25,50
-099,Kingler,Water,475,55,130,115,50,50,75
-100,Voltorb,Electric,330,40,30,50,55,55,100
-101,Electrode,Electric,490,60,50,70,80,80,150
-102,Exeggcute,Grass,325,60,40,80,60,45,40
-102,Exeggcute,Psychic,325,60,40,80,60,45,40
-103,Exeggutor,Grass,530,95,95,85,125,75,55
-103,Exeggutor,Psychic,530,95,95,85,125,75,55
-103,ExeggutorAlolan Exeggutor,Grass,530,95,105,85,125,75,45
-103,ExeggutorAlolan Exeggutor,Dragon,530,95,105,85,125,75,45
-104,Cubone,Ground,320,50,50,95,40,50,35
-105,Marowak,Ground,425,60,80,110,50,80,45
-105,MarowakAlolan Marowak,Fire,425,60,80,110,50,80,45
-105,MarowakAlolan Marowak,Ghost,425,60,80,110,50,80,45
-106,Hitmonlee,Fighting,455,50,120,53,35,110,87
-107,Hitmonchan,Fighting,455,50,105,79,35,110,76
-108,Lickitung,Normal,385,90,55,75,60,75,30
-109,Koffing,Poison,340,40,65,95,60,45,35
-110,Weezing,Poison,490,65,90,120,85,70,60
-111,Rhyhorn,Ground,345,80,85,95,30,30,25
-111,Rhyhorn,Rock,345,80,85,95,30,30,25
-112,Rhydon,Ground,485,105,130,120,45,45,40
-112,Rhydon,Rock,485,105,130,120,45,45,40
-113,Chansey,Normal,450,250,5,5,35,105,50
-114,Tangela,Grass,435,65,55,115,100,40,60
-115,Kangaskhan,Normal,490,105,95,80,40,80,90
-115,KangaskhanMega Kangaskhan,Normal,590,105,125,100,60,100,100
-116,Horsea,Water,295,30,40,70,70,25,60
-117,Seadra,Water,440,55,65,95,95,45,85
-118,Goldeen,Water,320,45,67,60,35,50,63
-119,Seaking,Water,450,80,92,65,65,80,68
-120,Staryu,Water,340,30,45,55,70,55,85
-121,Starmie,Water,520,60,75,85,100,85,115
-121,Starmie,Psychic,520,60,75,85,100,85,115
-122,Mr. Mime,Psychic,460,40,45,65,100,120,90
-122,Mr. Mime,Fairy,460,40,45,65,100,120,90
-123,Scyther,Bug,500,70,110,80,55,80,105
-123,Scyther,Flying,500,70,110,80,55,80,105
-124,Jynx,Ice,455,65,50,35,115,95,95
-124,Jynx,Psychic,455,65,50,35,115,95,95
-125,Electabuzz,Electric,490,65,83,57,95,85,105
-126,Magmar,Fire,495,65,95,57,100,85,93
-127,Pinsir,Bug,500,65,125,100,55,70,85
-127,PinsirMega Pinsir,Bug,600,65,155,120,65,90,105
-127,PinsirMega Pinsir,Flying,600,65,155,120,65,90,105
-128,Tauros,Normal,490,75,100,95,40,70,110
-129,Magikarp,Water,200,20,10,55,15,20,80
-130,Gyarados,Water,540,95,125,79,60,100,81
-130,Gyarados,Flying,540,95,125,79,60,100,81
-130,GyaradosMega Gyarados,Water,640,95,155,109,70,130,81
-130,GyaradosMega Gyarados,Dark,640,95,155,109,70,130,81
-131,Lapras,Water,535,130,85,80,85,95,60
-131,Lapras,Ice,535,130,85,80,85,95,60
-132,Ditto,Normal,288,48,48,48,48,48,48
-133,Eevee,Normal,325,55,55,50,45,65,55
-133,EeveePartner Eevee,Normal,435,65,75,70,65,85,75
-134,Vaporeon,Water,525,130,65,60,110,95,65
-135,Jolteon,Electric,525,65,65,60,110,95,130
-136,Flareon,Fire,525,65,130,60,95,110,65
-137,Porygon,Normal,395,65,60,70,85,75,40
-138,Omanyte,Rock,355,35,40,100,90,55,35
-138,Omanyte,Water,355,35,40,100,90,55,35
-139,Omastar,Rock,495,70,60,125,115,70,55
-139,Omastar,Water,495,70,60,125,115,70,55
-140,Kabuto,Rock,355,30,80,90,55,45,55
-140,Kabuto,Water,355,30,80,90,55,45,55
-141,Kabutops,Rock,495,60,115,105,65,70,80
-141,Kabutops,Water,495,60,115,105,65,70,80
-142,Aerodactyl,Rock,515,80,105,65,60,75,130
-142,Aerodactyl,Flying,515,80,105,65,60,75,130
-142,AerodactylMega Aerodactyl,Rock,615,80,135,85,70,95,150
-142,AerodactylMega Aerodactyl,Flying,615,80,135,85,70,95,150
-143,Snorlax,Normal,540,160,110,65,65,110,30
-144,Articuno,Ice,580,90,85,100,95,125,85
-144,Articuno,Flying,580,90,85,100,95,125,85
-145,Zapdos,Electric,580,90,90,85,125,90,100
-145,Zapdos,Flying,580,90,90,85,125,90,100
-146,Moltres,Fire,580,90,100,90,125,85,90
-146,Moltres,Flying,580,90,100,90,125,85,90
-147,Dratini,Dragon,300,41,64,45,50,50,50
-148,Dragonair,Dragon,420,61,84,65,70,70,70
-149,Dragonite,Dragon,600,91,134,95,100,100,80
-149,Dragonite,Flying,600,91,134,95,100,100,80
-150,Mewtwo,Psychic,680,106,110,90,154,90,130
-150,MewtwoMega Mewtwo X,Psychic,780,106,190,100,154,100,130
-150,MewtwoMega Mewtwo X,Fighting,780,106,190,100,154,100,130
-150,MewtwoMega Mewtwo Y,Psychic,780,106,150,70,194,120,140
-151,Mew,Psychic,600,100,100,100,100,100,100
-152,Chikorita,Grass,318,45,49,65,49,65,45
-153,Bayleef,Grass,405,60,62,80,63,80,60
-154,Meganium,Grass,525,80,82,100,83,100,80
-155,Cyndaquil,Fire,309,39,52,43,60,50,65
-156,Quilava,Fire,405,58,64,58,80,65,80
-157,Typhlosion,Fire,534,78,84,78,109,85,100
-158,Totodile,Water,314,50,65,64,44,48,43
-159,Croconaw,Water,405,65,80,80,59,63,58
-160,Feraligatr,Water,530,85,105,100,79,83,78
-161,Sentret,Normal,215,35,46,34,35,45,20
-162,Furret,Normal,415,85,76,64,45,55,90
-163,Hoothoot,Normal,262,60,30,30,36,56,50
-163,Hoothoot,Flying,262,60,30,30,36,56,50
-164,Noctowl,Normal,452,100,50,50,86,96,70
-164,Noctowl,Flying,452,100,50,50,86,96,70
-165,Ledyba,Bug,265,40,20,30,40,80,55
-165,Ledyba,Flying,265,40,20,30,40,80,55
-166,Ledian,Bug,390,55,35,50,55,110,85
-166,Ledian,Flying,390,55,35,50,55,110,85
-167,Spinarak,Bug,250,40,60,40,40,40,30
-167,Spinarak,Poison,250,40,60,40,40,40,30
-168,Ariados,Bug,400,70,90,70,60,70,40
-168,Ariados,Poison,400,70,90,70,60,70,40
-169,Crobat,Poison,535,85,90,80,70,80,130
-169,Crobat,Flying,535,85,90,80,70,80,130
-170,Chinchou,Water,330,75,38,38,56,56,67
-170,Chinchou,Electric,330,75,38,38,56,56,67
-171,Lanturn,Water,460,125,58,58,76,76,67
-171,Lanturn,Electric,460,125,58,58,76,76,67
-172,Pichu,Electric,205,20,40,15,35,35,60
-173,Cleffa,Fairy,218,50,25,28,45,55,15
-174,Igglybuff,Normal,210,90,30,15,40,20,15
-174,Igglybuff,Fairy,210,90,30,15,40,20,15
-175,Togepi,Fairy,245,35,20,65,40,65,20
-176,Togetic,Fairy,405,55,40,85,80,105,40
-176,Togetic,Flying,405,55,40,85,80,105,40
-177,Natu,Psychic,320,40,50,45,70,45,70
-177,Natu,Flying,320,40,50,45,70,45,70
-178,Xatu,Psychic,470,65,75,70,95,70,95
-178,Xatu,Flying,470,65,75,70,95,70,95
-179,Mareep,Electric,280,55,40,40,65,45,35
-180,Flaaffy,Electric,365,70,55,55,80,60,45
-181,Ampharos,Electric,510,90,75,85,115,90,55
-181,AmpharosMega Ampharos,Electric,610,90,95,105,165,110,45
-181,AmpharosMega Ampharos,Dragon,610,90,95,105,165,110,45
-182,Bellossom,Grass,490,75,80,95,90,100,50
-183,Marill,Water,250,70,20,50,20,50,40
-183,Marill,Fairy,250,70,20,50,20,50,40
-184,Azumarill,Water,420,100,50,80,60,80,50
-184,Azumarill,Fairy,420,100,50,80,60,80,50
-185,Sudowoodo,Rock,410,70,100,115,30,65,30
-186,Politoed,Water,500,90,75,75,90,100,70
-187,Hoppip,Grass,250,35,35,40,35,55,50
-187,Hoppip,Flying,250,35,35,40,35,55,50
-188,Skiploom,Grass,340,55,45,50,45,65,80
-188,Skiploom,Flying,340,55,45,50,45,65,80
-189,Jumpluff,Grass,460,75,55,70,55,95,110
-189,Jumpluff,Flying,460,75,55,70,55,95,110
-190,Aipom,Normal,360,55,70,55,40,55,85
-191,Sunkern,Grass,180,30,30,30,30,30,30
-192,Sunflora,Grass,425,75,75,55,105,85,30
-193,Yanma,Bug,390,65,65,45,75,45,95
-193,Yanma,Flying,390,65,65,45,75,45,95
-194,Wooper,Water,210,55,45,45,25,25,15
-194,Wooper,Ground,210,55,45,45,25,25,15
-195,Quagsire,Water,430,95,85,85,65,65,35
-195,Quagsire,Ground,430,95,85,85,65,65,35
-196,Espeon,Psychic,525,65,65,60,130,95,110
-197,Umbreon,Dark,525,95,65,110,60,130,65
-198,Murkrow,Dark,405,60,85,42,85,42,91
-198,Murkrow,Flying,405,60,85,42,85,42,91
-199,Slowking,Water,490,95,75,80,100,110,30
-199,Slowking,Psychic,490,95,75,80,100,110,30
-200,Misdreavus,Ghost,435,60,60,60,85,85,85
-201,Unown,Psychic,336,48,72,48,72,48,48
-202,Wobbuffet,Psychic,405,190,33,58,33,58,33
-203,Girafarig,Normal,455,70,80,65,90,65,85
-203,Girafarig,Psychic,455,70,80,65,90,65,85
-204,Pineco,Bug,290,50,65,90,35,35,15
-205,Forretress,Bug,465,75,90,140,60,60,40
-205,Forretress,Steel,465,75,90,140,60,60,40
-206,Dunsparce,Normal,415,100,70,70,65,65,45
-207,Gligar,Ground,430,65,75,105,35,65,85
-207,Gligar,Flying,430,65,75,105,35,65,85
-208,Steelix,Steel,510,75,85,200,55,65,30
-208,Steelix,Ground,510,75,85,200,55,65,30
-208,SteelixMega Steelix,Steel,610,75,125,230,55,95,30
-208,SteelixMega Steelix,Ground,610,75,125,230,55,95,30
-209,Snubbull,Fairy,300,60,80,50,40,40,30
-210,Granbull,Fairy,450,90,120,75,60,60,45
-211,Qwilfish,Water,440,65,95,85,55,55,85
-211,Qwilfish,Poison,440,65,95,85,55,55,85
-212,Scizor,Bug,500,70,130,100,55,80,65
-212,Scizor,Steel,500,70,130,100,55,80,65
-212,ScizorMega Scizor,Bug,600,70,150,140,65,100,75
-212,ScizorMega Scizor,Steel,600,70,150,140,65,100,75
-213,Shuckle,Bug,505,20,10,230,10,230,5
-213,Shuckle,Rock,505,20,10,230,10,230,5
-214,Heracross,Bug,500,80,125,75,40,95,85
-214,Heracross,Fighting,500,80,125,75,40,95,85
-214,HeracrossMega Heracross,Bug,600,80,185,115,40,105,75
-214,HeracrossMega Heracross,Fighting,600,80,185,115,40,105,75
-215,Sneasel,Dark,430,55,95,55,35,75,115
-215,Sneasel,Ice,430,55,95,55,35,75,115
-216,Teddiursa,Normal,330,60,80,50,50,50,40
-217,Ursaring,Normal,500,90,130,75,75,75,55
-218,Slugma,Fire,250,40,40,40,70,40,20
-219,Magcargo,Fire,430,60,50,120,90,80,30
-219,Magcargo,Rock,430,60,50,120,90,80,30
-220,Swinub,Ice,250,50,50,40,30,30,50
-220,Swinub,Ground,250,50,50,40,30,30,50
-221,Piloswine,Ice,450,100,100,80,60,60,50
-221,Piloswine,Ground,450,100,100,80,60,60,50
-222,Corsola,Water,410,65,55,95,65,95,35
-222,Corsola,Rock,410,65,55,95,65,95,35
-223,Remoraid,Water,300,35,65,35,65,35,65
-224,Octillery,Water,480,75,105,75,105,75,45
-225,Delibird,Ice,330,45,55,45,65,45,75
-225,Delibird,Flying,330,45,55,45,65,45,75
-226,Mantine,Water,485,85,40,70,80,140,70
-226,Mantine,Flying,485,85,40,70,80,140,70
-227,Skarmory,Steel,465,65,80,140,40,70,70
-227,Skarmory,Flying,465,65,80,140,40,70,70
-228,Houndour,Dark,330,45,60,30,80,50,65
-228,Houndour,Fire,330,45,60,30,80,50,65
-229,Houndoom,Dark,500,75,90,50,110,80,95
-229,Houndoom,Fire,500,75,90,50,110,80,95
-229,HoundoomMega Houndoom,Dark,600,75,90,90,140,90,115
-229,HoundoomMega Houndoom,Fire,600,75,90,90,140,90,115
-230,Kingdra,Water,540,75,95,95,95,95,85
-230,Kingdra,Dragon,540,75,95,95,95,95,85
-231,Phanpy,Ground,330,90,60,60,40,40,40
-232,Donphan,Ground,500,90,120,120,60,60,50
-233,Porygon2,Normal,515,85,80,90,105,95,60
-234,Stantler,Normal,465,73,95,62,85,65,85
-235,Smeargle,Normal,250,55,20,35,20,45,75
-236,Tyrogue,Fighting,210,35,35,35,35,35,35
-237,Hitmontop,Fighting,455,50,95,95,35,110,70
-238,Smoochum,Ice,305,45,30,15,85,65,65
-238,Smoochum,Psychic,305,45,30,15,85,65,65
-239,Elekid,Electric,360,45,63,37,65,55,95
-240,Magby,Fire,365,45,75,37,70,55,83
-241,Miltank,Normal,490,95,80,105,40,70,100
-242,Blissey,Normal,540,255,10,10,75,135,55
-243,Raikou,Electric,580,90,85,75,115,100,115
-244,Entei,Fire,580,115,115,85,90,75,100
-245,Suicune,Water,580,100,75,115,90,115,85
-246,Larvitar,Rock,300,50,64,50,45,50,41
-246,Larvitar,Ground,300,50,64,50,45,50,41
-247,Pupitar,Rock,410,70,84,70,65,70,51
-247,Pupitar,Ground,410,70,84,70,65,70,51
-248,Tyranitar,Rock,600,100,134,110,95,100,61
-248,Tyranitar,Dark,600,100,134,110,95,100,61
-248,TyranitarMega Tyranitar,Rock,700,100,164,150,95,120,71
-248,TyranitarMega Tyranitar,Dark,700,100,164,150,95,120,71
-249,Lugia,Psychic,680,106,90,130,90,154,110
-249,Lugia,Flying,680,106,90,130,90,154,110
-250,Ho-oh,Fire,680,106,130,90,110,154,90
-250,Ho-oh,Flying,680,106,130,90,110,154,90
-251,Celebi,Psychic,600,100,100,100,100,100,100
-251,Celebi,Grass,600,100,100,100,100,100,100
-252,Treecko,Grass,310,40,45,35,65,55,70
-253,Grovyle,Grass,405,50,65,45,85,65,95
-254,Sceptile,Grass,530,70,85,65,105,85,120
-254,SceptileMega Sceptile,Grass,630,70,110,75,145,85,145
-254,SceptileMega Sceptile,Dragon,630,70,110,75,145,85,145
-255,Torchic,Fire,310,45,60,40,70,50,45
-256,Combusken,Fire,405,60,85,60,85,60,55
-256,Combusken,Fighting,405,60,85,60,85,60,55
-257,Blaziken,Fire,530,80,120,70,110,70,80
-257,Blaziken,Fighting,530,80,120,70,110,70,80
-257,BlazikenMega Blaziken,Fire,630,80,160,80,130,80,100
-257,BlazikenMega Blaziken,Fighting,630,80,160,80,130,80,100
-258,Mudkip,Water,310,50,70,50,50,50,40
-259,Marshtomp,Water,405,70,85,70,60,70,50
-259,Marshtomp,Ground,405,70,85,70,60,70,50
-260,Swampert,Water,535,100,110,90,85,90,60
-260,Swampert,Ground,535,100,110,90,85,90,60
-260,SwampertMega Swampert,Water,635,100,150,110,95,110,70
-260,SwampertMega Swampert,Ground,635,100,150,110,95,110,70
-261,Poochyena,Dark,220,35,55,35,30,30,35
-262,Mightyena,Dark,420,70,90,70,60,60,70
-263,Zigzagoon,Normal,240,38,30,41,30,41,60
-264,Linoone,Normal,420,78,70,61,50,61,100
-265,Wurmple,Bug,195,45,45,35,20,30,20
-266,Silcoon,Bug,205,50,35,55,25,25,15
-267,Beautifly,Bug,395,60,70,50,100,50,65
-267,Beautifly,Flying,395,60,70,50,100,50,65
-268,Cascoon,Bug,205,50,35,55,25,25,15
-269,Dustox,Bug,385,60,50,70,50,90,65
-269,Dustox,Poison,385,60,50,70,50,90,65
-270,Lotad,Water,220,40,30,30,40,50,30
-270,Lotad,Grass,220,40,30,30,40,50,30
-271,Lombre,Water,340,60,50,50,60,70,50
-271,Lombre,Grass,340,60,50,50,60,70,50
-272,Ludicolo,Water,480,80,70,70,90,100,70
-272,Ludicolo,Grass,480,80,70,70,90,100,70
-273,Seedot,Grass,220,40,40,50,30,30,30
-274,Nuzleaf,Grass,340,70,70,40,60,40,60
-274,Nuzleaf,Dark,340,70,70,40,60,40,60
-275,Shiftry,Grass,480,90,100,60,90,60,80
-275,Shiftry,Dark,480,90,100,60,90,60,80
-276,Taillow,Normal,270,40,55,30,30,30,85
-276,Taillow,Flying,270,40,55,30,30,30,85
-277,Swellow,Normal,455,60,85,60,75,50,125
-277,Swellow,Flying,455,60,85,60,75,50,125
-278,Wingull,Water,270,40,30,30,55,30,85
-278,Wingull,Flying,270,40,30,30,55,30,85
-279,Pelipper,Water,440,60,50,100,95,70,65
-279,Pelipper,Flying,440,60,50,100,95,70,65
-280,Ralts,Psychic,198,28,25,25,45,35,40
-280,Ralts,Fairy,198,28,25,25,45,35,40
-281,Kirlia,Psychic,278,38,35,35,65,55,50
-281,Kirlia,Fairy,278,38,35,35,65,55,50
-282,Gardevoir,Psychic,518,68,65,65,125,115,80
-282,Gardevoir,Fairy,518,68,65,65,125,115,80
-282,GardevoirMega Gardevoir,Psychic,618,68,85,65,165,135,100
-282,GardevoirMega Gardevoir,Fairy,618,68,85,65,165,135,100
-283,Surskit,Bug,269,40,30,32,50,52,65
-283,Surskit,Water,269,40,30,32,50,52,65
-284,Masquerain,Bug,454,70,60,62,100,82,80
-284,Masquerain,Flying,454,70,60,62,100,82,80
-285,Shroomish,Grass,295,60,40,60,40,60,35
-286,Breloom,Grass,460,60,130,80,60,60,70
-286,Breloom,Fighting,460,60,130,80,60,60,70
-287,Slakoth,Normal,280,60,60,60,35,35,30
-288,Vigoroth,Normal,440,80,80,80,55,55,90
-289,Slaking,Normal,670,150,160,100,95,65,100
-290,Nincada,Bug,266,31,45,90,30,30,40
-290,Nincada,Ground,266,31,45,90,30,30,40
-291,Ninjask,Bug,456,61,90,45,50,50,160
-291,Ninjask,Flying,456,61,90,45,50,50,160
-292,Shedinja,Bug,236,1,90,45,30,30,40
-292,Shedinja,Ghost,236,1,90,45,30,30,40
-293,Whismur,Normal,240,64,51,23,51,23,28
-294,Loudred,Normal,360,84,71,43,71,43,48
-295,Exploud,Normal,490,104,91,63,91,73,68
-296,Makuhita,Fighting,237,72,60,30,20,30,25
-297,Hariyama,Fighting,474,144,120,60,40,60,50
-298,Azurill,Normal,190,50,20,40,20,40,20
-298,Azurill,Fairy,190,50,20,40,20,40,20
-299,Nosepass,Rock,375,30,45,135,45,90,30
-300,Skitty,Normal,260,50,45,45,35,35,50
-301,Delcatty,Normal,400,70,65,65,55,55,90
-302,Sableye,Dark,380,50,75,75,65,65,50
-302,Sableye,Ghost,380,50,75,75,65,65,50
-302,SableyeMega Sableye,Dark,480,50,85,125,85,115,20
-302,SableyeMega Sableye,Ghost,480,50,85,125,85,115,20
-303,Mawile,Steel,380,50,85,85,55,55,50
-303,Mawile,Fairy,380,50,85,85,55,55,50
-303,MawileMega Mawile,Steel,480,50,105,125,55,95,50
-303,MawileMega Mawile,Fairy,480,50,105,125,55,95,50
-304,Aron,Steel,330,50,70,100,40,40,30
-304,Aron,Rock,330,50,70,100,40,40,30
-305,Lairon,Steel,430,60,90,140,50,50,40
-305,Lairon,Rock,430,60,90,140,50,50,40
-306,Aggron,Steel,530,70,110,180,60,60,50
-306,Aggron,Rock,530,70,110,180,60,60,50
-306,AggronMega Aggron,Steel,630,70,140,230,60,80,50
-307,Meditite,Fighting,280,30,40,55,40,55,60
-307,Meditite,Psychic,280,30,40,55,40,55,60
-308,Medicham,Fighting,410,60,60,75,60,75,80
-308,Medicham,Psychic,410,60,60,75,60,75,80
-308,MedichamMega Medicham,Fighting,510,60,100,85,80,85,100
-308,MedichamMega Medicham,Psychic,510,60,100,85,80,85,100
-309,Electrike,Electric,295,40,45,40,65,40,65
-310,Manectric,Electric,475,70,75,60,105,60,105
-310,ManectricMega Manectric,Electric,575,70,75,80,135,80,135
-311,Plusle,Electric,405,60,50,40,85,75,95
-312,Minun,Electric,405,60,40,50,75,85,95
-313,Volbeat,Bug,430,65,73,75,47,85,85
-314,Illumise,Bug,430,65,47,75,73,85,85
-315,Roselia,Grass,400,50,60,45,100,80,65
-315,Roselia,Poison,400,50,60,45,100,80,65
-316,Gulpin,Poison,302,70,43,53,43,53,40
-317,Swalot,Poison,467,100,73,83,73,83,55
-318,Carvanha,Water,305,45,90,20,65,20,65
-318,Carvanha,Dark,305,45,90,20,65,20,65
-319,Sharpedo,Water,460,70,120,40,95,40,95
-319,Sharpedo,Dark,460,70,120,40,95,40,95
-319,SharpedoMega Sharpedo,Water,560,70,140,70,110,65,105
-319,SharpedoMega Sharpedo,Dark,560,70,140,70,110,65,105
-320,Wailmer,Water,400,130,70,35,70,35,60
-321,Wailord,Water,500,170,90,45,90,45,60
-322,Numel,Fire,305,60,60,40,65,45,35
-322,Numel,Ground,305,60,60,40,65,45,35
-323,Camerupt,Fire,460,70,100,70,105,75,40
-323,Camerupt,Ground,460,70,100,70,105,75,40
-323,CameruptMega Camerupt,Fire,560,70,120,100,145,105,20
-323,CameruptMega Camerupt,Ground,560,70,120,100,145,105,20
-324,Torkoal,Fire,470,70,85,140,85,70,20
-325,Spoink,Psychic,330,60,25,35,70,80,60
-326,Grumpig,Psychic,470,80,45,65,90,110,80
-327,Spinda,Normal,360,60,60,60,60,60,60
-328,Trapinch,Ground,290,45,100,45,45,45,10
-329,Vibrava,Ground,340,50,70,50,50,50,70
-329,Vibrava,Dragon,340,50,70,50,50,50,70
-330,Flygon,Ground,520,80,100,80,80,80,100
-330,Flygon,Dragon,520,80,100,80,80,80,100
-331,Cacnea,Grass,335,50,85,40,85,40,35
-332,Cacturne,Grass,475,70,115,60,115,60,55
-332,Cacturne,Dark,475,70,115,60,115,60,55
-333,Swablu,Normal,310,45,40,60,40,75,50
-333,Swablu,Flying,310,45,40,60,40,75,50
-334,Altaria,Dragon,490,75,70,90,70,105,80
-334,Altaria,Flying,490,75,70,90,70,105,80
-334,AltariaMega Altaria,Dragon,590,75,110,110,110,105,80
-334,AltariaMega Altaria,Fairy,590,75,110,110,110,105,80
-335,Zangoose,Normal,458,73,115,60,60,60,90
-336,Seviper,Poison,458,73,100,60,100,60,65
-337,Lunatone,Rock,460,90,55,65,95,85,70
-337,Lunatone,Psychic,460,90,55,65,95,85,70
-338,Solrock,Rock,460,90,95,85,55,65,70
-338,Solrock,Psychic,460,90,95,85,55,65,70
-339,Barboach,Water,288,50,48,43,46,41,60
-339,Barboach,Ground,288,50,48,43,46,41,60
-340,Whiscash,Water,468,110,78,73,76,71,60
-340,Whiscash,Ground,468,110,78,73,76,71,60
-341,Corphish,Water,308,43,80,65,50,35,35
-342,Crawdaunt,Water,468,63,120,85,90,55,55
-342,Crawdaunt,Dark,468,63,120,85,90,55,55
-343,Baltoy,Ground,300,40,40,55,40,70,55
-343,Baltoy,Psychic,300,40,40,55,40,70,55
-344,Claydol,Ground,500,60,70,105,70,120,75
-344,Claydol,Psychic,500,60,70,105,70,120,75
-345,Lileep,Rock,355,66,41,77,61,87,23
-345,Lileep,Grass,355,66,41,77,61,87,23
-346,Cradily,Rock,495,86,81,97,81,107,43
-346,Cradily,Grass,495,86,81,97,81,107,43
-347,Anorith,Rock,355,45,95,50,40,50,75
-347,Anorith,Bug,355,45,95,50,40,50,75
-348,Armaldo,Rock,495,75,125,100,70,80,45
-348,Armaldo,Bug,495,75,125,100,70,80,45
-349,Feebas,Water,200,20,15,20,10,55,80
-350,Milotic,Water,540,95,60,79,100,125,81
-351,Castform,Normal,420,70,70,70,70,70,70
-351,CastformSunny Form,Fire,420,70,70,70,70,70,70
-351,CastformRainy Form,Water,420,70,70,70,70,70,70
-351,CastformSnowy Form,Ice,420,70,70,70,70,70,70
-352,Kecleon,Normal,440,60,90,70,60,120,40
-353,Shuppet,Ghost,295,44,75,35,63,33,45
-354,Banette,Ghost,455,64,115,65,83,63,65
-354,BanetteMega Banette,Ghost,555,64,165,75,93,83,75
-355,Duskull,Ghost,295,20,40,90,30,90,25
-356,Dusclops,Ghost,455,40,70,130,60,130,25
-357,Tropius,Grass,460,99,68,83,72,87,51
-357,Tropius,Flying,460,99,68,83,72,87,51
-358,Chimecho,Psychic,455,75,50,80,95,90,65
-359,Absol,Dark,465,65,130,60,75,60,75
-359,AbsolMega Absol,Dark,565,65,150,60,115,60,115
-360,Wynaut,Psychic,260,95,23,48,23,48,23
-361,Snorunt,Ice,300,50,50,50,50,50,50
-362,Glalie,Ice,480,80,80,80,80,80,80
-362,GlalieMega Glalie,Ice,580,80,120,80,120,80,100
-363,Spheal,Ice,290,70,40,50,55,50,25
-363,Spheal,Water,290,70,40,50,55,50,25
-364,Sealeo,Ice,410,90,60,70,75,70,45
-364,Sealeo,Water,410,90,60,70,75,70,45
-365,Walrein,Ice,530,110,80,90,95,90,65
-365,Walrein,Water,530,110,80,90,95,90,65
-366,Clamperl,Water,345,35,64,85,74,55,32
-367,Huntail,Water,485,55,104,105,94,75,52
-368,Gorebyss,Water,485,55,84,105,114,75,52
-369,Relicanth,Water,485,100,90,130,45,65,55
-369,Relicanth,Rock,485,100,90,130,45,65,55
-370,Luvdisc,Water,330,43,30,55,40,65,97
-371,Bagon,Dragon,300,45,75,60,40,30,50
-372,Shelgon,Dragon,420,65,95,100,60,50,50
-373,Salamence,Dragon,600,95,135,80,110,80,100
-373,Salamence,Flying,600,95,135,80,110,80,100
-373,SalamenceMega Salamence,Dragon,700,95,145,130,120,90,120
-373,SalamenceMega Salamence,Flying,700,95,145,130,120,90,120
-374,Beldum,Steel,300,40,55,80,35,60,30
-374,Beldum,Psychic,300,40,55,80,35,60,30
-375,Metang,Steel,420,60,75,100,55,80,50
-375,Metang,Psychic,420,60,75,100,55,80,50
-376,Metagross,Steel,600,80,135,130,95,90,70
-376,Metagross,Psychic,600,80,135,130,95,90,70
-376,MetagrossMega Metagross,Steel,700,80,145,150,105,110,110
-376,MetagrossMega Metagross,Psychic,700,80,145,150,105,110,110
-377,Regirock,Rock,580,80,100,200,50,100,50
-378,Regice,Ice,580,80,50,100,100,200,50
-379,Registeel,Steel,580,80,75,150,75,150,50
-380,Latias,Dragon,600,80,80,90,110,130,110
-380,Latias,Psychic,600,80,80,90,110,130,110
-380,LatiasMega Latias,Dragon,700,80,100,120,140,150,110
-380,LatiasMega Latias,Psychic,700,80,100,120,140,150,110
-381,Latios,Dragon,600,80,90,80,130,110,110
-381,Latios,Psychic,600,80,90,80,130,110,110
-381,LatiosMega Latios,Dragon,700,80,130,100,160,120,110
-381,LatiosMega Latios,Psychic,700,80,130,100,160,120,110
-382,Kyogre,Water,670,100,100,90,150,140,90
-382,KyogrePrimal Kyogre,Water,770,100,150,90,180,160,90
-383,Groudon,Ground,670,100,150,140,100,90,90
-383,GroudonPrimal Groudon,Ground,770,100,180,160,150,90,90
-383,GroudonPrimal Groudon,Fire,770,100,180,160,150,90,90
-384,Rayquaza,Dragon,680,105,150,90,150,90,95
-384,Rayquaza,Flying,680,105,150,90,150,90,95
-384,RayquazaMega Rayquaza,Dragon,780,105,180,100,180,100,115
-384,RayquazaMega Rayquaza,Flying,780,105,180,100,180,100,115
-385,Jirachi,Steel,600,100,100,100,100,100,100
-385,Jirachi,Psychic,600,100,100,100,100,100,100
-386,DeoxysNormal Forme,Psychic,600,50,150,50,150,50,150
-386,DeoxysAttack Forme,Psychic,600,50,180,20,180,20,150
-386,DeoxysDefense Forme,Psychic,600,50,70,160,70,160,90
-386,DeoxysSpeed Forme,Psychic,600,50,95,90,95,90,180
-387,Turtwig,Grass,318,55,68,64,45,55,31
-388,Grotle,Grass,405,75,89,85,55,65,36
-389,Torterra,Grass,525,95,109,105,75,85,56
-389,Torterra,Ground,525,95,109,105,75,85,56
-390,Chimchar,Fire,309,44,58,44,58,44,61
-391,Monferno,Fire,405,64,78,52,78,52,81
-391,Monferno,Fighting,405,64,78,52,78,52,81
-392,Infernape,Fire,534,76,104,71,104,71,108
-392,Infernape,Fighting,534,76,104,71,104,71,108
-393,Piplup,Water,314,53,51,53,61,56,40
-394,Prinplup,Water,405,64,66,68,81,76,50
-395,Empoleon,Water,530,84,86,88,111,101,60
-395,Empoleon,Steel,530,84,86,88,111,101,60
-396,Starly,Normal,245,40,55,30,30,30,60
-396,Starly,Flying,245,40,55,30,30,30,60
-397,Staravia,Normal,340,55,75,50,40,40,80
-397,Staravia,Flying,340,55,75,50,40,40,80
-398,Staraptor,Normal,485,85,120,70,50,60,100
-398,Staraptor,Flying,485,85,120,70,50,60,100
-399,Bidoof,Normal,250,59,45,40,35,40,31
-400,Bibarel,Normal,410,79,85,60,55,60,71
-400,Bibarel,Water,410,79,85,60,55,60,71
-401,Kricketot,Bug,194,37,25,41,25,41,25
-402,Kricketune,Bug,384,77,85,51,55,51,65
-403,Shinx,Electric,263,45,65,34,40,34,45
-404,Luxio,Electric,363,60,85,49,60,49,60
-405,Luxray,Electric,523,80,120,79,95,79,70
-406,Budew,Grass,280,40,30,35,50,70,55
-406,Budew,Poison,280,40,30,35,50,70,55
-407,Roserade,Grass,515,60,70,65,125,105,90
-407,Roserade,Poison,515,60,70,65,125,105,90
-408,Cranidos,Rock,350,67,125,40,30,30,58
-409,Rampardos,Rock,495,97,165,60,65,50,58
-410,Shieldon,Rock,350,30,42,118,42,88,30
-410,Shieldon,Steel,350,30,42,118,42,88,30
-411,Bastiodon,Rock,495,60,52,168,47,138,30
-411,Bastiodon,Steel,495,60,52,168,47,138,30
-412,Burmy,Bug,224,40,29,45,29,45,36
-413,WormadamPlant Cloak,Bug,424,60,59,85,79,105,36
-413,WormadamPlant Cloak,Grass,424,60,59,85,79,105,36
-413,WormadamSandy Cloak,Bug,424,60,79,105,59,85,36
-413,WormadamSandy Cloak,Ground,424,60,79,105,59,85,36
-413,WormadamTrash Cloak,Bug,424,60,69,95,69,95,36
-413,WormadamTrash Cloak,Steel,424,60,69,95,69,95,36
-414,Mothim,Bug,424,70,94,50,94,50,66
-414,Mothim,Flying,424,70,94,50,94,50,66
-415,Combee,Bug,244,30,30,42,30,42,70
-415,Combee,Flying,244,30,30,42,30,42,70
-416,Vespiquen,Bug,474,70,80,102,80,102,40
-416,Vespiquen,Flying,474,70,80,102,80,102,40
-417,Pachirisu,Electric,405,60,45,70,45,90,95
-418,Buizel,Water,330,55,65,35,60,30,85
-419,Floatzel,Water,495,85,105,55,85,50,115
-420,Cherubi,Grass,275,45,35,45,62,53,35
-421,Cherrim,Grass,450,70,60,70,87,78,85
-422,Shellos,Water,325,76,48,48,57,62,34
-423,Gastrodon,Water,475,111,83,68,92,82,39
-423,Gastrodon,Ground,475,111,83,68,92,82,39
-424,Ambipom,Normal,482,75,100,66,60,66,115
-425,Drifloon,Ghost,348,90,50,34,60,44,70
-425,Drifloon,Flying,348,90,50,34,60,44,70
-426,Drifblim,Ghost,498,150,80,44,90,54,80
-426,Drifblim,Flying,498,150,80,44,90,54,80
-427,Buneary,Normal,350,55,66,44,44,56,85
-428,Lopunny,Normal,480,65,76,84,54,96,105
-428,LopunnyMega Lopunny,Normal,580,65,136,94,54,96,135
-428,LopunnyMega Lopunny,Fighting,580,65,136,94,54,96,135
-429,Mismagius,Ghost,495,60,60,60,105,105,105
-430,Honchkrow,Dark,505,100,125,52,105,52,71
-430,Honchkrow,Flying,505,100,125,52,105,52,71
-431,Glameow,Normal,310,49,55,42,42,37,85
-432,Purugly,Normal,452,71,82,64,64,59,112
-433,Chingling,Psychic,285,45,30,50,65,50,45
-434,Stunky,Poison,329,63,63,47,41,41,74
-434,Stunky,Dark,329,63,63,47,41,41,74
-435,Skuntank,Poison,479,103,93,67,71,61,84
-435,Skuntank,Dark,479,103,93,67,71,61,84
-436,Bronzor,Steel,300,57,24,86,24,86,23
-436,Bronzor,Psychic,300,57,24,86,24,86,23
-437,Bronzong,Steel,500,67,89,116,79,116,33
-437,Bronzong,Psychic,500,67,89,116,79,116,33
-438,Bonsly,Rock,290,50,80,95,10,45,10
-439,Mime Jr.,Psychic,310,20,25,45,70,90,60
-439,Mime Jr.,Fairy,310,20,25,45,70,90,60
-440,Happiny,Normal,220,100,5,5,15,65,30
-441,Chatot,Normal,411,76,65,45,92,42,91
-441,Chatot,Flying,411,76,65,45,92,42,91
-442,Spiritomb,Ghost,485,50,92,108,92,108,35
-442,Spiritomb,Dark,485,50,92,108,92,108,35
-443,Gible,Dragon,300,58,70,45,40,45,42
-443,Gible,Ground,300,58,70,45,40,45,42
-444,Gabite,Dragon,410,68,90,65,50,55,82
-444,Gabite,Ground,410,68,90,65,50,55,82
-445,Garchomp,Dragon,600,108,130,95,80,85,102
-445,Garchomp,Ground,600,108,130,95,80,85,102
-445,GarchompMega Garchomp,Dragon,700,108,170,115,120,95,92
-445,GarchompMega Garchomp,Ground,700,108,170,115,120,95,92
-446,Munchlax,Normal,390,135,85,40,40,85,5
-447,Riolu,Fighting,285,40,70,40,35,40,60
-448,Lucario,Fighting,525,70,110,70,115,70,90
-448,Lucario,Steel,525,70,110,70,115,70,90
-448,LucarioMega Lucario,Fighting,625,70,145,88,140,70,112
-448,LucarioMega Lucario,Steel,625,70,145,88,140,70,112
-449,Hippopotas,Ground,330,68,72,78,38,42,32
-450,Hippowdon,Ground,525,108,112,118,68,72,47
-451,Skorupi,Poison,330,40,50,90,30,55,65
-451,Skorupi,Bug,330,40,50,90,30,55,65
-452,Drapion,Poison,500,70,90,110,60,75,95
-452,Drapion,Dark,500,70,90,110,60,75,95
-453,Croagunk,Poison,300,48,61,40,61,40,50
-453,Croagunk,Fighting,300,48,61,40,61,40,50
-454,Toxicroak,Poison,490,83,106,65,86,65,85
-454,Toxicroak,Fighting,490,83,106,65,86,65,85
-455,Carnivine,Grass,454,74,100,72,90,72,46
-456,Finneon,Water,330,49,49,56,49,61,66
-457,Lumineon,Water,460,69,69,76,69,86,91
-458,Mantyke,Water,345,45,20,50,60,120,50
-458,Mantyke,Flying,345,45,20,50,60,120,50
-459,Snover,Grass,334,60,62,50,62,60,40
-459,Snover,Ice,334,60,62,50,62,60,40
-460,Abomasnow,Grass,494,90,92,75,92,85,60
-460,Abomasnow,Ice,494,90,92,75,92,85,60
-460,AbomasnowMega Abomasnow,Grass,594,90,132,105,132,105,30
-460,AbomasnowMega Abomasnow,Ice,594,90,132,105,132,105,30
-461,Weavile,Dark,510,70,120,65,45,85,125
-461,Weavile,Ice,510,70,120,65,45,85,125
-462,Magnezone,Electric,535,70,70,115,130,90,60
-462,Magnezone,Steel,535,70,70,115,130,90,60
-463,Lickilicky,Normal,515,110,85,95,80,95,50
-464,Rhyperior,Ground,535,115,140,130,55,55,40
-464,Rhyperior,Rock,535,115,140,130,55,55,40
-465,Tangrowth,Grass,535,100,100,125,110,50,50
-466,Electivire,Electric,540,75,123,67,95,85,95
-467,Magmortar,Fire,540,75,95,67,125,95,83
-468,Togekiss,Fairy,545,85,50,95,120,115,80
-468,Togekiss,Flying,545,85,50,95,120,115,80
-469,Yanmega,Bug,515,86,76,86,116,56,95
-469,Yanmega,Flying,515,86,76,86,116,56,95
-470,Leafeon,Grass,525,65,110,130,60,65,95
-471,Glaceon,Ice,525,65,60,110,130,95,65
-472,Gliscor,Ground,510,75,95,125,45,75,95
-472,Gliscor,Flying,510,75,95,125,45,75,95
-473,Mamoswine,Ice,530,110,130,80,70,60,80
-473,Mamoswine,Ground,530,110,130,80,70,60,80
-474,Porygon-Z,Normal,535,85,80,70,135,75,90
-475,Gallade,Psychic,518,68,125,65,65,115,80
-475,Gallade,Fighting,518,68,125,65,65,115,80
-475,GalladeMega Gallade,Psychic,618,68,165,95,65,115,110
-475,GalladeMega Gallade,Fighting,618,68,165,95,65,115,110
-476,Probopass,Rock,525,60,55,145,75,150,40
-476,Probopass,Steel,525,60,55,145,75,150,40
-477,Dusknoir,Ghost,525,45,100,135,65,135,45
-478,Froslass,Ice,480,70,80,70,80,70,110
-478,Froslass,Ghost,480,70,80,70,80,70,110
-479,Rotom,Electric,440,50,50,77,95,77,91
-479,Rotom,Ghost,440,50,50,77,95,77,91
-479,RotomHeat Rotom,Electric,520,50,65,107,105,107,86
-479,RotomHeat Rotom,Fire,520,50,65,107,105,107,86
-479,RotomWash Rotom,Electric,520,50,65,107,105,107,86
-479,RotomWash Rotom,Water,520,50,65,107,105,107,86
-479,RotomFrost Rotom,Electric,520,50,65,107,105,107,86
-479,RotomFrost Rotom,Ice,520,50,65,107,105,107,86
-479,RotomFan Rotom,Electric,520,50,65,107,105,107,86
-479,RotomFan Rotom,Flying,520,50,65,107,105,107,86
-479,RotomMow Rotom,Electric,520,50,65,107,105,107,86
-479,RotomMow Rotom,Grass,520,50,65,107,105,107,86
-480,Uxie,Psychic,580,75,75,130,75,130,95
-481,Mesprit,Psychic,580,80,105,105,105,105,80
-482,Azelf,Psychic,580,75,125,70,125,70,115
-483,Dialga,Steel,680,100,120,120,150,100,90
-483,Dialga,Dragon,680,100,120,120,150,100,90
-484,Palkia,Water,680,90,120,100,150,120,100
-484,Palkia,Dragon,680,90,120,100,150,120,100
-485,Heatran,Fire,600,91,90,106,130,106,77
-485,Heatran,Steel,600,91,90,106,130,106,77
-486,Regigigas,Normal,670,110,160,110,80,110,100
-487,GiratinaAltered Forme,Ghost,680,150,100,120,100,120,90
-487,GiratinaAltered Forme,Dragon,680,150,100,120,100,120,90
-487,GiratinaOrigin Forme,Ghost,680,150,120,100,120,100,90
-487,GiratinaOrigin Forme,Dragon,680,150,120,100,120,100,90
-488,Cresselia,Psychic,600,120,70,120,75,130,85
-489,Phione,Water,480,80,80,80,80,80,80
-490,Manaphy,Water,600,100,100,100,100,100,100
-491,Darkrai,Dark,600,70,90,90,135,90,125
-492,ShayminLand Forme,Grass,600,100,100,100,100,100,100
-492,ShayminSky Forme,Grass,600,100,103,75,120,75,127
-492,ShayminSky Forme,Flying,600,100,103,75,120,75,127
-493,Arceus,Normal,720,120,120,120,120,120,120
-494,Victini,Psychic,600,100,100,100,100,100,100
-494,Victini,Fire,600,100,100,100,100,100,100
-495,Snivy,Grass,308,45,45,55,45,55,63
-496,Servine,Grass,413,60,60,75,60,75,83
-497,Serperior,Grass,528,75,75,95,75,95,113
-498,Tepig,Fire,308,65,63,45,45,45,45
-499,Pignite,Fire,418,90,93,55,70,55,55
-499,Pignite,Fighting,418,90,93,55,70,55,55
-500,Emboar,Fire,528,110,123,65,100,65,65
-500,Emboar,Fighting,528,110,123,65,100,65,65
-501,Oshawott,Water,308,55,55,45,63,45,45
-502,Dewott,Water,413,75,75,60,83,60,60
-503,Samurott,Water,528,95,100,85,108,70,70
-504,Patrat,Normal,255,45,55,39,35,39,42
-505,Watchog,Normal,420,60,85,69,60,69,77
-506,Lillipup,Normal,275,45,60,45,25,45,55
-507,Herdier,Normal,370,65,80,65,35,65,60
-508,Stoutland,Normal,500,85,110,90,45,90,80
-509,Purrloin,Dark,281,41,50,37,50,37,66
-510,Liepard,Dark,446,64,88,50,88,50,106
-511,Pansage,Grass,316,50,53,48,53,48,64
-512,Simisage,Grass,498,75,98,63,98,63,101
-513,Pansear,Fire,316,50,53,48,53,48,64
-514,Simisear,Fire,498,75,98,63,98,63,101
-515,Panpour,Water,316,50,53,48,53,48,64
-516,Simipour,Water,498,75,98,63,98,63,101
-517,Munna,Psychic,292,76,25,45,67,55,24
-518,Musharna,Psychic,487,116,55,85,107,95,29
-519,Pidove,Normal,264,50,55,50,36,30,43
-519,Pidove,Flying,264,50,55,50,36,30,43
-520,Tranquill,Normal,358,62,77,62,50,42,65
-520,Tranquill,Flying,358,62,77,62,50,42,65
-521,Unfezant,Normal,488,80,115,80,65,55,93
-521,Unfezant,Flying,488,80,115,80,65,55,93
-522,Blitzle,Electric,295,45,60,32,50,32,76
-523,Zebstrika,Electric,497,75,100,63,80,63,116
-524,Roggenrola,Rock,280,55,75,85,25,25,15
-525,Boldore,Rock,390,70,105,105,50,40,20
-526,Gigalith,Rock,515,85,135,130,60,80,25
-527,Woobat,Psychic,323,65,45,43,55,43,72
-527,Woobat,Flying,323,65,45,43,55,43,72
-528,Swoobat,Psychic,425,67,57,55,77,55,114
-528,Swoobat,Flying,425,67,57,55,77,55,114
-529,Drilbur,Ground,328,60,85,40,30,45,68
-530,Excadrill,Ground,508,110,135,60,50,65,88
-530,Excadrill,Steel,508,110,135,60,50,65,88
-531,Audino,Normal,445,103,60,86,60,86,50
-531,AudinoMega Audino,Normal,545,103,60,126,80,126,50
-531,AudinoMega Audino,Fairy,545,103,60,126,80,126,50
-532,Timburr,Fighting,305,75,80,55,25,35,35
-533,Gurdurr,Fighting,405,85,105,85,40,50,40
-534,Conkeldurr,Fighting,505,105,140,95,55,65,45
-535,Tympole,Water,294,50,50,40,50,40,64
-536,Palpitoad,Water,384,75,65,55,65,55,69
-536,Palpitoad,Ground,384,75,65,55,65,55,69
-537,Seismitoad,Water,509,105,95,75,85,75,74
-537,Seismitoad,Ground,509,105,95,75,85,75,74
-538,Throh,Fighting,465,120,100,85,30,85,45
-539,Sawk,Fighting,465,75,125,75,30,75,85
-540,Sewaddle,Bug,310,45,53,70,40,60,42
-540,Sewaddle,Grass,310,45,53,70,40,60,42
-541,Swadloon,Bug,380,55,63,90,50,80,42
-541,Swadloon,Grass,380,55,63,90,50,80,42
-542,Leavanny,Bug,500,75,103,80,70,80,92
-542,Leavanny,Grass,500,75,103,80,70,80,92
-543,Venipede,Bug,260,30,45,59,30,39,57
-543,Venipede,Poison,260,30,45,59,30,39,57
-544,Whirlipede,Bug,360,40,55,99,40,79,47
-544,Whirlipede,Poison,360,40,55,99,40,79,47
-545,Scolipede,Bug,485,60,100,89,55,69,112
-545,Scolipede,Poison,485,60,100,89,55,69,112
-546,Cottonee,Grass,280,40,27,60,37,50,66
-546,Cottonee,Fairy,280,40,27,60,37,50,66
-547,Whimsicott,Grass,480,60,67,85,77,75,116
-547,Whimsicott,Fairy,480,60,67,85,77,75,116
-548,Petilil,Grass,280,45,35,50,70,50,30
-549,Lilligant,Grass,480,70,60,75,110,75,90
-550,BasculinRed-Striped Form,Water,460,70,92,65,80,55,98
-550,BasculinBlue-Striped Form,Water,460,70,92,65,80,55,98
-551,Sandile,Ground,292,50,72,35,35,35,65
-551,Sandile,Dark,292,50,72,35,35,35,65
-552,Krokorok,Ground,351,60,82,45,45,45,74
-552,Krokorok,Dark,351,60,82,45,45,45,74
-553,Krookodile,Ground,519,95,117,80,65,70,92
-553,Krookodile,Dark,519,95,117,80,65,70,92
-554,Darumaka,Fire,315,70,90,45,15,45,50
-555,DarmanitanStandard Mode,Fire,480,105,140,55,30,55,95
-555,DarmanitanZen Mode,Fire,540,105,30,105,140,105,55
-555,DarmanitanZen Mode,Psychic,540,105,30,105,140,105,55
-556,Maractus,Grass,461,75,86,67,106,67,60
-557,Dwebble,Bug,325,50,65,85,35,35,55
-557,Dwebble,Rock,325,50,65,85,35,35,55
-558,Crustle,Bug,485,70,105,125,65,75,45
-558,Crustle,Rock,485,70,105,125,65,75,45
-559,Scraggy,Dark,348,50,75,70,35,70,48
-559,Scraggy,Fighting,348,50,75,70,35,70,48
-560,Scrafty,Dark,488,65,90,115,45,115,58
-560,Scrafty,Fighting,488,65,90,115,45,115,58
-561,Sigilyph,Psychic,490,72,58,80,103,80,97
-561,Sigilyph,Flying,490,72,58,80,103,80,97
-562,Yamask,Ghost,303,38,30,85,55,65,30
-563,Cofagrigus,Ghost,483,58,50,145,95,105,30
-564,Tirtouga,Water,355,54,78,103,53,45,22
-564,Tirtouga,Rock,355,54,78,103,53,45,22
-565,Carracosta,Water,495,74,108,133,83,65,32
-565,Carracosta,Rock,495,74,108,133,83,65,32
-566,Archen,Rock,401,55,112,45,74,45,70
-566,Archen,Flying,401,55,112,45,74,45,70
-567,Archeops,Rock,567,75,140,65,112,65,110
-567,Archeops,Flying,567,75,140,65,112,65,110
-568,Trubbish,Poison,329,50,50,62,40,62,65
-569,Garbodor,Poison,474,80,95,82,60,82,75
-570,Zorua,Dark,330,40,65,40,80,40,65
-571,Zoroark,Dark,510,60,105,60,120,60,105
-572,Minccino,Normal,300,55,50,40,40,40,75
-573,Cinccino,Normal,470,75,95,60,65,60,115
-574,Gothita,Psychic,290,45,30,50,55,65,45
-575,Gothorita,Psychic,390,60,45,70,75,85,55
-576,Gothitelle,Psychic,490,70,55,95,95,110,65
-577,Solosis,Psychic,290,45,30,40,105,50,20
-578,Duosion,Psychic,370,65,40,50,125,60,30
-579,Reuniclus,Psychic,490,110,65,75,125,85,30
-580,Ducklett,Water,305,62,44,50,44,50,55
-580,Ducklett,Flying,305,62,44,50,44,50,55
-581,Swanna,Water,473,75,87,63,87,63,98
-581,Swanna,Flying,473,75,87,63,87,63,98
-582,Vanillite,Ice,305,36,50,50,65,60,44
-583,Vanillish,Ice,395,51,65,65,80,75,59
-584,Vanilluxe,Ice,535,71,95,85,110,95,79
-585,Deerling,Normal,335,60,60,50,40,50,75
-585,Deerling,Grass,335,60,60,50,40,50,75
-586,Sawsbuck,Normal,475,80,100,70,60,70,95
-586,Sawsbuck,Grass,475,80,100,70,60,70,95
-587,Emolga,Electric,428,55,75,60,75,60,103
-587,Emolga,Flying,428,55,75,60,75,60,103
-588,Karrablast,Bug,315,50,75,45,40,45,60
-589,Escavalier,Bug,495,70,135,105,60,105,20
-589,Escavalier,Steel,495,70,135,105,60,105,20
-590,Foongus,Grass,294,69,55,45,55,55,15
-590,Foongus,Poison,294,69,55,45,55,55,15
-591,Amoonguss,Grass,464,114,85,70,85,80,30
-591,Amoonguss,Poison,464,114,85,70,85,80,30
-592,Frillish,Water,335,55,40,50,65,85,40
-592,Frillish,Ghost,335,55,40,50,65,85,40
-593,Jellicent,Water,480,100,60,70,85,105,60
-593,Jellicent,Ghost,480,100,60,70,85,105,60
-594,Alomomola,Water,470,165,75,80,40,45,65
-595,Joltik,Bug,319,50,47,50,57,50,65
-595,Joltik,Electric,319,50,47,50,57,50,65
-596,Galvantula,Bug,472,70,77,60,97,60,108
-596,Galvantula,Electric,472,70,77,60,97,60,108
-597,Ferroseed,Grass,305,44,50,91,24,86,10
-597,Ferroseed,Steel,305,44,50,91,24,86,10
-598,Ferrothorn,Grass,489,74,94,131,54,116,20
-598,Ferrothorn,Steel,489,74,94,131,54,116,20
-599,Klink,Steel,300,40,55,70,45,60,30
-600,Klang,Steel,440,60,80,95,70,85,50
-601,Klinklang,Steel,520,60,100,115,70,85,90
-602,Tynamo,Electric,275,35,55,40,45,40,60
-603,Eelektrik,Electric,405,65,85,70,75,70,40
-604,Eelektross,Electric,515,85,115,80,105,80,50
-605,Elgyem,Psychic,335,55,55,55,85,55,30
-606,Beheeyem,Psychic,485,75,75,75,125,95,40
-607,Litwick,Ghost,275,50,30,55,65,55,20
-607,Litwick,Fire,275,50,30,55,65,55,20
-608,Lampent,Ghost,370,60,40,60,95,60,55
-608,Lampent,Fire,370,60,40,60,95,60,55
-609,Chandelure,Ghost,520,60,55,90,145,90,80
-609,Chandelure,Fire,520,60,55,90,145,90,80
-610,Axew,Dragon,320,46,87,60,30,40,57
-611,Fraxure,Dragon,410,66,117,70,40,50,67
-612,Haxorus,Dragon,540,76,147,90,60,70,97
-613,Cubchoo,Ice,305,55,70,40,60,40,40
-614,Beartic,Ice,505,95,130,80,70,80,50
-615,Cryogonal,Ice,515,80,50,50,95,135,105
-616,Shelmet,Bug,305,50,40,85,40,65,25
-617,Accelgor,Bug,495,80,70,40,100,60,145
-618,Stunfisk,Ground,471,109,66,84,81,99,32
-618,Stunfisk,Electric,471,109,66,84,81,99,32
-619,Mienfoo,Fighting,350,45,85,50,55,50,65
-620,Mienshao,Fighting,510,65,125,60,95,60,105
-621,Druddigon,Dragon,485,77,120,90,60,90,48
-622,Golett,Ground,303,59,74,50,35,50,35
-622,Golett,Ghost,303,59,74,50,35,50,35
-623,Golurk,Ground,483,89,124,80,55,80,55
-623,Golurk,Ghost,483,89,124,80,55,80,55
-624,Pawniard,Dark,340,45,85,70,40,40,60
-624,Pawniard,Steel,340,45,85,70,40,40,60
-625,Bisharp,Dark,490,65,125,100,60,70,70
-625,Bisharp,Steel,490,65,125,100,60,70,70
-626,Bouffalant,Normal,490,95,110,95,40,95,55
-627,Rufflet,Normal,350,70,83,50,37,50,60
-627,Rufflet,Flying,350,70,83,50,37,50,60
-628,Braviary,Normal,510,100,123,75,57,75,80
-628,Braviary,Flying,510,100,123,75,57,75,80
-629,Vullaby,Dark,370,70,55,75,45,65,60
-629,Vullaby,Flying,370,70,55,75,45,65,60
-630,Mandibuzz,Dark,510,110,65,105,55,95,80
-630,Mandibuzz,Flying,510,110,65,105,55,95,80
-631,Heatmor,Fire,484,85,97,66,105,66,65
-632,Durant,Bug,484,58,109,112,48,48,109
-632,Durant,Steel,484,58,109,112,48,48,109
-633,Deino,Dark,300,52,65,50,45,50,38
-633,Deino,Dragon,300,52,65,50,45,50,38
-634,Zweilous,Dark,420,72,85,70,65,70,58
-634,Zweilous,Dragon,420,72,85,70,65,70,58
-635,Hydreigon,Dark,600,92,105,90,125,90,98
-635,Hydreigon,Dragon,600,92,105,90,125,90,98
-636,Larvesta,Bug,360,55,85,55,50,55,60
-636,Larvesta,Fire,360,55,85,55,50,55,60
-637,Volcarona,Bug,550,85,60,65,135,105,100
-637,Volcarona,Fire,550,85,60,65,135,105,100
-638,Cobalion,Steel,580,91,90,129,90,72,108
-638,Cobalion,Fighting,580,91,90,129,90,72,108
-639,Terrakion,Rock,580,91,129,90,72,90,108
-639,Terrakion,Fighting,580,91,129,90,72,90,108
-640,Virizion,Grass,580,91,90,72,90,129,108
-640,Virizion,Fighting,580,91,90,72,90,129,108
-641,TornadusIncarnate Forme,Flying,580,79,115,70,125,80,111
-641,TornadusTherian Forme,Flying,580,79,100,80,110,90,121
-642,ThundurusIncarnate Forme,Electric,580,79,115,70,125,80,111
-642,ThundurusIncarnate Forme,Flying,580,79,115,70,125,80,111
-642,ThundurusTherian Forme,Electric,580,79,105,70,145,80,101
-642,ThundurusTherian Forme,Flying,580,79,105,70,145,80,101
-643,Reshiram,Dragon,680,100,120,100,150,120,90
-643,Reshiram,Fire,680,100,120,100,150,120,90
-644,Zekrom,Dragon,680,100,150,120,120,100,90
-644,Zekrom,Electric,680,100,150,120,120,100,90
-645,LandorusIncarnate Forme,Ground,600,89,125,90,115,80,101
-645,LandorusIncarnate Forme,Flying,600,89,125,90,115,80,101
-645,LandorusTherian Forme,Ground,600,89,145,90,105,80,91
-645,LandorusTherian Forme,Flying,600,89,145,90,105,80,91
-646,Kyurem,Dragon,660,125,130,90,130,90,95
-646,Kyurem,Ice,660,125,130,90,130,90,95
-646,KyuremBlack Kyurem,Dragon,700,125,170,100,120,90,95
-646,KyuremBlack Kyurem,Ice,700,125,170,100,120,90,95
-646,KyuremWhite Kyurem,Dragon,700,125,120,90,170,100,95
-646,KyuremWhite Kyurem,Ice,700,125,120,90,170,100,95
-647,KeldeoOrdinary Forme,Water,580,91,72,90,129,90,108
-647,KeldeoOrdinary Forme,Fighting,580,91,72,90,129,90,108
-647,KeldeoResolute Forme,Water,580,91,72,90,129,90,108
-647,KeldeoResolute Forme,Fighting,580,91,72,90,129,90,108
-648,MeloettaAria Forme,Normal,600,100,77,77,128,128,90
-648,MeloettaAria Forme,Psychic,600,100,77,77,128,128,90
-648,MeloettaPirouette Forme,Normal,600,100,128,90,77,77,128
-648,MeloettaPirouette Forme,Fighting,600,100,128,90,77,77,128
-649,Genesect,Bug,600,71,120,95,120,95,99
-649,Genesect,Steel,600,71,120,95,120,95,99
-650,Chespin,Grass,313,56,61,65,48,45,38
-651,Quilladin,Grass,405,61,78,95,56,58,57
-652,Chesnaught,Grass,530,88,107,122,74,75,64
-652,Chesnaught,Fighting,530,88,107,122,74,75,64
-653,Fennekin,Fire,307,40,45,40,62,60,60
-654,Braixen,Fire,409,59,59,58,90,70,73
-655,Delphox,Fire,534,75,69,72,114,100,104
-655,Delphox,Psychic,534,75,69,72,114,100,104
-656,Froakie,Water,314,41,56,40,62,44,71
-657,Frogadier,Water,405,54,63,52,83,56,97
-658,Greninja,Water,530,72,95,67,103,71,122
-658,Greninja,Dark,530,72,95,67,103,71,122
-658,GreninjaAsh-Greninja,Water,640,72,145,67,153,71,132
-658,GreninjaAsh-Greninja,Dark,640,72,145,67,153,71,132
-659,Bunnelby,Normal,237,38,36,38,32,36,57
-660,Diggersby,Normal,423,85,56,77,50,77,78
-660,Diggersby,Ground,423,85,56,77,50,77,78
-661,Fletchling,Normal,278,45,50,43,40,38,62
-661,Fletchling,Flying,278,45,50,43,40,38,62
-662,Fletchinder,Fire,382,62,73,55,56,52,84
-662,Fletchinder,Flying,382,62,73,55,56,52,84
-663,Talonflame,Fire,499,78,81,71,74,69,126
-663,Talonflame,Flying,499,78,81,71,74,69,126
-664,Scatterbug,Bug,200,38,35,40,27,25,35
-665,Spewpa,Bug,213,45,22,60,27,30,29
-666,Vivillon,Bug,411,80,52,50,90,50,89
-666,Vivillon,Flying,411,80,52,50,90,50,89
-667,Litleo,Fire,369,62,50,58,73,54,72
-667,Litleo,Normal,369,62,50,58,73,54,72
-668,Pyroar,Fire,507,86,68,72,109,66,106
-668,Pyroar,Normal,507,86,68,72,109,66,106
-669,Flabébé,Fairy,303,44,38,39,61,79,42
-670,Floette,Fairy,371,54,45,47,75,98,52
-671,Florges,Fairy,552,78,65,68,112,154,75
-672,Skiddo,Grass,350,66,65,48,62,57,52
-673,Gogoat,Grass,531,123,100,62,97,81,68
-674,Pancham,Fighting,348,67,82,62,46,48,43
-675,Pangoro,Fighting,495,95,124,78,69,71,58
-675,Pangoro,Dark,495,95,124,78,69,71,58
-676,Furfrou,Normal,472,75,80,60,65,90,102
-677,Espurr,Psychic,355,62,48,54,63,60,68
-678,MeowsticMale,Psychic,466,74,48,76,83,81,104
-678,MeowsticFemale,Psychic,466,74,48,76,83,81,104
-679,Honedge,Steel,325,45,80,100,35,37,28
-679,Honedge,Ghost,325,45,80,100,35,37,28
-680,Doublade,Steel,448,59,110,150,45,49,35
-680,Doublade,Ghost,448,59,110,150,45,49,35
-681,AegislashBlade Forme,Steel,520,60,150,50,150,50,60
-681,AegislashBlade Forme,Ghost,520,60,150,50,150,50,60
-681,AegislashShield Forme,Steel,520,60,50,150,50,150,60
-681,AegislashShield Forme,Ghost,520,60,50,150,50,150,60
-682,Spritzee,Fairy,341,78,52,60,63,65,23
-683,Aromatisse,Fairy,462,101,72,72,99,89,29
-684,Swirlix,Fairy,341,62,48,66,59,57,49
-685,Slurpuff,Fairy,480,82,80,86,85,75,72
-686,Inkay,Dark,288,53,54,53,37,46,45
-686,Inkay,Psychic,288,53,54,53,37,46,45
-687,Malamar,Dark,482,86,92,88,68,75,73
-687,Malamar,Psychic,482,86,92,88,68,75,73
-688,Binacle,Rock,306,42,52,67,39,56,50
-688,Binacle,Water,306,42,52,67,39,56,50
-689,Barbaracle,Rock,500,72,105,115,54,86,68
-689,Barbaracle,Water,500,72,105,115,54,86,68
-690,Skrelp,Poison,320,50,60,60,60,60,30
-690,Skrelp,Water,320,50,60,60,60,60,30
-691,Dragalge,Poison,494,65,75,90,97,123,44
-691,Dragalge,Dragon,494,65,75,90,97,123,44
-692,Clauncher,Water,330,50,53,62,58,63,44
-693,Clawitzer,Water,500,71,73,88,120,89,59
-694,Helioptile,Electric,289,44,38,33,61,43,70
-694,Helioptile,Normal,289,44,38,33,61,43,70
-695,Heliolisk,Electric,481,62,55,52,109,94,109
-695,Heliolisk,Normal,481,62,55,52,109,94,109
-696,Tyrunt,Rock,362,58,89,77,45,45,48
-696,Tyrunt,Dragon,362,58,89,77,45,45,48
-697,Tyrantrum,Rock,521,82,121,119,69,59,71
-697,Tyrantrum,Dragon,521,82,121,119,69,59,71
-698,Amaura,Rock,362,77,59,50,67,63,46
-698,Amaura,Ice,362,77,59,50,67,63,46
-699,Aurorus,Rock,521,123,77,72,99,92,58
-699,Aurorus,Ice,521,123,77,72,99,92,58
-700,Sylveon,Fairy,525,95,65,65,110,130,60
-701,Hawlucha,Fighting,500,78,92,75,74,63,118
-701,Hawlucha,Flying,500,78,92,75,74,63,118
-702,Dedenne,Electric,431,67,58,57,81,67,101
-702,Dedenne,Fairy,431,67,58,57,81,67,101
-703,Carbink,Rock,500,50,50,150,50,150,50
-703,Carbink,Fairy,500,50,50,150,50,150,50
-704,Goomy,Dragon,300,45,50,35,55,75,40
-705,Sliggoo,Dragon,452,68,75,53,83,113,60
-706,Goodra,Dragon,600,90,100,70,110,150,80
-707,Klefki,Steel,470,57,80,91,80,87,75
-707,Klefki,Fairy,470,57,80,91,80,87,75
-708,Phantump,Ghost,309,43,70,48,50,60,38
-708,Phantump,Grass,309,43,70,48,50,60,38
-709,Trevenant,Ghost,474,85,110,76,65,82,56
-709,Trevenant,Grass,474,85,110,76,65,82,56
-710,PumpkabooAverage Size,Ghost,335,49,66,70,44,55,51
-710,PumpkabooAverage Size,Grass,335,49,66,70,44,55,51
-710,PumpkabooSmall Size,Ghost,335,44,66,70,44,55,56
-710,PumpkabooSmall Size,Grass,335,44,66,70,44,55,56
-710,PumpkabooLarge Size,Ghost,335,54,66,70,44,55,46
-710,PumpkabooLarge Size,Grass,335,54,66,70,44,55,46
-710,PumpkabooSuper Size,Ghost,335,59,66,70,44,55,41
-710,PumpkabooSuper Size,Grass,335,59,66,70,44,55,41
-711,GourgeistAverage Size,Ghost,494,65,90,122,58,75,84
-711,GourgeistAverage Size,Grass,494,65,90,122,58,75,84
-711,GourgeistSmall Size,Ghost,494,55,85,122,58,75,99
-711,GourgeistSmall Size,Grass,494,55,85,122,58,75,99
-711,GourgeistLarge Size,Ghost,494,75,95,122,58,75,69
-711,GourgeistLarge Size,Grass,494,75,95,122,58,75,69
-711,GourgeistSuper Size,Ghost,494,85,100,122,58,75,54
-711,GourgeistSuper Size,Grass,494,85,100,122,58,75,54
-712,Bergmite,Ice,304,55,69,85,32,35,28
-713,Avalugg,Ice,514,95,117,184,44,46,28
-714,Noibat,Flying,245,40,30,35,45,40,55
-714,Noibat,Dragon,245,40,30,35,45,40,55
-715,Noivern,Flying,535,85,70,80,97,80,123
-715,Noivern,Dragon,535,85,70,80,97,80,123
-716,Xerneas,Fairy,680,126,131,95,131,98,99
-717,Yveltal,Dark,680,126,131,95,131,98,99
-717,Yveltal,Flying,680,126,131,95,131,98,99
-718,Zygarde50% Forme,Dragon,600,108,100,121,81,95,95
-718,Zygarde50% Forme,Ground,600,108,100,121,81,95,95
-718,Zygarde10% Forme,Dragon,486,54,100,71,61,85,115
-718,Zygarde10% Forme,Ground,486,54,100,71,61,85,115
-718,ZygardeComplete Forme,Dragon,708,216,100,121,91,95,85
-718,ZygardeComplete Forme,Ground,708,216,100,121,91,95,85
-719,Diancie,Rock,600,50,100,150,100,150,50
-719,Diancie,Fairy,600,50,100,150,100,150,50
-719,DiancieMega Diancie,Rock,700,50,160,110,160,110,110
-719,DiancieMega Diancie,Fairy,700,50,160,110,160,110,110
-720,HoopaHoopa Confined,Psychic,600,80,110,60,150,130,70
-720,HoopaHoopa Confined,Ghost,600,80,110,60,150,130,70
-720,HoopaHoopa Unbound,Psychic,680,80,160,60,170,130,80
-720,HoopaHoopa Unbound,Dark,680,80,160,60,170,130,80
-721,Volcanion,Fire,600,80,110,120,130,90,70
-721,Volcanion,Water,600,80,110,120,130,90,70
-722,Rowlet,Grass,320,68,55,55,50,50,42
-722,Rowlet,Flying,320,68,55,55,50,50,42
-723,Dartrix,Grass,420,78,75,75,70,70,52
-723,Dartrix,Flying,420,78,75,75,70,70,52
-724,Decidueye,Grass,530,78,107,75,100,100,70
-724,Decidueye,Ghost,530,78,107,75,100,100,70
-725,Litten,Fire,320,45,65,40,60,40,70
-726,Torracat,Fire,420,65,85,50,80,50,90
-727,Incineroar,Fire,530,95,115,90,80,90,60
-727,Incineroar,Dark,530,95,115,90,80,90,60
-728,Popplio,Water,320,50,54,54,66,56,40
-729,Brionne,Water,420,60,69,69,91,81,50
-730,Primarina,Water,530,80,74,74,126,116,60
-730,Primarina,Fairy,530,80,74,74,126,116,60
-731,Pikipek,Normal,265,35,75,30,30,30,65
-731,Pikipek,Flying,265,35,75,30,30,30,65
-732,Trumbeak,Normal,355,55,85,50,40,50,75
-732,Trumbeak,Flying,355,55,85,50,40,50,75
-733,Toucannon,Normal,485,80,120,75,75,75,60
-733,Toucannon,Flying,485,80,120,75,75,75,60
-734,Yungoos,Normal,253,48,70,30,30,30,45
-735,Gumshoos,Normal,418,88,110,60,55,60,45
-736,Grubbin,Bug,300,47,62,45,55,45,46
-737,Charjabug,Bug,400,57,82,95,55,75,36
-737,Charjabug,Electric,400,57,82,95,55,75,36
-738,Vikavolt,Bug,500,77,70,90,145,75,43
-738,Vikavolt,Electric,500,77,70,90,145,75,43
-739,Crabrawler,Fighting,338,47,82,57,42,47,63
-740,Crabominable,Fighting,478,97,132,77,62,67,43
-740,Crabominable,Ice,478,97,132,77,62,67,43
-741,OricorioBaile Style,Fire,476,75,70,70,98,70,93
-741,OricorioBaile Style,Flying,476,75,70,70,98,70,93
-741,OricorioPom-Pom Style,Electric,476,75,70,70,98,70,93
-741,OricorioPom-Pom Style,Flying,476,75,70,70,98,70,93
-741,OricorioPa'u Style,Psychic,476,75,70,70,98,70,93
-741,OricorioPa'u Style,Flying,476,75,70,70,98,70,93
-741,OricorioSensu Style,Ghost,476,75,70,70,98,70,93
-741,OricorioSensu Style,Flying,476,75,70,70,98,70,93
-742,Cutiefly,Bug,304,40,45,40,55,40,84
-742,Cutiefly,Fairy,304,40,45,40,55,40,84
-743,Ribombee,Bug,464,60,55,60,95,70,124
-743,Ribombee,Fairy,464,60,55,60,95,70,124
-744,Rockruff,Rock,280,45,65,40,30,40,60
-744,RockruffOwn Tempo Rockruff,Rock,280,45,65,40,30,40,60
-745,LycanrocMidday Form,Rock,487,75,115,65,55,65,112
-745,LycanrocMidnight Form,Rock,487,85,115,75,55,75,82
-745,LycanrocDusk Form,Rock,487,75,117,65,55,65,110
-746,WishiwashiSolo Form,Water,175,45,20,20,25,25,40
-746,WishiwashiSchool Form,Water,620,45,140,130,140,135,30
-747,Mareanie,Poison,305,50,53,62,43,52,45
-747,Mareanie,Water,305,50,53,62,43,52,45
-748,Toxapex,Poison,495,50,63,152,53,142,35
-748,Toxapex,Water,495,50,63,152,53,142,35
-749,Mudbray,Ground,385,70,100,70,45,55,45
-750,Mudsdale,Ground,500,100,125,100,55,85,35
-751,Dewpider,Water,269,38,40,52,40,72,27
-751,Dewpider,Bug,269,38,40,52,40,72,27
-752,Araquanid,Water,454,68,70,92,50,132,42
-752,Araquanid,Bug,454,68,70,92,50,132,42
-753,Fomantis,Grass,250,40,55,35,50,35,35
-754,Lurantis,Grass,480,70,105,90,80,90,45
-755,Morelull,Grass,285,40,35,55,65,75,15
-755,Morelull,Fairy,285,40,35,55,65,75,15
-756,Shiinotic,Grass,405,60,45,80,90,100,30
-756,Shiinotic,Fairy,405,60,45,80,90,100,30
-757,Salandit,Poison,320,48,44,40,71,40,77
-757,Salandit,Fire,320,48,44,40,71,40,77
-758,Salazzle,Poison,480,68,64,60,111,60,117
-758,Salazzle,Fire,480,68,64,60,111,60,117
-759,Stufful,Normal,340,70,75,50,45,50,50
-759,Stufful,Fighting,340,70,75,50,45,50,50
-760,Bewear,Normal,500,120,125,80,55,60,60
-760,Bewear,Fighting,500,120,125,80,55,60,60
-761,Bounsweet,Grass,210,42,30,38,30,38,32
-762,Steenee,Grass,290,52,40,48,40,48,62
-763,Tsareena,Grass,510,72,120,98,50,98,72
-764,Comfey,Fairy,485,51,52,90,82,110,100
-765,Oranguru,Normal,490,90,60,80,90,110,60
-765,Oranguru,Psychic,490,90,60,80,90,110,60
-766,Passimian,Fighting,490,100,120,90,40,60,80
-767,Wimpod,Bug,230,25,35,40,20,30,80
-767,Wimpod,Water,230,25,35,40,20,30,80
-768,Golisopod,Bug,530,75,125,140,60,90,40
-768,Golisopod,Water,530,75,125,140,60,90,40
-769,Sandygast,Ghost,320,55,55,80,70,45,15
-769,Sandygast,Ground,320,55,55,80,70,45,15
-770,Palossand,Ghost,480,85,75,110,100,75,35
-770,Palossand,Ground,480,85,75,110,100,75,35
-771,Pyukumuku,Water,410,55,60,130,30,130,5
-772,Type: Null,Normal,534,95,95,95,95,95,59
-773,Silvally,Normal,570,95,95,95,95,95,95
-774,MiniorMeteor Form,Rock,440,60,60,100,60,100,60
-774,MiniorMeteor Form,Flying,440,60,60,100,60,100,60
-774,MiniorCore Form,Rock,500,60,100,60,100,60,120
-774,MiniorCore Form,Flying,500,60,100,60,100,60,120
-775,Komala,Normal,480,65,115,65,75,95,65
-776,Turtonator,Fire,485,60,78,135,91,85,36
-776,Turtonator,Dragon,485,60,78,135,91,85,36
-777,Togedemaru,Electric,435,65,98,63,40,73,96
-777,Togedemaru,Steel,435,65,98,63,40,73,96
-778,Mimikyu,Ghost,476,55,90,80,50,105,96
-778,Mimikyu,Fairy,476,55,90,80,50,105,96
-779,Bruxish,Water,475,68,105,70,70,70,92
-779,Bruxish,Psychic,475,68,105,70,70,70,92
-780,Drampa,Normal,485,78,60,85,135,91,36
-780,Drampa,Dragon,485,78,60,85,135,91,36
-781,Dhelmise,Ghost,517,70,131,100,86,90,40
-781,Dhelmise,Grass,517,70,131,100,86,90,40
-782,Jangmo-o,Dragon,300,45,55,65,45,45,45
-783,Hakamo-o,Dragon,420,55,75,90,65,70,65
-783,Hakamo-o,Fighting,420,55,75,90,65,70,65
-784,Kommo-o,Dragon,600,75,110,125,100,105,85
-784,Kommo-o,Fighting,600,75,110,125,100,105,85
-785,Tapu Koko,Electric,570,70,115,85,95,75,130
-785,Tapu Koko,Fairy,570,70,115,85,95,75,130
-786,Tapu Lele,Psychic,570,70,85,75,130,115,95
-786,Tapu Lele,Fairy,570,70,85,75,130,115,95
-787,Tapu Bulu,Grass,570,70,130,115,85,95,75
-787,Tapu Bulu,Fairy,570,70,130,115,85,95,75
-788,Tapu Fini,Water,570,70,75,115,95,130,85
-788,Tapu Fini,Fairy,570,70,75,115,95,130,85
-789,Cosmog,Psychic,200,43,29,31,29,31,37
-790,Cosmoem,Psychic,400,43,29,131,29,131,37
-791,Solgaleo,Psychic,680,137,137,107,113,89,97
-791,Solgaleo,Steel,680,137,137,107,113,89,97
-792,Lunala,Psychic,680,137,113,89,137,107,97
-792,Lunala,Ghost,680,137,113,89,137,107,97
-793,Nihilego,Rock,570,109,53,47,127,131,103
-793,Nihilego,Poison,570,109,53,47,127,131,103
-794,Buzzwole,Bug,570,107,139,139,53,53,79
-794,Buzzwole,Fighting,570,107,139,139,53,53,79
-795,Pheromosa,Bug,570,71,137,37,137,37,151
-795,Pheromosa,Fighting,570,71,137,37,137,37,151
-796,Xurkitree,Electric,570,83,89,71,173,71,83
-797,Celesteela,Steel,570,97,101,103,107,101,61
-797,Celesteela,Flying,570,97,101,103,107,101,61
-798,Kartana,Grass,570,59,181,131,59,31,109
-798,Kartana,Steel,570,59,181,131,59,31,109
-799,Guzzlord,Dark,570,223,101,53,97,53,43
-799,Guzzlord,Dragon,570,223,101,53,97,53,43
-800,Necrozma,Psychic,600,97,107,101,127,89,79
-800,NecrozmaDusk Mane Necrozma,Psychic,680,97,157,127,113,109,77
-800,NecrozmaDusk Mane Necrozma,Steel,680,97,157,127,113,109,77
-800,NecrozmaDawn Wings Necrozma,Psychic,680,97,113,109,157,127,77
-800,NecrozmaDawn Wings Necrozma,Ghost,680,97,113,109,157,127,77
-800,NecrozmaUltra Necrozma,Psychic,754,97,167,97,167,97,129
-800,NecrozmaUltra Necrozma,Dragon,754,97,167,97,167,97,129
-801,Magearna,Steel,600,80,95,115,130,115,65
-801,Magearna,Fairy,600,80,95,115,130,115,65
-802,Marshadow,Fighting,600,90,125,80,90,90,125
-802,Marshadow,Ghost,600,90,125,80,90,90,125
-803,Poipole,Poison,420,67,73,67,73,67,73
-804,Naganadel,Poison,540,73,73,73,127,73,121
-804,Naganadel,Dragon,540,73,73,73,127,73,121
-805,Stakataka,Rock,570,61,131,211,53,101,13
-805,Stakataka,Steel,570,61,131,211,53,101,13
-806,Blacephalon,Fire,570,53,127,53,151,79,107
-806,Blacephalon,Ghost,570,53,127,53,151,79,107
-807,Zeraora,Electric,600,88,112,75,102,80,143
-808,Meltan,Steel,300,46,65,65,55,35,34
-809,Melmetal,Steel,600,135,143,143,80,65,34
+Number,Name,Types,Species,Legendary,Mythical,Generation,Sprite,Description
+001,Bulbasaur,Grass|Poison,Seed,False,False,1,https://pokeres.bastionbot.org/images/pokemon/1.png,"While it is young, it uses the nutrients that are stored in the seeds on its back in order to grow."
+002,Ivysaur,Grass|Poison,Seed,False,False,1,https://pokeres.bastionbot.org/images/pokemon/2.png,The bulb on its back grows as it absorbs nutrients. The bulb gives off a pleasant aroma when it blooms.
+003,Venusaur,Grass|Poison,Seed,False,False,1,https://pokeres.bastionbot.org/images/pokemon/3.png,"As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance."
+004,Charmander,Fire,Lizard,False,False,1,https://pokeres.bastionbot.org/images/pokemon/4.png,"If it's healthy, the flame on the tip of its tail will burn vigorously, even if it gets a bit wet."
+005,Charmeleon,Fire,Flame,False,False,1,https://pokeres.bastionbot.org/images/pokemon/5.png,"If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings."
+006,Charizard,Fire|Flying,Flame,False,False,1,https://pokeres.bastionbot.org/images/pokemon/6.png,It uses its wings to fly high. The temperature of its fire increases as it gains experience in battle.
+007,Squirtle,Water,Tiny Turtle,False,False,1,https://pokeres.bastionbot.org/images/pokemon/7.png,"When it feels threatened, it draws its legs inside its shell and sprays water from its mouth."
+008,Wartortle,Water,Turtle,False,False,1,https://pokeres.bastionbot.org/images/pokemon/8.png,"Its long, furry tail is a symbol of longevity, making it quite popular among older people."
+009,Blastoise,Water,Shellfish,False,False,1,https://pokeres.bastionbot.org/images/pokemon/9.png,It firmly plants its feet on the ground before shooting water from the jets on its back.
+010,Caterpie,Bug,Worm,False,False,1,https://pokeres.bastionbot.org/images/pokemon/10.png,It crawls into foliage where it camouflages itself among leaves that are the same color as its body.
+011,Metapod,Bug,Cocoon,False,False,1,https://pokeres.bastionbot.org/images/pokemon/11.png,"This is its pre-evolved form. At this stage, it can only harden, so it remains motionless to avoid attack."
+012,Butterfree,Flying|Bug,Butterfly,False,False,1,https://pokeres.bastionbot.org/images/pokemon/12.png,"It flits from flower to flower, collecting honey. It can even identify distant flowers in bloom."
+013,Weedle,Bug|Poison,Hairy Bug,False,False,1,https://pokeres.bastionbot.org/images/pokemon/13.png,The barb on top of its head secretes a strong poison. It uses this toxic barb to protect itself.
+014,Kakuna,Bug|Poison,Cocoon,False,False,1,https://pokeres.bastionbot.org/images/pokemon/14.png,"Nearly incapable of movement, it leans against stout trees while waiting for its evolution."
+015,Beedrill,Bug|Poison,Poison Bee,False,False,1,https://pokeres.bastionbot.org/images/pokemon/15.png,"It uses sharp, poisonous stings to defeat prey, then takes the victim back to its nest for food."
+016,Pidgey,Flying|Normal,Tiny Bird,False,False,1,https://pokeres.bastionbot.org/images/pokemon/16.png,"It rapidly flaps its wings in the grass, stirring up a dust cloud that drives insect prey out into the open."
+017,Pidgeotto,Flying|Normal,Bird,False,False,1,https://pokeres.bastionbot.org/images/pokemon/17.png,"It slowly flies in a circular pattern, all the while keeping a sharp lookout for prey."
+018,Pidgeot,Flying|Normal,Bird,False,False,1,https://pokeres.bastionbot.org/images/pokemon/18.png,"Its outstanding vision allows it to spot splashing MAGIKARP, even while flying at 3300 feet."
+019,Rattata,Normal,Mouse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/19.png,This Pokémon's impressive vitality allows it to live anywhere. It also multiplies very quickly.
+019,RattataAlolan Rattata,Dark|Normal,Mouse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/19.png,This Pokémon's impressive vitality allows it to live anywhere. It also multiplies very quickly.
+020,Raticate,Normal,Mouse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/20.png,The webs on its hind legs enable it to cross rivers. It searches wide areas for food.
+020,RaticateAlolan Raticate,Dark|Normal,Mouse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/20.png,The webs on its hind legs enable it to cross rivers. It searches wide areas for food.
+021,Spearow,Flying|Normal,Tiny Bird,False,False,1,https://pokeres.bastionbot.org/images/pokemon/21.png,"To protect its territory, it flies around ceaselessly, making high-pitched cries."
+022,Fearow,Flying|Normal,Beak,False,False,1,https://pokeres.bastionbot.org/images/pokemon/22.png,"It uses its long beak to attack. It has a surprisingly long reach, so it must be treated with caution."
+023,Ekans,Poison,Snake,False,False,1,https://pokeres.bastionbot.org/images/pokemon/23.png,"It flutters the tip of its tongue to seek out the scent of prey, then swallows the prey whole."
+024,Arbok,Poison,Cobra,False,False,1,https://pokeres.bastionbot.org/images/pokemon/24.png,"To intimidate foes, it spreads its chest wide and makes eerie sounds by expelling air from its mouth."
+025,Pikachu,Electric,Mouse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/25.png,"When it is angered, it immediately discharges the energy stored in the pouches in its cheeks."
+026,Raichu,Electric,Mouse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/26.png,"If its electric pouches run empty, it raises its tail to gather electricity from the atmosphere."
+026,RaichuAlolan Raichu,Psychic|Electric,Mouse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/26.png,"If its electric pouches run empty, it raises its tail to gather electricity from the atmosphere."
+027,Sandshrew,Ground,Mouse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/27.png,"It prefers dry, sandy places because it uses the sand to protect itself when threatened."
+027,SandshrewAlolan Sandshrew,Ice|Steel,Mouse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/27.png,"It prefers dry, sandy places because it uses the sand to protect itself when threatened."
+028,Sandslash,Ground,Mouse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/28.png,"Adept at climbing trees, it rolls into a spiny ball, then attacks its enemies from above."
+028,SandslashAlolan Sandslash,Ice|Steel,Mouse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/28.png,"Adept at climbing trees, it rolls into a spiny ball, then attacks its enemies from above."
+029,Nidoran♀,Poison,Poison Pin,False,False,1,https://pokeres.bastionbot.org/images/pokemon/29.png,"Small and very docile, it protects itself with its small, poisonous horn when attacked."
+030,Nidorina,Poison,Poison Pin,False,False,1,https://pokeres.bastionbot.org/images/pokemon/30.png,"It has a docile nature. If it is threatened with attack, it raises the barbs that are all over its body."
+031,Nidoqueen,Ground|Poison,Drill,False,False,1,https://pokeres.bastionbot.org/images/pokemon/31.png,The hard scales that cover its strong body serve as excellent protection from any attack.
+032,Nidoran♂,Poison,Poison Pin,False,False,1,https://pokeres.bastionbot.org/images/pokemon/32.png,It constantly moves its large ears in many directions in order to detect danger right away.
+033,Nidorino,Poison,Poison Pin,False,False,1,https://pokeres.bastionbot.org/images/pokemon/33.png,It is easily agitated and uses its horn for offense as soon as it notices an attacker.
+034,Nidoking,Ground|Poison,Drill,False,False,1,https://pokeres.bastionbot.org/images/pokemon/34.png,"It uses its thick arms, legs and tail to attack forcefully. Melee combat is its specialty."
+035,Clefairy,Fairy,Fairy,False,False,1,https://pokeres.bastionbot.org/images/pokemon/35.png,"Though rarely seen, it becomes easier to spot, for some reason, on the night of a full moon."
+036,Clefable,Fairy,Fairy,False,False,1,https://pokeres.bastionbot.org/images/pokemon/36.png,"Said to live in quiet, remote mountains, this type of fairy has a strong aversion to being seen."
+037,Vulpix,Fire,Fox,False,False,1,https://pokeres.bastionbot.org/images/pokemon/37.png,"As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur."
+037,VulpixAlolan Vulpix,Ice,Fox,False,False,1,https://pokeres.bastionbot.org/images/pokemon/37.png,"As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur."
+038,Ninetales,Fire,Fox,False,False,1,https://pokeres.bastionbot.org/images/pokemon/38.png,"It is said to live a thousand years, and each of its tails is loaded with supernatural powers."
+038,NinetalesAlolan Ninetales,Ice|Fairy,Fox,False,False,1,https://pokeres.bastionbot.org/images/pokemon/38.png,"It is said to live a thousand years, and each of its tails is loaded with supernatural powers."
+039,Jigglypuff,Normal|Fairy,Balloon,False,False,1,https://pokeres.bastionbot.org/images/pokemon/39.png,It rolls its cute eyes as it sings a soothing lullaby. Its gentle song puts anyone who hears it to sleep.
+040,Wigglytuff,Normal|Fairy,Balloon,False,False,1,https://pokeres.bastionbot.org/images/pokemon/40.png,"The rich, fluffy fur that covers its body feels so good that anyone who feels it can't stop touching it."
+041,Zubat,Flying|Poison,Bat,False,False,1,https://pokeres.bastionbot.org/images/pokemon/41.png,"During the day, it gathers with others and hangs from the ceilings of old buildings and caves."
+042,Golbat,Flying|Poison,Bat,False,False,1,https://pokeres.bastionbot.org/images/pokemon/42.png,"When it plunges its fangs into its prey, it instantly draws and gulps down more than ten ounces of blood."
+043,Oddish,Grass|Poison,Weed,False,False,1,https://pokeres.bastionbot.org/images/pokemon/43.png,"During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight."
+044,Gloom,Grass|Poison,Weed,False,False,1,https://pokeres.bastionbot.org/images/pokemon/44.png,"The smell from its drool-like syrup and the pollen on its petals is so bad, it may make opponents faint."
+045,Vileplume,Grass|Poison,Flower,False,False,1,https://pokeres.bastionbot.org/images/pokemon/45.png,"By shaking its big petals, it scatters toxic pollen into the air, turning the air yellow."
+046,Paras,Grass|Bug,Mushroom,False,False,1,https://pokeres.bastionbot.org/images/pokemon/46.png,The tochukaso growing on this POKéMON's back orders it to extract juice from tree trunks.
+047,Parasect,Grass|Bug,Mushroom,False,False,1,https://pokeres.bastionbot.org/images/pokemon/47.png,"When nothing's left to extract from the bug, the mushrooms on its back leave spores on the bug's egg."
+048,Venonat,Bug|Poison,Insect,False,False,1,https://pokeres.bastionbot.org/images/pokemon/48.png,"The small bugs it eats appear only at night, so it sleeps in a hole in a tree until night falls."
+049,Venomoth,Bug|Poison,Poison Moth,False,False,1,https://pokeres.bastionbot.org/images/pokemon/49.png,"The scales it scatters will paralyze anyone who touches them, making that person unable to stand."
+050,Diglett,Ground,Mole,False,False,1,https://pokeres.bastionbot.org/images/pokemon/50.png,"It digs underground and chews on tree roots, sticking its head out only when the sun isn't bright."
+050,DiglettAlolan Diglett,Ground|Steel,Mole,False,False,1,https://pokeres.bastionbot.org/images/pokemon/50.png,"It digs underground and chews on tree roots, sticking its head out only when the sun isn't bright."
+051,Dugtrio,Ground,Mole,False,False,1,https://pokeres.bastionbot.org/images/pokemon/51.png,These DIGLETT triplets dig over 60 miles below sea level. No one knows what it's like underground.
+051,DugtrioAlolan Dugtrio,Ground|Steel,Mole,False,False,1,https://pokeres.bastionbot.org/images/pokemon/51.png,These DIGLETT triplets dig over 60 miles below sea level. No one knows what it's like underground.
+052,Meowth,Normal,Scratch Cat,False,False,1,https://pokeres.bastionbot.org/images/pokemon/52.png,"It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines too."
+052,MeowthAlolan Meowth,Dark,Scratch Cat,False,False,1,https://pokeres.bastionbot.org/images/pokemon/52.png,"It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines too."
+053,Persian,Normal,Classy Cat,False,False,1,https://pokeres.bastionbot.org/images/pokemon/53.png,"Behind its lithe, elegant appearance lies a barbaric side. It will tear apart its prey on a mere whim."
+053,PersianAlolan Persian,Dark,Classy Cat,False,False,1,https://pokeres.bastionbot.org/images/pokemon/53.png,"Behind its lithe, elegant appearance lies a barbaric side. It will tear apart its prey on a mere whim."
+054,Psyduck,Water,Duck,False,False,1,https://pokeres.bastionbot.org/images/pokemon/54.png,The only time it can use its psychic power is when its sleeping brain cells happen to wake.
+055,Golduck,Water,Duck,False,False,1,https://pokeres.bastionbot.org/images/pokemon/54.png,"It swims gracefully along on the quiet, slow-moving rivers and lakes of which it is so fond."
+056,Mankey,Fighting,Pig Monkey,False,False,1,https://pokeres.bastionbot.org/images/pokemon/56.png,"It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness."
+057,Primeape,Fighting,Pig Monkey,False,False,1,https://pokeres.bastionbot.org/images/pokemon/57.png,"It will beat up anyone who makes it mad, even if it has to chase them until the end of the world."
+058,Growlithe,Fire,Puppy,False,False,1,https://pokeres.bastionbot.org/images/pokemon/58.png,"It controls a big territory. If it detects an unknown smell, it roars loudly to force out the intruder."
+059,Arcanine,Fire,Legendary,False,False,1,https://pokeres.bastionbot.org/images/pokemon/59.png,An ancient picture scroll shows that people were attracted to its movement as it ran through prairies.
+060,Poliwag,Water,Tadpole,False,False,1,https://pokeres.bastionbot.org/images/pokemon/60.png,The swirl on its belly is its insides showing through the skin. It looks clearer after it eats.
+061,Poliwhirl,Water,Tadpole,False,False,1,https://pokeres.bastionbot.org/images/pokemon/61.png,"Though it is skilled at walking, it prefers to live underwater where there is less danger."
+062,Poliwrath,Water|Fighting,Tadpole,False,False,1,https://pokeres.bastionbot.org/images/pokemon/62.png,It can use its well-developed arms and legs to run on the surface of the water for a split second.
+063,Abra,Psychic,Psi,False,False,1,https://pokeres.bastionbot.org/images/pokemon/63.png,"It hypnotizes itself so that it can teleport away when it senses danger, even if it is asleep."
+064,Kadabra,Psychic,Psi,False,False,1,https://pokeres.bastionbot.org/images/pokemon/64.png,"When it closes its eyes, twice as many alpha particles come out of the surface of its body."
+065,Alakazam,Psychic,Psi,False,False,1,https://pokeres.bastionbot.org/images/pokemon/65.png,It has an IQ of 5000. It calculates many things in order to gain the edge in every battle.
+066,Machop,Fighting,Superpower,False,False,1,https://pokeres.bastionbot.org/images/pokemon/66.png,It trains by lifting rocks in the mountains. It can even pick up a GRAVELER with ease.
+067,Machoke,Fighting,Superpower,False,False,1,https://pokeres.bastionbot.org/images/pokemon/67.png,This tough POKéMON always stays in the zone. Its muscles become thicker after every battle.
+068,Machamp,Fighting,Superpower,False,False,1,https://pokeres.bastionbot.org/images/pokemon/68.png,"With four arms that react more quickly than it can think, it can execute many punches at once."
+069,Bellsprout,Grass|Poison,Flower,False,False,1,https://pokeres.bastionbot.org/images/pokemon/69.png,"If it notices anything that moves, it immediately flings its vine at the object."
+070,Weepinbell,Grass|Poison,Flycatcher,False,False,1,https://pokeres.bastionbot.org/images/pokemon/70.png,"When it's hungry, it swings its razor-sharp leaves, slicing up any unlucky object nearby for food."
+071,Victreebel,Grass|Poison,Flycatcher,False,False,1,https://pokeres.bastionbot.org/images/pokemon/71.png,"Once ingested into this POKéMON's body, even the hardest object will melt into nothing."
+072,Tentacool,Water|Poison,Jellyfish,False,False,1,https://pokeres.bastionbot.org/images/pokemon/72.png,"As it floats along on the waves, it uses its toxic feelers to stab anything it touches."
+073,Tentacruel,Water|Poison,Jellyfish,False,False,1,https://pokeres.bastionbot.org/images/pokemon/73.png,"When its 80 feelers absorb water, it stretches to become like a net to entangle its prey."
+074,Geodude,Ground|Rock,Rock,False,False,1,https://pokeres.bastionbot.org/images/pokemon/74.png,"Proud of their sturdy bodies, they bash against each other in a contest to prove whose is harder."
+074,GeodudeAlolan Geodude,Electric|Rock,Rock,False,False,1,https://pokeres.bastionbot.org/images/pokemon/74.png,"Proud of their sturdy bodies, they bash against each other in a contest to prove whose is harder."
+075,Graveler,Ground|Rock,Rock,False,False,1,https://pokeres.bastionbot.org/images/pokemon/75.png,"It travels by rolling on mountain paths. If it gains too much speed, it stops by running into huge rocks."
+075,GravelerAlolan Graveler,Electric|Rock,Rock,False,False,1,https://pokeres.bastionbot.org/images/pokemon/75.png,"It travels by rolling on mountain paths. If it gains too much speed, it stops by running into huge rocks."
+076,Golem,Ground|Rock,Megaton,False,False,1,https://pokeres.bastionbot.org/images/pokemon/76.png,"Its rock-like body is so durable, even high-powered dynamite blasts fail to scratch its rugged hide."
+076,GolemAlolan Golem,Electric|Rock,Megaton,False,False,1,https://pokeres.bastionbot.org/images/pokemon/76.png,"Its rock-like body is so durable, even high-powered dynamite blasts fail to scratch its rugged hide."
+077,Ponyta,Fire,Fire Horse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/77.png,Training by jumping over grass that grows longer every day has made it a world-class jumper.
+078,Rapidash,Fire,Fire Horse,False,False,1,https://pokeres.bastionbot.org/images/pokemon/78.png,"It just loves to gallop. The faster it goes, the longer the swaying flames of its mane will become."
+079,Slowpoke,Water|Psychic,Dopey,False,False,1,https://pokeres.bastionbot.org/images/pokemon/79.png,"It is always so absent-minded that it won't react, even if its flavorful tail is bitten."
+080,Slowbro,Water|Psychic,Hermit Crab,False,False,1,https://pokeres.bastionbot.org/images/pokemon/80.png,An attached SHELLDER won't let go because of the tasty flavor that oozes out of its tail.
+081,Magnemite,Electric|Steel,Magnet,False,False,1,https://pokeres.bastionbot.org/images/pokemon/81.png,The electricity emitted by the units on each side of its body cause it to become a strong magnet.
+082,Magneton,Electric|Steel,Magnet,False,False,1,https://pokeres.bastionbot.org/images/pokemon/82.png,"When many MAGNETON gather together, the resulting magnetic storm disrupts radio waves."
+083,Farfetch'd,Flying|Normal,Wild Duck,False,False,1,https://pokeres.bastionbot.org/images/pokemon/83.png,"In order to prevent their extinction, more people have made an effort to breed these POKéMON."
+084,Doduo,Flying|Normal,Twin Bird,False,False,1,https://pokeres.bastionbot.org/images/pokemon/84.png,"It lives on a grassy plain where it can see a long way. If it sees an enemy, it runs away at 60 mph."
+085,Dodrio,Flying|Normal,Triple Bird,False,False,1,https://pokeres.bastionbot.org/images/pokemon/85.png,An enemy that takes its eyes off any of the three heads--even for a second--will get pecked severely.
+086,Seel,Water,Sea Lion,False,False,1,https://pokeres.bastionbot.org/images/pokemon/86.png,The light blue fur that covers it keeps it protected against the cold. It loves iceberg-filled oceans.
+087,Dewgong,Ice|Water,Sea Lion,False,False,1,https://pokeres.bastionbot.org/images/pokemon/87.png,"It sleeps under shallow ocean waters during the day, then looks for food at night when it's cold."
+088,Grimer,Poison,Sludge,False,False,1,https://pokeres.bastionbot.org/images/pokemon/88.png,"When two of these POKéMON's bodies are combined together, new poisons are created."
+088,GrimerAlolan Grimer,Dark|Poison,Sludge,False,False,1,https://pokeres.bastionbot.org/images/pokemon/88.png,"When two of these POKéMON's bodies are combined together, new poisons are created."
+089,Muk,Poison,Sludge,False,False,1,https://pokeres.bastionbot.org/images/pokemon/89.png,"As it moves, a very strong poison leaks from it, making the ground there barren for three years."
+089,MukAlolan Muk,Dark|Poison,Sludge,False,False,1,https://pokeres.bastionbot.org/images/pokemon/89.png,"As it moves, a very strong poison leaks from it, making the ground there barren for three years."
+090,Shellder,Water,Bivalve,False,False,1,https://pokeres.bastionbot.org/images/pokemon/90.png,"Clamping on to an opponent reveals its vulnerable parts, so it uses this move only as a last resort."
+091,Cloyster,Ice|Water,Bivalve,False,False,1,https://pokeres.bastionbot.org/images/pokemon/91.png,Even a missile can't break the spikes it uses to stab opponents. They're even harder than its shell.
+092,Gastly,Ghost|Poison,Gas,False,False,1,https://pokeres.bastionbot.org/images/pokemon/92.png,"It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin."
+093,Haunter,Ghost|Poison,Gas,False,False,1,https://pokeres.bastionbot.org/images/pokemon/93.png,"It hides in the dark, planning to take the life of the next living thing that wanders close by."
+094,Gengar,Ghost|Poison,Shadow,False,False,1,https://pokeres.bastionbot.org/images/pokemon/94.png,"Hiding in people's shadows at night, it absorbs their heat. The chill it causes makes the victims shake."
+095,Onix,Ground|Rock,Rock Snake,False,False,1,https://pokeres.bastionbot.org/images/pokemon/95.png,"As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid."
+096,Drowzee,Psychic,Hypnosis,False,False,1,https://pokeres.bastionbot.org/images/pokemon/96.png,"When it twitches its nose, it can tell where someone is sleeping and what that person is dreaming about."
+097,Hypno,Psychic,Hypnosis,False,False,1,https://pokeres.bastionbot.org/images/pokemon/97.png,"The longer it swings its pendulum, the longer the effects of its hypnosis last."
+098,Krabby,Water,River Crab,False,False,1,https://pokeres.bastionbot.org/images/pokemon/98.png,"If it is unable to find food, it will absorb nutrients by swallowing a mouthful of sand."
+099,Kingler,Water,Pincer,False,False,1,https://pokeres.bastionbot.org/images/pokemon/99.png,"Its oversized claw is very powerful, but when it's not in battle, the claw just gets in the way."
+100,Voltorb,Electric,Ball,False,False,1,https://pokeres.bastionbot.org/images/pokemon/100.png,"During the study of this POKéMON, it was discovered that its components are not found in nature."
+101,Electrode,Electric,Ball,False,False,1,https://pokeres.bastionbot.org/images/pokemon/101.png,"The more energy it charges up, the faster it gets. But this also makes it more likely to explode."
+102,Exeggcute,Grass|Psychic,Egg,False,False,1,https://pokeres.bastionbot.org/images/pokemon/102.png,"If even one is separated from the group, the energy bond between the six will make them rejoin instantly."
+103,Exeggutor,Grass|Psychic,Coconut,False,False,1,https://pokeres.bastionbot.org/images/pokemon/103.png,Living in a good environment makes it grow lots of heads. A head that drops off becomes an EXEGGCUTE.
+103,ExeggutorAlolan Exeggutor,Grass|Dragon,Coconut,False,False,1,https://pokeres.bastionbot.org/images/pokemon/103.png,Living in a good environment makes it grow lots of heads. A head that drops off becomes an EXEGGCUTE.
+104,Cubone,Ground,Lonely,False,False,1,https://pokeres.bastionbot.org/images/pokemon/104.png,"It lost its mother after its birth. It wears its mother's skull, never revealing its true face."
+105,Marowak,Ground,Bone Keeper,False,False,1,https://pokeres.bastionbot.org/images/pokemon/105.png,Somewhere in the world is a cemetery just for MAROWAK. It gets its bones from those graves.
+105,MarowakAlolan Marowak,Fire|Ghost,Bone Keeper,False,False,1,https://pokeres.bastionbot.org/images/pokemon/105.png,Somewhere in the world is a cemetery just for MAROWAK. It gets its bones from those graves.
+106,Hitmonlee,Fighting,Kicking,False,False,1,https://pokeres.bastionbot.org/images/pokemon/106.png,It is also called the Kick Master. It uses its elastic legs to execute every known kick.
+107,Hitmonchan,Fighting,Punching,False,False,1,https://pokeres.bastionbot.org/images/pokemon/107.png,"To increase the strength of all its punch moves, it spins its arms just before making contact."
+108,Lickitung,Normal,Licking,False,False,1,https://pokeres.bastionbot.org/images/pokemon/108.png,It has a tongue that is over 6’6’’ long. It uses this long tongue to lick its body clean.
+109,Koffing,Poison,Poison Gas,False,False,1,https://pokeres.bastionbot.org/images/pokemon/109.png,"If one gets close enough to it when it expels poisonous gas, the gas swirling inside it can be seen."
+110,Weezing,Poison,Poison Gas,False,False,1,https://pokeres.bastionbot.org/images/pokemon/110.png,"When it inhales poisonous gases from garbage, its body expands, and its insides smell much worse."
+111,Rhyhorn,Ground|Rock,Spikes,False,False,1,https://pokeres.bastionbot.org/images/pokemon/111.png,"It can remember only one thing at a time. Once it starts rushing, it forgets why it started."
+112,Rhydon,Ground|Rock,Spikes,False,False,1,https://pokeres.bastionbot.org/images/pokemon/112.png,"By lightly spinning its drill-like horn, it can easily shatter even a diamond in the rough."
+113,Chansey,Normal,Egg,False,False,1,https://pokeres.bastionbot.org/images/pokemon/113.png,"People try to catch it for its extremely nutritious eggs, but it rarely can be found."
+114,Tangela,Grass,Vine,False,False,1,https://pokeres.bastionbot.org/images/pokemon/114.png,"During battle, it constantly moves the vines that cover its body in order to annoy its opponent."
+115,Kangaskhan,Normal,Parent,False,False,1,https://pokeres.bastionbot.org/images/pokemon/115.png,"To avoid crushing the baby it carries in its pouch, it always sleeps standing up."
+116,Horsea,Water,Dragon,False,False,1,https://pokeres.bastionbot.org/images/pokemon/116.png,"When they're in a safe location, they can be seen playfully tangling their tails together."
+117,Seadra,Water,Dragon,False,False,1,https://pokeres.bastionbot.org/images/pokemon/117.png,"The male raises the young. If it is approached, it uses its toxic spikes to fend off the intruder."
+118,Goldeen,Water,Goldfish,False,False,1,https://pokeres.bastionbot.org/images/pokemon/118.png,"During spawning season, they swim gracefully in the water, searching for their perfect mate."
+119,Seaking,Water,Goldfish,False,False,1,https://pokeres.bastionbot.org/images/pokemon/119.png,"When autumn comes, the males patrol the area around their nests in order to protect their offspring."
+120,Staryu,Water,Star Shape,False,False,1,https://pokeres.bastionbot.org/images/pokemon/120.png,"When the stars twinkle at night, it floats up from the sea floor, and its body's center core flickers."
+121,Starmie,Water|Psychic,Star Shape,False,False,1,https://pokeres.bastionbot.org/images/pokemon/121.png,It is said that it uses the seven-colored core of its body to send electric waves into outer space.
+122,Mr. Mime,Psychic|Fairy,Barrier,False,False,1,https://pokeres.bastionbot.org/images/pokemon/122.png,It uses the mysterious power it has in its fingers to solidify air into an invisible wall.
+123,Scyther,Flying|Bug,Mantis,False,False,1,https://pokeres.bastionbot.org/images/pokemon/123.png,It's very proud of its speed. It moves so fast that its opponent does not even know what knocked it down.
+124,Jynx,Ice|Psychic,Human Shape,False,False,1,https://pokeres.bastionbot.org/images/pokemon/124.png,"It has several different cry patterns, each of which seems to have its own meaning."
+125,Electabuzz,Electric,Electric,False,False,1,https://pokeres.bastionbot.org/images/pokemon/125.png,"When two ELECTABUZZ touch, they control the electric currents to communicate their feelings."
+126,Magmar,Fire,Spitfire,False,False,1,https://pokeres.bastionbot.org/images/pokemon/126.png,It moves more frequently in hot areas. It can heal itself by dipping its wound into lava.
+127,Pinsir,Bug,Stag Beetle,False,False,1,https://pokeres.bastionbot.org/images/pokemon/127.png,"When the temperature drops at night, it sleeps on treetops or among roots where it is well hidden."
+128,Tauros,Normal,Wild Bull,False,False,1,https://pokeres.bastionbot.org/images/pokemon/128.png,These violent POKéMON fight with other members of their herd in order to prove their strength.
+129,Magikarp,Water,Fish,False,False,1,https://pokeres.bastionbot.org/images/pokemon/129.png,This weak and pathetic POKéMON gets easily pushed along rivers when there are strong currents.
+130,Gyarados,Flying|Water,Atrocious,False,False,1,https://pokeres.bastionbot.org/images/pokemon/130.png,"It appears whenever there is world conflict, burning down any place it travels through."
+131,Lapras,Ice|Water,Transport,False,False,1,https://pokeres.bastionbot.org/images/pokemon/131.png,This gentle POKéMON loves to give people rides and provides a very comfortable way to get around.
+132,Ditto,Normal,Transform,False,False,1,https://pokeres.bastionbot.org/images/pokemon/132.png,"When it encounters another DITTO, it will move faster than normal to duplicate that opponent exactly."
+133,Eevee,Normal,Evolution,False,False,1,https://pokeres.bastionbot.org/images/pokemon/133.png,Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.
+134,Vaporeon,Water,Bubble Jet,False,False,1,https://pokeres.bastionbot.org/images/pokemon/134.png,"As it uses the fins on the tip of its tail to swim, it blends with the water perfectly."
+135,Jolteon,Electric,Lightning,False,False,1,https://pokeres.bastionbot.org/images/pokemon/135.png,The negatively charged ions generated in its fur create a constant sparking noise.
+136,Flareon,Fire,Flame,False,False,1,https://pokeres.bastionbot.org/images/pokemon/136.png,"Once it has stored up enough heat, this POKéMON's body temperature can reach up to 1700 degrees."
+137,Porygon,Normal,Virtual,False,False,1,https://pokeres.bastionbot.org/images/pokemon/137.png,"An artificial POKéMON created due to extensive research, it can perform only what is in its program."
+138,Omanyte,Water|Rock,Spiral,False,False,1,https://pokeres.bastionbot.org/images/pokemon/138.png,"In prehistoric times, it swam on the sea floor, eating plankton. Its fossils are sometimes found."
+139,Omastar,Water|Rock,Spiral,False,False,1,https://pokeres.bastionbot.org/images/pokemon/139.png,Its heavy shell allowed it to reach only nearby food. This could be the reason it is extinct.
+140,Kabuto,Water|Rock,Shellfish,False,False,1,https://pokeres.bastionbot.org/images/pokemon/140.png,"Three hundred million years ago, it hid on the sea floor. It also has eyes on its back that glow."
+141,Kabutops,Water|Rock,Shellfish,False,False,1,https://pokeres.bastionbot.org/images/pokemon/141.png,It was able to swim quickly through the water by compactly folding up its razor-sharp sickles.
+142,Aerodactyl,Flying|Rock,Fossil,False,False,1,https://pokeres.bastionbot.org/images/pokemon/142.png,"In prehistoric times, this POKéMON flew freely and fearlessly through the skies."
+143,Snorlax,Normal,Sleeping,False,False,1,https://pokeres.bastionbot.org/images/pokemon/143.png,"This POKéMON's stomach is so strong, even eating moldy or rotten food will not affect it."
+144,Articuno,Flying|Ice,Freeze,True,False,1,https://pokeres.bastionbot.org/images/pokemon/144.png,"Legendary bird POKéMON. As it flies through the sky, it cools the air, causing snow to fall."
+145,Zapdos,Flying|Electric,Electric,True,False,1,https://pokeres.bastionbot.org/images/pokemon/145.png,Legendary bird POKéMON. They say lightning caused by the flapping of its wings causes summer storms.
+146,Moltres,Fire|Flying,Flame,True,False,1,https://pokeres.bastionbot.org/images/pokemon/146.png,Legendary bird POKéMON. It is said to migrate from the south along with the spring.
+147,Dratini,Dragon,Dragon,False,False,1,https://pokeres.bastionbot.org/images/pokemon/147.png,"It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall."
+148,Dragonair,Dragon,Dragon,False,False,1,https://pokeres.bastionbot.org/images/pokemon/148.png,"It is called the divine POKéMON. When its entire body brightens slightly, the weather changes."
+149,Dragonite,Flying|Dragon,Dragon,False,False,1,https://pokeres.bastionbot.org/images/pokemon/149.png,It is said that somewhere in the ocean lies an island where these gather. Only they live there.
+150,Mewtwo,Psychic,Genetic,True,False,1,https://pokeres.bastionbot.org/images/pokemon/150.png,"Said to rest quietly in an undiscovered cave, this POKéMON was created solely for battling."
+151,Mew,Psychic,New Species,False,True,1,https://pokeres.bastionbot.org/images/pokemon/151.png,"Because it can learn any move, some people began research to see if it is the ancestor of all POKéMON."
+152,Chikorita,Grass,Leaf,False,False,2,https://pokeres.bastionbot.org/images/pokemon/152.png,It loves to bask in the sunlight. It uses the leaf on its head to seek out warm places.
+153,Bayleef,Grass,Leaf,False,False,2,https://pokeres.bastionbot.org/images/pokemon/153.png,The scent that wafts from the leaves on its neck causes anyone who smells it to become energetic.
+154,Meganium,Grass,Herb,False,False,2,https://pokeres.bastionbot.org/images/pokemon/154.png,"Anyone who stands beside it becomes refreshed, just as if they were relaxing in a sunny forest."
+155,Cyndaquil,Fire,Fire Mouse,False,False,2,https://pokeres.bastionbot.org/images/pokemon/155.png,The fire that spouts from its back burns hottest when it is angry. The flaring flames intimidate foes.
+156,Quilava,Fire,Volcano,False,False,2,https://pokeres.bastionbot.org/images/pokemon/156.png,"Before battle, it turns its back on its opponent to demonstrate how ferociously its fire blazes."
+157,Typhlosion,Fire,Volcano,False,False,2,https://pokeres.bastionbot.org/images/pokemon/157.png,"When heat from its body causes the air around it to shimmer, this is a sign that it is ready to battle."
+158,Totodile,Water,Big Jaw,False,False,2,https://pokeres.bastionbot.org/images/pokemon/158.png,This rough critter chomps at any moving object it sees. Turning your back on it is not recommended.
+159,Croconaw,Water,Big Jaw,False,False,2,https://pokeres.bastionbot.org/images/pokemon/159.png,"The tips of its fangs are slanted backward. Once those fangs clamp down, the prey has no hope of escape."
+160,Feraligatr,Water,Big Jaw,False,False,2,https://pokeres.bastionbot.org/images/pokemon/160.png,"Although it has a massive body, its powerful hind legs enable it to move quickly, even on the ground."
+161,Sentret,Normal,Scout,False,False,2,https://pokeres.bastionbot.org/images/pokemon/161.png,"When acting as a lookout, it warns others of danger by screeching and hitting the ground with its tail."
+162,Furret,Normal,Long Body,False,False,2,https://pokeres.bastionbot.org/images/pokemon/162.png,"It lives in narrow burrows that fit its slim body. The deeper the nests go, the more mazelike they become."
+163,Hoothoot,Flying|Normal,Owl,False,False,2,https://pokeres.bastionbot.org/images/pokemon/163.png,It begins to hoot at the same time every day. Some trainers use them in place of clocks.
+164,Noctowl,Flying|Normal,Owl,False,False,2,https://pokeres.bastionbot.org/images/pokemon/164.png,Its extremely soft feathers make no sound in flight. It silently sneaks up on prey without being detected.
+165,Ledyba,Flying|Bug,Five Star,False,False,2,https://pokeres.bastionbot.org/images/pokemon/165.png,It is timid and clusters together with others. The fluid secreted by its feet indicates its location.
+166,Ledian,Flying|Bug,Five Star,False,False,2,https://pokeres.bastionbot.org/images/pokemon/166.png,"In the daytime when it gets warm, it curls up inside a big leaf and drifts off into a deep slumber."
+167,Spinarak,Bug|Poison,String Spit,False,False,2,https://pokeres.bastionbot.org/images/pokemon/167.png,"If prey becomes ensnared in its nest of spun string, it waits motionlessly until it becomes dark."
+168,Ariados,Bug|Poison,Long Leg,False,False,2,https://pokeres.bastionbot.org/images/pokemon/168.png,"Rather than making a nest in one specific spot, it wanders in search of food after darkness falls."
+169,Crobat,Flying|Poison,Bat,False,False,2,https://pokeres.bastionbot.org/images/pokemon/169.png,"As a result of its pursuit of faster, yet more silent flight, a new set of wings grew on its hind legs."
+170,Chinchou,Water|Electric,Angler,False,False,2,https://pokeres.bastionbot.org/images/pokemon/170.png,"Its antennae, which evolved from a fin, have both positive and negative charges flowing through them."
+171,Lanturn,Water|Electric,Light,False,False,2,https://pokeres.bastionbot.org/images/pokemon/171.png,"This POKéMON uses the bright part of its body, which changed from a dorsal fin, to lure prey."
+172,Pichu,Electric,Tiny Mouse,False,False,2,https://pokeres.bastionbot.org/images/pokemon/172.png,It is unskilled at storing electric power. Any kind of shock causes it to discharge energy spontaneously.
+173,Cleffa,Fairy,Star Shape,False,False,2,https://pokeres.bastionbot.org/images/pokemon/173.png,"If the impact site of a meteorite is found, this POKéMON is certain to be within the immediate area."
+174,Igglybuff,Normal|Fairy,Balloon,False,False,2,https://pokeres.bastionbot.org/images/pokemon/174.png,"Instead of walking with its short legs, it moves around by bouncing on its soft, tender body."
+175,Togepi,Fairy,Spike Ball,False,False,2,https://pokeres.bastionbot.org/images/pokemon/175.png,It is considered to be a symbol of good luck. Its shell is said to be filled with happiness.
+176,Togetic,Flying|Fairy,Happiness,False,False,2,https://pokeres.bastionbot.org/images/pokemon/176.png,"Although it does not flap its wings very much, it can stay up in the air as it tags along after its trainer."
+177,Natu,Flying|Psychic,Tiny Bird,False,False,2,https://pokeres.bastionbot.org/images/pokemon/177.png,It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees.
+178,Xatu,Flying|Psychic,Mystic,False,False,2,https://pokeres.bastionbot.org/images/pokemon/178.png,"Once it begins to meditate at sunrise, the entire day will pass before it will move again."
+179,Mareep,Electric,Wool,False,False,2,https://pokeres.bastionbot.org/images/pokemon/179.png,"It stores lots of air in its soft fur, allowing it to stay cool in summer and warm in winter."
+180,Flaaffy,Electric,Wool,False,False,2,https://pokeres.bastionbot.org/images/pokemon/180.png,"Because of its rubbery, electricity-resistant skin, it can store lots of electricity in its fur."
+181,Ampharos,Electric,Light,False,False,2,https://pokeres.bastionbot.org/images/pokemon/181.png,"When it gets dark, the light from its bright, shiny tail can be seen from far away on the ocean's surface."
+182,Bellossom,Grass,Flower,False,False,2,https://pokeres.bastionbot.org/images/pokemon/182.png,"When these dance together, their petals rub against each other, making pretty, relaxing sounds."
+183,Marill,Water|Fairy,Aqua Mouse,False,False,2,https://pokeres.bastionbot.org/images/pokemon/183.png,"The fur on its body naturally repels water. It can stay dry, even when it plays in the water."
+184,Azumarill,Water|Fairy,Aqua Rabbit,False,False,2,https://pokeres.bastionbot.org/images/pokemon/184.png,The bubble-like pattern on its stomach helps it camouflage itself when it's in the water.
+185,Sudowoodo,Rock,Imitation,False,False,2,https://pokeres.bastionbot.org/images/pokemon/185.png,"If a tree branch shakes when there is no wind, it's a SUDOWOODO, not a tree. It hides from the rain."
+186,Politoed,Water,Frog,False,False,2,https://pokeres.bastionbot.org/images/pokemon/186.png,"When it expands its throat to croak out a tune, nearby POLIWAG and POLIWHIRL gather immediately."
+187,Hoppip,Flying|Grass,Cottonweed,False,False,2,https://pokeres.bastionbot.org/images/pokemon/187.png,It can be carried away on even the gentlest breeze. It may even float all the way to the next town.
+188,Skiploom,Flying|Grass,Cottonweed,False,False,2,https://pokeres.bastionbot.org/images/pokemon/188.png,"As soon as it rains, it closes its flower and hides in the shade of a tree to avoid getting wet."
+189,Jumpluff,Flying|Grass,Cottonweed,False,False,2,https://pokeres.bastionbot.org/images/pokemon/189.png,"Even in the fiercest wind, it can control its fluff to make its way to any place in the world it wants."
+190,Aipom,Normal,Long Tail,False,False,2,https://pokeres.bastionbot.org/images/pokemon/190.png,It uses its tail to hang on to tree branches. It uses its momentum to swing from one branch to another.
+191,Sunkern,Grass,Seed,False,False,2,https://pokeres.bastionbot.org/images/pokemon/191.png,It is very weak. Its only means of defense is to shake its leaves desperately at its attacker.
+192,Sunflora,Grass,Sun,False,False,2,https://pokeres.bastionbot.org/images/pokemon/192.png,"As the hot season approaches, the petals on this POKéMON's face become more vivid and lively."
+193,Yanma,Flying|Bug,Clear Wing,False,False,2,https://pokeres.bastionbot.org/images/pokemon/193.png,"It can see in all directions without moving its big eyes, helping it spot attackers and food right away"
+194,Wooper,Ground|Water,Water Fish,False,False,2,https://pokeres.bastionbot.org/images/pokemon/194.png,A mucous membrane covers its body. Touching it barehanded will cause a shooting pain.
+195,Quagsire,Ground|Water,Water Fish,False,False,2,https://pokeres.bastionbot.org/images/pokemon/195.png,Its body is always slimy. It often bangs its head on the river bottom as it swims but seems not to care.
+196,Espeon,Psychic,Sun,False,False,2,https://pokeres.bastionbot.org/images/pokemon/196.png,The tip of its forked tail quivers when it is predicting its opponent's next move.
+197,Umbreon,Dark,Moonlight,False,False,2,https://pokeres.bastionbot.org/images/pokemon/197.png,"On the night of a full moon, or when it gets excited, the ring patterns on its body glow yellow."
+198,Murkrow,Flying|Dark,Darkness,False,False,2,https://pokeres.bastionbot.org/images/pokemon/198.png,It hides any shiny object it finds in a secret location. MURKROW and MEOWTH loot one another's stashes.
+199,Slowking,Water|Psychic,Royal,False,False,2,https://pokeres.bastionbot.org/images/pokemon/199.png,"Every time it yawns, SHELLDER injects more poison into it. The poison makes it more intelligent."
+200,Misdreavus,Ghost,Screech,False,False,2,https://pokeres.bastionbot.org/images/pokemon/200.png,It loves to watch people it's scared. It frightens them by screaming loudly or appearing suddenly.
+201,Unown,Psychic,Symbol,False,False,2,https://pokeres.bastionbot.org/images/pokemon/201.png,"Because different types of UNOWN exist, it is said that they must have a variety of abilities."
+202,Wobbuffet,Psychic,Patient,False,False,2,https://pokeres.bastionbot.org/images/pokemon/202.png,"In order to conceal its black tail, it lives in a dark cave and only moves about at night."
+203,Girafarig,Psychic|Normal,Long Neck,False,False,2,https://pokeres.bastionbot.org/images/pokemon/203.png,"When it is in danger, its tail uses some sort of mysterious powers to drive away the enemy."
+204,Pineco,Bug,Bagworm,False,False,2,https://pokeres.bastionbot.org/images/pokemon/204.png,It spits out a fluid that it uses to glue tree bark to its body. The fluid hardens when it touches air.
+205,Forretress,Steel|Bug,Bagworm,False,False,2,https://pokeres.bastionbot.org/images/pokemon/205.png,Usually found hanging on to a fat tree trunk. It shoots out bits of its shell when it sees action.
+206,Dunsparce,Normal,Land Snake,False,False,2,https://pokeres.bastionbot.org/images/pokemon/206.png,It hides deep inside caves where no light ever reaches it and remains virtually motionless there.
+207,Gligar,Flying|Ground,Fly Scorpion,False,False,2,https://pokeres.bastionbot.org/images/pokemon/207.png,"It builds its nest on a steep cliff. When it is done gliding, it hops along the ground back to its nest."
+208,Steelix,Ground|Steel,Iron Snake,False,False,2,https://pokeres.bastionbot.org/images/pokemon/208.png,The many small metal particles that cover this POKéMON's body reflect bright light well.
+209,Snubbull,Fairy,Fairy,False,False,2,https://pokeres.bastionbot.org/images/pokemon/209.png,"In truth, it is a cowardly POKéMON. It growls eagerly in order to hide its fear from its opponent."
+210,Granbull,Fairy,Fairy,False,False,2,https://pokeres.bastionbot.org/images/pokemon/210.png,It can make most any POKéMON run away simply by opening its mouth wide to reveal its big fangs.
+211,Qwilfish,Water|Poison,Balloon,False,False,2,https://pokeres.bastionbot.org/images/pokemon/211.png,"When faced with a larger opponent, it swallows as much water as it can to match the opponent's size."
+212,Scizor,Steel|Bug,Pincer,False,False,2,https://pokeres.bastionbot.org/images/pokemon/212.png,"This POKéMON's pincers, which contain steel, can crush any hard object it gets a hold of into bits."
+213,Shuckle,Bug|Rock,Mold,False,False,2,https://pokeres.bastionbot.org/images/pokemon/213.png,The fluid secreted by its toes carves holes in rocks for nesting and can be mixed with BERRIES to make a drink.
+214,Heracross,Fighting|Bug,Single Horn,False,False,2,https://pokeres.bastionbot.org/images/pokemon/214.png,"With its Herculean powers, it can easily throw around an object that is 100 times its own weight."
+215,Sneasel,Dark|Ice,Sharp Claw,False,False,2,https://pokeres.bastionbot.org/images/pokemon/215.png,"This cunning POKéMON hides under the cover of darkness, waiting to attack its prey."
+216,Teddiursa,Normal,Little Bear,False,False,2,https://pokeres.bastionbot.org/images/pokemon/216.png,It always licks honey. Its palm tastes sweet because of all the honey it has absorbed.
+217,Ursaring,Normal,Hibernator,False,False,2,https://pokeres.bastionbot.org/images/pokemon/217.png,"Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
+218,Slugma,Fire,Lava,False,False,2,https://pokeres.bastionbot.org/images/pokemon/218.png,"These group together in areas that are hotter than normal. If it cools off, its skin hardens."
+219,Magcargo,Fire|Rock,Lava,False,False,2,https://pokeres.bastionbot.org/images/pokemon/219.png,Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell.
+220,Swinub,Ice|Ground,Ping,False,False,2,https://pokeres.bastionbot.org/images/pokemon/220.png,It uses the tip of its nose to dig for food. Its nose is so tough that even frozen ground poses no problem.
+221,Piloswine,Ice|Ground,Swine,False,False,2,https://pokeres.bastionbot.org/images/pokemon/221.png,"Although its legs are short, its rugged hooves prevent it from slipping, even on icy ground."
+222,Corsola,Water|Rock,Coral,False,False,2,https://pokeres.bastionbot.org/images/pokemon/222.png,The points on its head absorb nutrients from clean water. They cannot survive in polluted water.
+223,Remoraid,Water,Jet,False,False,2,https://pokeres.bastionbot.org/images/pokemon/223.png,"To escape from an attacker, it may shoot water out of its mouth, then use that force to swim backward."
+224,Octillery,Water,Jet,False,False,2,https://pokeres.bastionbot.org/images/pokemon/224.png,Its instinct is to bury itself in holes. It often steals the nesting holes of others to sleep in them.
+225,Delibird,Flying|Ice,Delivery,False,False,2,https://pokeres.bastionbot.org/images/pokemon/225.png,"It always carries its food with it, wherever it goes. If attacked, it throws its food at the opponent."
+226,Mantine,Flying|Water,Kite,False,False,2,https://pokeres.bastionbot.org/images/pokemon/226.png,"It swims along freely, eating things that swim into its mouth. Its whole body is very coarse."
+227,Skarmory,Flying|Steel,Armor Bird,False,False,2,https://pokeres.bastionbot.org/images/pokemon/227.png,The feathers that it sheds are very sharp. It is said that people once used the feathers as swords.
+228,Houndour,Fire|Dark,Dark,False,False,2,https://pokeres.bastionbot.org/images/pokemon/228.png,"Around dawn, its ominous howl echoes through the area to announce that this is its territory."
+229,Houndoom,Fire|Dark,Dark,False,False,2,https://pokeres.bastionbot.org/images/pokemon/229.png,The pungent-smelling flame that shoots from its mouth results from toxins burning in its body.
+230,Kingdra,Water|Dragon,Dragon,False,False,2,https://pokeres.bastionbot.org/images/pokemon/230.png,It stores energy by sleeping at underwater depths at which no other life forms can survive.
+231,Phanpy,Ground,Long Nose,False,False,2,https://pokeres.bastionbot.org/images/pokemon/231.png,"During the deserted morning hours, it comes ashore where it deftly uses its trunk to take a shower."
+232,Donphan,Ground,Armor,False,False,2,https://pokeres.bastionbot.org/images/pokemon/232.png,"Because this POKéMON's skin is so tough, a normal attack won't even leave a scratch on it."
+233,Porygon2,Normal,Virtual,False,False,2,https://pokeres.bastionbot.org/images/pokemon/233.png,This manmade POKéMON evolved from the latest technology. It may have unprogrammed reactions.
+234,Stantler,Normal,Big Horn,False,False,2,https://pokeres.bastionbot.org/images/pokemon/234.png,The round balls found on the fallen antlers can be ground into a powder that aids in sleeping.
+235,Smeargle,Normal,Painter,False,False,2,https://pokeres.bastionbot.org/images/pokemon/235.png,The color of the mysterious fluid secreted from its tail is predetermined for each SMEARGLE.
+236,Tyrogue,Fighting,Scuffle,False,False,2,https://pokeres.bastionbot.org/images/pokemon/236.png,"To brush up on its fighting skills, it will challenge anyone. It has a very strong competitive spirit."
+237,Hitmontop,Fighting,Handstand,False,False,2,https://pokeres.bastionbot.org/images/pokemon/237.png,"After doing a handstand to throw off the opponent's timing, it presents its fancy kick moves."
+238,Smoochum,Ice|Psychic,Kiss,False,False,2,https://pokeres.bastionbot.org/images/pokemon/238.png,The sensitivity of its lips develops most quickly. It uses them to try to identify unknown objects.
+239,Elekid,Electric,Electric,False,False,2,https://pokeres.bastionbot.org/images/pokemon/239.png,It loves violent thunder. The space between its horns flickers bluish-white when it is charging energy.
+240,Magby,Fire,Live Coal,False,False,2,https://pokeres.bastionbot.org/images/pokemon/240.png,"It naturally spits an 1100-degree flame. It is said when many appear, it heralds a volcanic eruption."
+241,Miltank,Normal,Milk Cow,False,False,2,https://pokeres.bastionbot.org/images/pokemon/241.png,"In order to milk a MILTANK, one must have a knack for rhythmically pulling up and down on its udders."
+242,Blissey,Normal,Happiness,False,False,2,https://pokeres.bastionbot.org/images/pokemon/242.png,Biting into one of the delicious eggs that BLISSEY provides will make everyone around smile with joy.
+243,Raikou,Electric,Thunder,True,False,2,https://pokeres.bastionbot.org/images/pokemon/243.png,"This rough POKéMON stores energy inside its body, then sweeps across the land, shooting off electricity."
+244,Entei,Fire,Volcano,True,False,2,https://pokeres.bastionbot.org/images/pokemon/244.png,"This brawny POKéMON courses around the earth, spouting flames hotter than a volcano's magma."
+245,Suicune,Water,Aurora,True,False,2,https://pokeres.bastionbot.org/images/pokemon/245.png,"This divine POKéMON blows around the world, always in search of a pure reservoir."
+246,Larvitar,Ground|Rock,Rock Skin,False,False,2,https://pokeres.bastionbot.org/images/pokemon/246.png,"Born deep underground, this POKéMON becomes a pupa after eating enough dirt to make a mountain."
+247,Pupitar,Ground|Rock,Hard Shell,False,False,2,https://pokeres.bastionbot.org/images/pokemon/247.png,"It will not stay still, even while it's a pupa. It already has arms and legs under its solid shell."
+248,Tyranitar,Dark|Rock,Armor,False,False,2,https://pokeres.bastionbot.org/images/pokemon/248.png,"In just one of its mighty hands, it has the power to make the ground shake and mountains crumble."
+249,Lugia,Flying|Psychic,Diving,True,False,2,https://pokeres.bastionbot.org/images/pokemon/249.png,It has an incredible ability to calm raging storms. It is said that LUGIA appears when storms start.
+250,Ho-oh,Fire|Flying,Rainbow,True,False,2,https://pokeres.bastionbot.org/images/pokemon/250.png,It will reveal itself before a pure-hearted trainer by shining its bright rainbow-colored wings.
+251,Celebi,Grass|Psychic,Time Travel,False,True,2,https://pokeres.bastionbot.org/images/pokemon/251.png,"Revered as a guardian of the forest, CELEBI appears wherever beautiful forests exist."
+252,Treecko,Grass,Wood Gecko,False,False,3,https://pokeres.bastionbot.org/images/pokemon/252.png,"TREECKO is cool, calm, and collected - it never panics under any situation. If a bigger foe were to glare at this POKéMON, it would glare right back without conceding an inch of ground."
+253,Grovyle,Grass,Wood Gecko,False,False,3,https://pokeres.bastionbot.org/images/pokemon/253.png,The leaves growing out of GROVYLE’s body are convenient for camouflaging it from enemies in the forest. This POKéMON is a master at climbing trees in jungles.
+254,Sceptile,Grass,Forest,False,False,3,https://pokeres.bastionbot.org/images/pokemon/254.png,The leaves growing on SCEPTILE’s body are very sharp edged. This POKéMON is very agile - it leaps all over the branches of trees and jumps on its foe from above or behind.
+255,Torchic,Fire,Chick,False,False,3,https://pokeres.bastionbot.org/images/pokemon/255.png,"TORCHIC sticks with its TRAINER, following behind with unsteady steps. This POKéMON breathes fire of over 1,800 degrees F, including fireballs that leave the foe scorched black."
+256,Combusken,Fire|Fighting,Young Fowl,False,False,3,https://pokeres.bastionbot.org/images/pokemon/256.png,"COMBUSKEN toughens up its legs and thighs by running through fields and mountains. This POKéMON’s legs possess both speed and power, enabling it to dole out ten kicks in one second."
+257,Blaziken,Fire|Fighting,Blaze,False,False,3,https://pokeres.bastionbot.org/images/pokemon/257.png,"In battle, BLAZIKEN blows out intense flames from its wrists and attacks foes courageously. The stronger the foe, the more intensely this POKéMON’s wrists burn."
+258,Mudkip,Water,Mud Fish,False,False,3,https://pokeres.bastionbot.org/images/pokemon/258.png,"The fin on MUDKIP’s head acts as highly sensitive radar. Using this fin to sense movements of water and air, this POKéMON can determine what is taking place around it without using its eyes."
+259,Marshtomp,Ground|Water,Mud Fish,False,False,3,https://pokeres.bastionbot.org/images/pokemon/259.png,"The surface of MARSHTOMP’s body is enveloped by a thin, sticky film that enables it to live on land. This POKéMON plays in mud on beaches when the ocean tide is low."
+260,Swampert,Ground|Water,Mud Fish,False,False,3,https://pokeres.bastionbot.org/images/pokemon/260.png,SWAMPERT is very strong. It has enough power to easily drag a boulder weighing more than a ton. This POKéMON also has powerful vision that lets it see even in murky water.
+261,Poochyena,Dark,Bite,False,False,3,https://pokeres.bastionbot.org/images/pokemon/261.png,POOCHYENA is an omnivore - it will eat anything. A distinguishing feature is how large its fangs are compared to its body. This POKéMON tries to intimidate its foes by making the hair on its tail bristle out.
+262,Mightyena,Dark,Bite,False,False,3,https://pokeres.bastionbot.org/images/pokemon/262.png,MIGHTYENA gives obvious signals when it is preparing to attack. It starts to growl deeply and then flattens its body. This POKéMON will bite savagely with its sharply pointed fangs.
+263,Zigzagoon,Normal,Tiny Raccoon,False,False,3,https://pokeres.bastionbot.org/images/pokemon/263.png,ZIGZAGOON restlessly wanders everywhere at all times. This POKéMON does so because it is very curious. It becomes interested in anything that it happens to see.
+264,Linoone,Normal,Rushing,False,False,3,https://pokeres.bastionbot.org/images/pokemon/264.png,"LINOONE always runs full speed and only in straight lines. If facing an obstacle, it makes a right-angle turn to evade it. This POKéMON is very challenged by gently curving roads."
+265,Wurmple,Bug,Worm,False,False,3,https://pokeres.bastionbot.org/images/pokemon/265.png,"Using the spikes on its rear end, WURMPLE peels the bark off trees and feeds on the sap that oozes out. This POKéMON’s feet are tipped with suction pads that allow it to cling to glass without slipping."
+266,Silcoon,Bug,Cocoon,False,False,3,https://pokeres.bastionbot.org/images/pokemon/266.png,"SILCOON tethers itself to a tree branch using silk to keep from falling. There, this POKéMON hangs quietly while it awaits evolution. It peers out of the silk cocoon through a small hole."
+267,Beautifly,Flying|Bug,Butterfly,False,False,3,https://pokeres.bastionbot.org/images/pokemon/267.png,"BEAUTIFLY’s favorite food is the sweet pollen of flowers. If you want to see this POKéMON, just leave a potted flower by an open window. BEAUTIFLY is sure to come looking for pollen."
+268,Cascoon,Bug,Cocoon,False,False,3,https://pokeres.bastionbot.org/images/pokemon/268.png,"If it is attacked, CASCOON remains motionless however badly it may be hurt. It does so because if it were to move, its body would be weak upon evolution. This POKéMON will also not forget the pain it endured."
+269,Dustox,Bug|Poison,Poison Moth,False,False,3,https://pokeres.bastionbot.org/images/pokemon/269.png,"DUSTOX is instinctively drawn to light. Swarms of this POKéMON are attracted by the bright lights of cities, where they wreak havoc by stripping the leaves off roadside trees for food."
+270,Lotad,Water|Grass,Water Weed,False,False,3,https://pokeres.bastionbot.org/images/pokemon/270.png,"LOTAD live in ponds and lakes, where they float on the surface. It grows weak if its broad leaf dies. On rare occasions, this POKéMON travels on land in search of clean water."
+271,Lombre,Water|Grass,Jolly,False,False,3,https://pokeres.bastionbot.org/images/pokemon/271.png,"LOMBRE is nocturnal - it will get active after dusk. It is also a mischief-maker. When this POKéMON spots anglers, it tugs on their fishing lines from beneath the surface and enjoys their consternation."
+272,Ludicolo,Water|Grass,Carefree,False,False,3,https://pokeres.bastionbot.org/images/pokemon/272.png,"LUDICOLO begins dancing as soon as it hears cheerful, festive music. This POKéMON is said to appear when it hears the singing of children on hiking outings."
+273,Seedot,Grass,Acorn,False,False,3,https://pokeres.bastionbot.org/images/pokemon/273.png,SEEDOT looks exactly like an acorn when it is dangling from a tree branch. It startles other POKéMON by suddenly moving. This POKéMON polishes its body once a day using leaves.
+274,Nuzleaf,Dark|Grass,Wily,False,False,3,https://pokeres.bastionbot.org/images/pokemon/274.png,NUZLEAF live in densely overgrown forests. They occasionally venture out of the forest to startle people. This POKéMON dislikes having its long nose pinched.
+275,Shiftry,Dark|Grass,Wicked,False,False,3,https://pokeres.bastionbot.org/images/pokemon/275.png,SHIFTRY is a mysterious POKéMON that is said to live atop towering trees dating back over a thousand years. It creates terrific windstorms with the fans it holds.
+276,Taillow,Flying|Normal,Tiny Swallow,False,False,3,https://pokeres.bastionbot.org/images/pokemon/276.png,"TAILLOW is young - it has only just left its nest. As a result, it sometimes becomes lonesome and cries at night. This POKéMON feeds on WURMPLE that live in forests."
+277,Swellow,Flying|Normal,Swallow,False,False,3,https://pokeres.bastionbot.org/images/pokemon/277.png,"SWELLOW flies high above our heads, making graceful arcs in the sky. This POKéMON dives at a steep angle as soon as it spots its prey. The hapless prey is tightly grasped by SWELLOW’s clawed feet, preventing escape."
+278,Wingull,Flying|Water,Seagull,False,False,3,https://pokeres.bastionbot.org/images/pokemon/278.png,WINGULL has the habit of carrying prey and valuables in its beak and hiding them in all sorts of locations. This POKéMON rides the winds and flies as if it were skating across the sky.
+279,Pelipper,Flying|Water,Water Bird,False,False,3,https://pokeres.bastionbot.org/images/pokemon/279.png,"PELIPPER searches for food while in flight by skimming the wave tops. This POKéMON dips its large bill in the sea to scoop up food, then swallows everything in one big gulp."
+280,Ralts,Psychic|Fairy,Feeling,False,False,3,https://pokeres.bastionbot.org/images/pokemon/280.png,"RALTS senses the emotions of people using the horns on its head. This POKéMON rarely appears before people. But when it does, it draws closer if it senses that the person has a positive disposition."
+281,Kirlia,Psychic|Fairy,Emotion,False,False,3,https://pokeres.bastionbot.org/images/pokemon/281.png,It is said that a KIRLIA that is exposed to the positive emotions of its TRAINER grows beautiful. This POKéMON controls psychokinetic powers with its highly developed brain.
+282,Gardevoir,Psychic|Fairy,Embrace,False,False,3,https://pokeres.bastionbot.org/images/pokemon/282.png,"GARDEVOIR has the ability to read the future. If it senses impending danger to its TRAINER, this POKéMON is said to unleash its psychokinetic energy at full power."
+283,Surskit,Water|Bug,Pond Skater,False,False,3,https://pokeres.bastionbot.org/images/pokemon/283.png,"From the tips of its feet, SURSKIT secretes an oil that enables it to walk on water as if it were skating. This POKéMON feeds on microscopic organisms in ponds and lakes."
+284,Masquerain,Flying|Bug,Eyeball,False,False,3,https://pokeres.bastionbot.org/images/pokemon/284.png,MASQUERAIN intimidates enemies with the eyelike patterns on its antennas. This POKéMON flaps its four wings to freely fly in any direction - even sideways and backwards - as if it were a helicopter.
+285,Shroomish,Grass,Mushroom,False,False,3,https://pokeres.bastionbot.org/images/pokemon/285.png,"SHROOMISH live in damp soil in the dark depths of forests. They are often found keeping still under fallen leaves. This POKéMON feeds on compost that is made up of fallen, rotted leaves."
+286,Breloom,Grass|Fighting,Mushroom,False,False,3,https://pokeres.bastionbot.org/images/pokemon/286.png,The seeds ringing BRELOOM’s tail are made of hardened toxic spores. It is horrible to eat the seeds. Just taking a bite of this POKéMON’s seed will cause your stomach to rumble.
+287,Slakoth,Normal,Slacker,False,False,3,https://pokeres.bastionbot.org/images/pokemon/287.png,"SLAKOTH lolls around for over twenty hours every day. Because it moves so little, it does not need much food. This POKéMON’s sole daily meal consists of just three leaves."
+288,Vigoroth,Normal,Wild Monkey,False,False,3,https://pokeres.bastionbot.org/images/pokemon/288.png,"VIGOROTH is simply incapable of remaining still. Even when it tries to sleep, the blood in its veins grows agitated, compelling this POKéMON to run wild throughout the jungle before it can settle down."
+289,Slaking,Normal,Lazy,False,False,3,https://pokeres.bastionbot.org/images/pokemon/289.png,"SLAKING spends all day lying down and lolling about. It eats grass growing within its reach. If it eats all the grass it can reach, this POKéMON reluctantly moves to another spot."
+290,Nincada,Ground|Bug,Trainee,False,False,3,https://pokeres.bastionbot.org/images/pokemon/290.png,NINCADA lives underground for many years in complete darkness. This POKéMON absorbs nutrients from the roots of trees. It stays motionless as it waits for evolution.
+291,Ninjask,Flying|Bug,Ninja,False,False,3,https://pokeres.bastionbot.org/images/pokemon/291.png,"If NINJASK is not trained properly, it will refuse to obey the TRAINER and cry loudly continuously. Because of this quality, this POKéMON is said to be one that puts the TRAINER’s abilities to the test."
+292,Shedinja,Ghost|Bug,Shed,False,False,3,https://pokeres.bastionbot.org/images/pokemon/292.png,"SHEDINJA’s hard body doesn’t move - not even a twitch. In fact, its body appears to be merely a hollow shell. It is believed that this POKéMON will steal the spirit of anyone peering into its hollow body from its back."
+293,Whismur,Normal,Whisper,False,False,3,https://pokeres.bastionbot.org/images/pokemon/293.png,"WHISMUR is very timid. If it starts to cry loudly, it becomes startled by its own crying and cries even harder. When it finally stops crying, the POKéMON goes to sleep, all tired out."
+294,Loudred,Normal,Big Voice,False,False,3,https://pokeres.bastionbot.org/images/pokemon/294.png,"LOUDRED shouts while stamping its feet. After it finishes shouting, this POKéMON becomes incapable of hearing anything for a while. This is considered to be a weak point."
+295,Exploud,Normal,Loud Noise,False,False,3,https://pokeres.bastionbot.org/images/pokemon/295.png,"EXPLOUD triggers earthquakes with the tremors it creates by bellowing. If this POKéMON violently inhales from the ports on its body, it’s a sign that it is preparing to let loose a huge bellow."
+296,Makuhita,Fighting,Guts,False,False,3,https://pokeres.bastionbot.org/images/pokemon/296.png,"MAKUHITA has a tireless spirit - it will never give up hope. It eats a lot of food, gets plenty of sleep, and it trains very rigorously. By living that way, this POKéMON packs its body with energy."
+297,Hariyama,Fighting,Arm Thrust,False,False,3,https://pokeres.bastionbot.org/images/pokemon/297.png,"HARIYAMA’s thick body may appear fat, but it is actually a hunk of solid muscle. If this POKéMON bears down and tightens all its muscles, its body becomes as hard as a rock."
+298,Azurill,Normal|Fairy,Polka Dot,False,False,3,https://pokeres.bastionbot.org/images/pokemon/298.png,"AZURILL spins its tail as if it were a lasso, then hurls it far. The momentum of the throw sends its body flying, too. Using this unique action, one of these POKéMON managed to hurl itself a record 33 feet."
+299,Nosepass,Rock,Compass,False,False,3,https://pokeres.bastionbot.org/images/pokemon/299.png,"NOSEPASS had been said to be completely unmoving, with its magnetic nose pointed due north. However, close observation has revealed that the POKéMON actually moves by a little over 3/8 of an inch every year."
+300,Skitty,Normal,Kitten,False,False,3,https://pokeres.bastionbot.org/images/pokemon/300.png,"SKITTY is known to chase around playfully after its own tail. In the wild, this POKéMON lives in holes in the trees of forests. It is very popular as a pet because of its adorable looks."
+301,Delcatty,Normal,Prim,False,False,3,https://pokeres.bastionbot.org/images/pokemon/301.png,"DELCATTY prefers to live an unfettered existence in which it can do as it pleases at its own pace. Because this POKéMON eats and sleeps whenever it decides, its daily routines are completely random."
+302,Sableye,Dark|Ghost,Darkness,False,False,3,https://pokeres.bastionbot.org/images/pokemon/302.png,"SABLEYE lead quiet lives deep inside caverns. They are feared, however, because these POKéMON are thought to steal the spirits of people when their eyes burn with a sinister glow in the darkness."
+303,Mawile,Steel|Fairy,Deceiver,False,False,3,https://pokeres.bastionbot.org/images/pokemon/303.png,"MAWILE’s huge jaws are actually steel horns that have been transformed. Its docile-looking face serves to lull its foe into letting down its guard. When the foe least expects it, MAWILE chomps it with its gaping jaws."
+304,Aron,Steel|Rock,Iron Armor,False,False,3,https://pokeres.bastionbot.org/images/pokemon/304.png,"ARON has a body of steel. With one all-out charge, this POKéMON can demolish even a heavy dump truck. The destroyed dump truck then becomes a handy meal for the POKéMON."
+305,Lairon,Steel|Rock,Iron Armor,False,False,3,https://pokeres.bastionbot.org/images/pokemon/305.png,"LAIRON feeds on iron contained in rocks and water. It makes its nest on mountains where iron ore is buried. As a result, the POKéMON often clashes with humans mining the iron ore."
+306,Aggron,Steel|Rock,Iron Armor,False,False,3,https://pokeres.bastionbot.org/images/pokemon/306.png,"AGGRON is surprisingly protective of its environment. If its mountain is ravaged by a landslide or a fire, this POKéMON will haul topsoil to the area, plant trees, and beautifully restore its own territory."
+307,Meditite,Psychic|Fighting,Meditate,False,False,3,https://pokeres.bastionbot.org/images/pokemon/307.png,"MEDITITE undertakes rigorous mental training deep in the mountains. However, whenever it meditates, this POKéMON always loses its concentration and focus. As a result, its training never ends."
+308,Medicham,Psychic|Fighting,Meditate,False,False,3,https://pokeres.bastionbot.org/images/pokemon/308.png,"Through the power of meditation, MEDICHAM developed its sixth sense. It gained the ability to use psychokinetic powers. This POKéMON is known to meditate for a whole month without eating."
+309,Electrike,Electric,Lightning,False,False,3,https://pokeres.bastionbot.org/images/pokemon/309.png,ELECTRIKE stores electricity in its long body hair. This POKéMON stimulates its leg muscles with electric charges. These jolts of power give its legs explosive acceleration performance.
+310,Manectric,Electric,Discharge,False,False,3,https://pokeres.bastionbot.org/images/pokemon/310.png,"MANECTRIC is constantly discharging electricity from its mane. The sparks sometimes ignite forest fires. When it enters a battle, this POKéMON creates thunderclouds."
+311,Plusle,Electric,Cheering,False,False,3,https://pokeres.bastionbot.org/images/pokemon/311.png,"PLUSLE always acts as a cheerleader for its partners. Whenever a teammate puts out a good effort in battle, this POKéMON shorts out its body to create the crackling noises of sparks to show its joy."
+312,Minun,Electric,Cheering,False,False,3,https://pokeres.bastionbot.org/images/pokemon/312.png,MINUN is more concerned about cheering on its partners than its own safety. It shorts out the electricity in its body to create brilliant showers of sparks to cheer on its teammates.
+313,Volbeat,Bug,Firefly,False,False,3,https://pokeres.bastionbot.org/images/pokemon/313.png,"With the arrival of night, VOLBEAT emits light from its tail. It communicates with others by adjusting the intensity and flashing of its light. This POKéMON is attracted by the sweet aroma of ILLUMISE."
+314,Illumise,Bug,Firefly,False,False,3,https://pokeres.bastionbot.org/images/pokemon/314.png,"ILLUMISE attracts a swarm of VOLBEAT using a sweet fragrance. Once the VOLBEAT have gathered, this POKéMON leads the lit-up swarm in drawing geometric designs on the canvas of the night sky."
+315,Roselia,Grass|Poison,Thorn,False,False,3,https://pokeres.bastionbot.org/images/pokemon/315.png,ROSELIA shoots sharp thorns as projectiles at any opponent that tries to steal the flowers on its arms. The aroma of this POKéMON brings serenity to living things.
+316,Gulpin,Poison,Stomach,False,False,3,https://pokeres.bastionbot.org/images/pokemon/316.png,Most of GULPIN’s body is made up of its stomach - its heart and brain are very small in comparison. This POKéMON’s stomach contains special enzymes that dissolve anything.
+317,Swalot,Poison,Poison Bag,False,False,3,https://pokeres.bastionbot.org/images/pokemon/317.png,"When SWALOT spots prey, it spurts out a hideously toxic fluid from its pores and sprays the target. Once the prey has weakened, this POKéMON gulps it down whole with its cavernous mouth."
+318,Carvanha,Dark|Water,Savage,False,False,3,https://pokeres.bastionbot.org/images/pokemon/318.png,CARVANHA’s strongly developed jaws and its sharply pointed fangs pack the destructive power to rip out boat hulls. Many boats have been attacked and sunk by this POKéMON.
+319,Sharpedo,Dark|Water,Brutal,False,False,3,https://pokeres.bastionbot.org/images/pokemon/319.png,"Nicknamed “the bully of the sea,” SHARPEDO is widely feared. Its cruel fangs grow back immediately if they snap off. Just one of these POKéMON can thoroughly tear apart a supertanker."
+320,Wailmer,Water,Ball Whale,False,False,3,https://pokeres.bastionbot.org/images/pokemon/320.png,"WAILMER can store water inside its body to transform itself into a ball for bouncing around on the ground. By filling itself up with more water, this POKéMON can elevate the height of its bounces."
+321,Wailord,Water,Float Whale,False,False,3,https://pokeres.bastionbot.org/images/pokemon/321.png,"WAILORD is the largest of all identified POKéMON up to now. This giant POKéMON swims languorously in the vast open sea, eating massive amounts of food at once with its enormous mouth."
+322,Numel,Fire|Ground,Numb,False,False,3,https://pokeres.bastionbot.org/images/pokemon/322.png,"NUMEL stores magma of almost 2,200 degrees F within its body. If it gets wet, the magma cools and hardens. In that event, the POKéMON’s body grows heavy and its movements become sluggish."
+323,Camerupt,Fire|Ground,Eruption,False,False,3,https://pokeres.bastionbot.org/images/pokemon/323.png,"CAMERUPT has a volcano inside its body. Magma of 18,000 degrees F courses through its body. Occasionally, the humps on this POKéMON’s back erupt, spewing the superheated magma."
+324,Torkoal,Fire,Coal,False,False,3,https://pokeres.bastionbot.org/images/pokemon/324.png,"TORKOAL digs through mountains in search of coal. If it finds some, it fills hollow spaces on its shell with the coal and burns it. If it is attacked, this POKéMON spouts thick black smoke to beat a retreat."
+325,Spoink,Psychic,Bounce,False,False,3,https://pokeres.bastionbot.org/images/pokemon/325.png,"SPOINK bounces around on its tail. The shock of its bouncing makes its heart pump. As a result, this POKéMON cannot afford to stop bouncing - if it stops, its heart will stop."
+326,Grumpig,Psychic,Manipulate,False,False,3,https://pokeres.bastionbot.org/images/pokemon/326.png,"GRUMPIG uses the black pearls on its body to amplify its psychic power waves for gaining total control over its foe. When this POKéMON uses its special power, its snorting breath grows labored."
+327,Spinda,Normal,Spot Panda,False,False,3,https://pokeres.bastionbot.org/images/pokemon/327.png,No two SPINDA are said to have identical spot patterns on their hides. This POKéMON moves in a curious manner as if it is stumbling in dizziness. Its lurching movements can cause the opponent to become confused.
+328,Trapinch,Ground,Ant Pit,False,False,3,https://pokeres.bastionbot.org/images/pokemon/328.png,"TRAPINCH’s nest is a sloped, bowl-like pit dug in sand. This POKéMON patiently waits for prey to tumble down the pit. Its giant jaws have enough strength to crush even boulders."
+329,Vibrava,Ground|Dragon,Vibration,False,False,3,https://pokeres.bastionbot.org/images/pokemon/329.png,"To make prey faint, VIBRAVA generates ultrasonic waves by vigorously making its two wings vibrate. This POKéMON’s ultrasonic waves are so powerful, they can bring on headaches in people."
+330,Flygon,Ground|Dragon,Mystic,False,False,3,https://pokeres.bastionbot.org/images/pokemon/330.png,"FLYGON whips up a sandstorm by flapping its wings. The wings create a series of notes that sound like singing. Because the “singing” is the only thing that can be heard in a sandstorm, this POKéMON is said to be the desert spirit."
+331,Cacnea,Grass,Cactus,False,False,3,https://pokeres.bastionbot.org/images/pokemon/331.png,"CACNEA lives in arid locations such as deserts. It releases a strong aroma from its flower to attract prey. When prey comes near, this POKéMON shoots sharp thorns from its body to bring the victim down."
+332,Cacturne,Dark|Grass,Scarecrow,False,False,3,https://pokeres.bastionbot.org/images/pokemon/332.png,"During the daytime, CACTURNE remains unmoving so that it does not lose any moisture to the harsh desert sun. This POKéMON becomes active at night when the temperature drops."
+333,Swablu,Flying|Normal,Cotton Bird,False,False,3,https://pokeres.bastionbot.org/images/pokemon/333.png,SWABLU has light and fluffy wings that are like cottony clouds. This POKéMON is not frightened of people. It lands on the heads of people and sits there like a cotton-fluff hat.
+334,Altaria,Flying|Dragon,Humming,False,False,3,https://pokeres.bastionbot.org/images/pokemon/334.png,"ALTARIA dances and wheels through the sky among billowing, cotton-like clouds. By singing melodies in its crystal-clear voice, this POKéMON makes its listeners experience dreamy wonderment."
+335,Zangoose,Normal,Cat Ferret,False,False,3,https://pokeres.bastionbot.org/images/pokemon/335.png,"ZANGOOSE usually stays on all fours, but when angered, it gets up on its hind legs and extends its claws. This POKéMON shares a bitter rivalry with SEVIPER that dates back over generations."
+336,Seviper,Poison,Fang Snake,False,False,3,https://pokeres.bastionbot.org/images/pokemon/336.png,SEVIPER’s swordlike tail serves two purposes - it slashes foes and douses them with secreted poison. This POKéMON will not give up its long-running blood feud with ZANGOOSE.
+337,Lunatone,Psychic|Rock,Meteorite,False,False,3,https://pokeres.bastionbot.org/images/pokemon/337.png,"LUNATONE becomes active around the time of the full moon. Instead of walking, it moves by floating in midair. The POKéMON’s intimidating red eyes cause all those who see it to become transfixed with fear."
+338,Solrock,Psychic|Rock,Meteorite,False,False,3,https://pokeres.bastionbot.org/images/pokemon/338.png,"SOLROCK is a new species of POKéMON that is said to have fallen from space. It floats in air and moves silently. In battle, this POKéMON releases intensely bright light."
+339,Barboach,Ground|Water,Whiskers,False,False,3,https://pokeres.bastionbot.org/images/pokemon/339.png,"BARBOACH’s sensitive whiskers serve as a superb radar system. This POKéMON hides in mud, leaving only its two whiskers exposed while it waits for prey to come along."
+340,Whiscash,Ground|Water,Whiskers,False,False,3,https://pokeres.bastionbot.org/images/pokemon/340.png,"WHISCASH is extremely territorial. Just one of these POKéMON will claim a large pond as its exclusive territory. If a foe approaches it, it thrashes about and triggers a massive earthquake."
+341,Corphish,Water,Ruffian,False,False,3,https://pokeres.bastionbot.org/images/pokemon/341.png,CORPHISH were originally foreign POKéMON that were imported as pets. They eventually turned up in the wild. This POKéMON is very hardy and has greatly increased its population.
+342,Crawdaunt,Dark|Water,Rogue,False,False,3,https://pokeres.bastionbot.org/images/pokemon/342.png,"CRAWDAUNT has an extremely violent nature that compels it to challenge other living things to battle. Other life-forms refuse to live in ponds inhabited by this POKéMON, making them desolate places."
+343,Baltoy,Ground|Psychic,Clay Doll,False,False,3,https://pokeres.bastionbot.org/images/pokemon/343.png,"As soon as it spots others of its kind, BALTOY congregates with them and then begins crying noisily in unison. This POKéMON sleeps while cleverly balancing itself on its one foot."
+344,Claydol,Ground|Psychic,Clay Doll,False,False,3,https://pokeres.bastionbot.org/images/pokemon/344.png,"CLAYDOL is an enigma that appeared from a clay statue made by an ancient civilization dating back 20,000 years. This POKéMON shoots beams from both its hands."
+345,Lileep,Grass|Rock,Sea Lily,False,False,3,https://pokeres.bastionbot.org/images/pokemon/345.png,LILEEP became extinct approximately a hundred million years ago. This ancient POKéMON attaches itself to a rock on the seafloor and catches approaching prey using tentacles shaped like flower petals.
+346,Cradily,Grass|Rock,Barnacle,False,False,3,https://pokeres.bastionbot.org/images/pokemon/346.png,CRADILY roams around the ocean floor in search of food. This POKéMON freely extends its tree trunk-like neck and captures unwary prey using its eight tentacles.
+347,Anorith,Bug|Rock,Old Shrimp,False,False,3,https://pokeres.bastionbot.org/images/pokemon/347.png,"ANORITH is said to be a type of POKéMON predecessor, with eight wings at the sides of its body. This POKéMON swam in the primordial sea by undulating these eight wings."
+348,Armaldo,Bug|Rock,Plate,False,False,3,https://pokeres.bastionbot.org/images/pokemon/348.png,ARMALDO’s tough armor makes all attacks bounce off. This POKéMON’s two enormous claws can be freely extended or contracted. They have the power to punch right through a steel slab.
+349,Feebas,Water,Fish,False,False,3,https://pokeres.bastionbot.org/images/pokemon/349.png,"FEEBAS’s fins are ragged and tattered from the start of its life. Because of its shoddy appearance, this POKéMON is largely ignored. It is capable of living in both the sea and in rivers."
+350,Milotic,Water,Tender,False,False,3,https://pokeres.bastionbot.org/images/pokemon/350.png,"MILOTIC live at the bottom of large lakes. When this POKéMON’s body glows a vivid pink, it releases a pulsing wave of energy that brings soothing calm to restless spirits."
+351,Castform,Normal,Weather,False,False,3,https://pokeres.bastionbot.org/images/pokemon/351.png,"CASTFORM borrows the power of nature to transform itself into the guises of the sun, rain clouds, and snow clouds. This POKéMON’s feelings change with the weather."
+352,Kecleon,Normal,Color Swap,False,False,3,https://pokeres.bastionbot.org/images/pokemon/352.png,"KECLEON alters its body coloration to blend in with its surroundings, allowing it to sneak up on its prey unnoticed. Then it lashes out with its long, stretchy tongue to instantly ensnare the unsuspecting target."
+353,Shuppet,Ghost,Puppet,False,False,3,https://pokeres.bastionbot.org/images/pokemon/353.png,"SHUPPET is attracted by feelings of jealousy and vindictiveness. If someone develops strong feelings of vengeance, this POKéMON will appear in a swarm and line up beneath the eaves of that person’s home."
+354,Banette,Ghost,Marionette,False,False,3,https://pokeres.bastionbot.org/images/pokemon/354.png,"A cursed energy permeated the stuffing of a discarded and forgotten plush doll, giving it new life as BANETTE. The POKéMON’s energy would escape if it were to ever open its mouth."
+355,Duskull,Ghost,Requiem,False,False,3,https://pokeres.bastionbot.org/images/pokemon/355.png,"DUSKULL can pass through any wall no matter how thick it may be. Once this POKéMON chooses a target, it will doggedly pursue the intended victim until the break of dawn."
+356,Dusclops,Ghost,Beckon,False,False,3,https://pokeres.bastionbot.org/images/pokemon/356.png,"DUSCLOPS absorbs anything, however large the object may be. This POKéMON hypnotizes its foe by waving its hands in a macabre manner and by bringing its single eye to bear. The hypnotized foe is made to do DUSCLOPS’s bidding."
+357,Tropius,Flying|Grass,Fruit,False,False,3,https://pokeres.bastionbot.org/images/pokemon/357.png,"The bunches of fruit around TROPIUS’s neck are very popular with children. This POKéMON loves fruit, and eats it continuously. Apparently, its love for fruit resulted in its own outgrowth of fruit."
+358,Chimecho,Psychic,Wind Chime,False,False,3,https://pokeres.bastionbot.org/images/pokemon/358.png,"CHIMECHO makes its cries echo inside its hollow body. When this POKéMON becomes enraged, its cries result in ultrasonic waves that have the power to knock foes flying."
+359,Absol,Dark,Disaster,False,False,3,https://pokeres.bastionbot.org/images/pokemon/359.png,"Every time ABSOL appears before people, it is followed by a disaster such as an earthquake or a tidal wave. As a result, it came to be known as the disaster POKéMON."
+360,Wynaut,Psychic,Bright,False,False,3,https://pokeres.bastionbot.org/images/pokemon/360.png,"WYNAUT can always be seen with a big, happy smile on its face. Look at its tail to determine if it is angry. When angered, this POKéMON will be slapping the ground with its tail."
+361,Snorunt,Ice,Snow Hat,False,False,3,https://pokeres.bastionbot.org/images/pokemon/361.png,"SNORUNT live in regions with heavy snowfall. In seasons without snow, such as spring and summer, this POKéMON steals away to live quietly among stalactites and stalagmites deep in caverns."
+362,Glalie,Ice,Face,False,False,3,https://pokeres.bastionbot.org/images/pokemon/362.png,"GLALIE has the ability to freely control ice. For example, it can instantly freeze its foe solid. After immobilizing its foe in ice, this POKéMON enjoys eating it in leisurely fashion."
+363,Spheal,Ice|Water,Clap,False,False,3,https://pokeres.bastionbot.org/images/pokemon/363.png,"SPHEAL is much faster rolling than walking to get around. When groups of this POKéMON eat, they all clap at once to show their pleasure. Because of this, their mealtimes are noisy."
+364,Sealeo,Ice|Water,Ball Roll,False,False,3,https://pokeres.bastionbot.org/images/pokemon/364.png,"SEALEO often balances and rolls things on the tip of its nose. While the POKéMON is rolling something, it checks the object’s aroma and texture to determine whether it likes the object or not."
+365,Walrein,Ice|Water,Ice Break,False,False,3,https://pokeres.bastionbot.org/images/pokemon/365.png,WALREIN’s two massively developed tusks can totally shatter blocks of ice weighing ten tons with one blow. This POKéMON’s thick coat of blubber insulates it from subzero temperatures.
+366,Clamperl,Water,Bivalve,False,False,3,https://pokeres.bastionbot.org/images/pokemon/366.png,CLAMPERL’s sturdy shell is not only good for protection - it is also used for clamping and catching prey. A fully grown CLAMPERL’s shell will be scored with nicks and scratches all over.
+367,Huntail,Water,Deep Sea,False,False,3,https://pokeres.bastionbot.org/images/pokemon/367.png,HUNTAIL’s presence went unnoticed by people for a long time because it lives at extreme depths in the sea. This POKéMON’s eyes can see clearly even in the murky dark depths of the ocean.
+368,Gorebyss,Water,South Sea,False,False,3,https://pokeres.bastionbot.org/images/pokemon/368.png,"GOREBYSS lives in the southern seas at extreme depths. Its body is built to withstand the enormous pressure of water at incredible depths. Because of this, this POKéMON’s body is unharmed by ordinary attacks."
+369,Relicanth,Water|Rock,Longevity,False,False,3,https://pokeres.bastionbot.org/images/pokemon/369.png,RELICANTH is a POKéMON species that existed for a hundred million years without ever changing its form. This ancient POKéMON feeds on microscopic organisms with its toothless mouth.
+370,Luvdisc,Water,Rendezvous,False,False,3,https://pokeres.bastionbot.org/images/pokemon/370.png,LUVDISC live in shallow seas in the tropics. This heart-shaped POKéMON earned its name by swimming after loving couples it spotted in the ocean’s waves.
+371,Bagon,Dragon,Rock Head,False,False,3,https://pokeres.bastionbot.org/images/pokemon/371.png,"BAGON harbors a never-ending dream of one day soaring high among the clouds. As if trying to dispel its frustration over its inability to fly, this POKéMON slams its hard head against huge rocks and shatters them into pebbles."
+372,Shelgon,Dragon,Endurance,False,False,3,https://pokeres.bastionbot.org/images/pokemon/372.png,"Inside SHELGON’s armor-like shell, cells are in the midst of transformation to create an entirely new body. This POKéMON’s shell is extremely heavy, making its movements sluggish."
+373,Salamence,Flying|Dragon,Dragon,False,False,3,https://pokeres.bastionbot.org/images/pokemon/373.png,"SALAMENCE came about as a result of a strong, long-held dream of growing wings. It is said that this powerful desire triggered a sudden mutation in this POKéMON’s cells, causing it to sprout its magnificent wings."
+374,Beldum,Psychic|Steel,Iron Ball,False,False,3,https://pokeres.bastionbot.org/images/pokemon/374.png,"BELDUM keeps itself floating by generating a magnetic force that repels earth’s natural magnetism. When it sleeps, this POKéMON anchors itself to a cliff using the hooks on its rear."
+375,Metang,Psychic|Steel,Iron Claw,False,False,3,https://pokeres.bastionbot.org/images/pokemon/375.png,"When two BELDUM fuse together, METANG is formed. The brains of the BELDUM are joined by a magnetic nervous system. By linking its brains magnetically, this POKéMON generates strong psychokinetic power."
+376,Metagross,Psychic|Steel,Iron Leg,False,False,3,https://pokeres.bastionbot.org/images/pokemon/376.png,"METAGROSS has four brains in total. Combined, the four brains can breeze through difficult calculations faster than a supercomputer. This POKéMON can float in the air by tucking in its four legs"
+377,Regirock,Rock,Rock Peak,True,False,3,https://pokeres.bastionbot.org/images/pokemon/377.png,"REGIROCK’s body is composed entirely of rocks. Recently, a study made the startling discovery that the rocks were all unearthed from different locations."
+378,Regice,Ice,Iceberg,True,False,3,https://pokeres.bastionbot.org/images/pokemon/378.png,"REGICE cloaks itself with frigid air of negative 328 degrees F. Things will freeze solid just by going near this POKéMON. Its icy body is so cold, it will not melt even if it is immersed in magma."
+379,Registeel,Steel,Iron,True,False,3,https://pokeres.bastionbot.org/images/pokemon/379.png,REGISTEEL was imprisoned by people in ancient times. The metal composing its body is thought to be a curious substance that is not of this earth.
+380,Latias,Psychic|Dragon,Eon,True,False,3,https://pokeres.bastionbot.org/images/pokemon/380.png,LATIAS is highly intelligent and capable of understanding human speech. It is covered with a glass-like down. The POKéMON enfolds its body with its down and refracts light to alter its appearance.
+381,Latios,Psychic|Dragon,Eon,True,False,3,https://pokeres.bastionbot.org/images/pokemon/381.png,LATIOS will only open its heart to a TRAINER with a compassionate spirit. This POKéMON can fly faster than a jet plane by folding its forelegs to minimize air resistance.
+382,Kyogre,Water,Sea Basin,True,False,3,https://pokeres.bastionbot.org/images/pokemon/382.png,KYOGRE is named in mythology as the POKéMON that expanded the sea by covering the land with torrential rains and towering tidal waves. It took to sleep after a cataclysmic battle with GROUDON.
+383,Groudon,Ground,Continent,True,False,3,https://pokeres.bastionbot.org/images/pokemon/383.png,GROUDON has long been described in mythology as the POKéMON that raised lands and expanded continents. This POKéMON took to sleep after a cataclysmic battle with KYOGRE.
+384,Rayquaza,Flying|Dragon,Sky High,True,False,3,https://pokeres.bastionbot.org/images/pokemon/384.png,"RAYQUAZA lived for hundreds of millions of years in the earth’s ozone layer, never descending to the ground. This POKéMON appears to feed on water and particles in the atmosphere."
+385,Jirachi,Psychic|Steel,Wish,False,True,3,https://pokeres.bastionbot.org/images/pokemon/385.png,"A legend states that JIRACHI will make true any wish that is written on notes attached to its head when it awakens. If this POKéMON senses danger, it will fight without awakening."
+386,Deoxys,Psychic,DNA,False,True,3,https://pokeres.bastionbot.org/images/pokemon/386.png,DEOXYS emerged from a virus that came from space. It is highly intelligent and wields psychokinetic powers. This POKéMON shoots lasers from the crystalline organ on its chest.
+387,Turtwig,Grass,Tiny Leaf,False,False,4,https://pokeres.bastionbot.org/images/pokemon/387.png,"It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty."
+388,Grotle,Grass,Grove,False,False,4,https://pokeres.bastionbot.org/images/pokemon/388.png,The shell is hardened soil. Some Pokémon come to peck the berries growing on the trees on its back.
+389,Torterra,Ground|Grass,Continent,False,False,4,https://pokeres.bastionbot.org/images/pokemon/389.png,Groups of this Pokémon migrating in search of water have been mistaken for “moving forests.”
+390,Chimchar,Fire,Chimp,False,False,4,https://pokeres.bastionbot.org/images/pokemon/390.png,Its fiery rear end is fueled by gas made in its belly. Even rain can’t extinguish the fire.
+391,Monferno,Fire|Fighting,Playful,False,False,4,https://pokeres.bastionbot.org/images/pokemon/391.png,It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.
+392,Infernape,Fire|Fighting,Flame,False,False,4,https://pokeres.bastionbot.org/images/pokemon/392.png,Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.
+393,Piplup,Water,Penguin,False,False,4,https://pokeres.bastionbot.org/images/pokemon/393.png,"It lives along shores in northern countries. A skilled swimmer, it dives for over 10 minutes to hunt."
+394,Prinplup,Water,Penguin,False,False,4,https://pokeres.bastionbot.org/images/pokemon/394.png,Its wings deliver wicked blows that snap even the thickest of trees. It searches for prey in icy seas.
+395,Empoleon,Water|Steel,Emperor,False,False,4,https://pokeres.bastionbot.org/images/pokemon/395.png,It swims as fast as a jet boat. The edges of its wings are sharp and can slice apart drifting ice.
+396,Starly,Flying|Normal,Starling,False,False,4,https://pokeres.bastionbot.org/images/pokemon/396.png,"Because they are weak individually, they form groups. However, they bicker if the group grows too big."
+397,Staravia,Flying|Normal,Starling,False,False,4,https://pokeres.bastionbot.org/images/pokemon/397.png,It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.
+398,Staraptor,Flying|Normal,Predator,False,False,4,https://pokeres.bastionbot.org/images/pokemon/398.png,The muscles in its wings and legs are strong. It can easily fly while gripping a small Pokémon.
+399,Bidoof,Normal,Plump Mouse,False,False,4,https://pokeres.bastionbot.org/images/pokemon/399.png,It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.
+400,Bibarel,Water|Normal,Beaver,False,False,4,https://pokeres.bastionbot.org/images/pokemon/400.png,"While its movements out of water are sluggish, it can swim as fast as any FEEBAS."
+401,Kricketot,Bug,Cricket,False,False,4,https://pokeres.bastionbot.org/images/pokemon/401.png,"It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone."
+402,Kricketune,Bug,Cricket,False,False,4,https://pokeres.bastionbot.org/images/pokemon/402.png,It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.
+403,Shinx,Electric,Flash,False,False,4,https://pokeres.bastionbot.org/images/pokemon/403.png,Its forelegs have a muscle-based system of generating electricity. Its body shines if endangered.
+404,Luxio,Electric,Spark,False,False,4,https://pokeres.bastionbot.org/images/pokemon/404.png,It rests its forelegs on others to communicate with rhythmic electric pulses from its claws.
+405,Luxray,Electric,Gleam Eyes,False,False,4,https://pokeres.bastionbot.org/images/pokemon/405.png,"When its eyes gleam gold, it can spot hiding prey--even those taking shelter behind a wall."
+406,Budew,Grass|Poison,Bud,False,False,4,https://pokeres.bastionbot.org/images/pokemon/406.png,"Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen."
+407,Roserade,Grass|Poison,Bouquet,False,False,4,https://pokeres.bastionbot.org/images/pokemon/407.png,"With the movements of a dancer, it strikes with whips that are densely lined with poison thorns."
+408,Cranidos,Rock,Head Butt,False,False,4,https://pokeres.bastionbot.org/images/pokemon/408.png,"A lifelong jungle dweller from 100 million years ago, it would snap obstructing trees with head butts."
+409,Rampardos,Rock,Head Butt,False,False,4,https://pokeres.bastionbot.org/images/pokemon/409.png,Its skull is as hard as iron. It is a brute that tears down jungle trees while catching prey.
+410,Shieldon,Steel|Rock,Shield,False,False,4,https://pokeres.bastionbot.org/images/pokemon/410.png,It habitually polishes its face by rubbing it against tree trunks. It is weak to attacks from behind.
+411,Bastiodon,Steel|Rock,Shield,False,False,4,https://pokeres.bastionbot.org/images/pokemon/411.png,Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.
+412,Burmy,Bug,Bagworm,False,False,4,https://pokeres.bastionbot.org/images/pokemon/412-plant-cloak.png,"To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves."
+413,Wormadam,Grass|Bug,Bagworm,False,False,4,https://pokeres.bastionbot.org/images/pokemon/413-plant-cloak.png,"When BURMY evolved, its cloak became a part of this Pokémon’s body. The cloak is never shed."
+414,Mothim,Flying|Bug,Moth,False,False,4,https://pokeres.bastionbot.org/images/pokemon/414.png,It does not keep a nest. It flies over fields and mountains in constant search of floral honey.
+415,Combee,Flying|Bug,Tiny Bee,False,False,4,https://pokeres.bastionbot.org/images/pokemon/415.png,"It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep."
+416,Vespiquen,Flying|Bug,Beehive,False,False,4,https://pokeres.bastionbot.org/images/pokemon/416.png,"When endangered, grubs from its six-cell honeycomb strike back. There is only one in a colony."
+417,Pachirisu,Electric,EleSquirrel,False,False,4,https://pokeres.bastionbot.org/images/pokemon/417.png,It makes electricity with pouches in its cheeks and shoots charges from its tail. It lives atop trees.
+418,Buizel,Water,Sea Weasel,False,False,4,https://pokeres.bastionbot.org/images/pokemon/418.png,"It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses."
+419,Floatzel,Water,Sea Weasel,False,False,4,https://pokeres.bastionbot.org/images/pokemon/419.png,Its flotation sac developed as a result of pursuing aquatic prey. It can double as a rubber raft.
+420,Cherubi,Grass,Cherry,False,False,4,https://pokeres.bastionbot.org/images/pokemon/420.png,"The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty."
+421,Cherrim,Grass,Blossom,False,False,4,https://pokeres.bastionbot.org/images/pokemon/421-overcast.png,"It is docile as a bud, but turns cheerful when it blooms. It folds back into a bud if sunlight wanes."
+422,Shellos,Water,Sea Slug,False,False,4,https://pokeres.bastionbot.org/images/pokemon/422.png,"Its colors and shapes differ from region to region. In the Sinnoh region, two types are confirmed."
+423,Gastrodon,Ground|Water,Sea Slug,False,False,4,https://pokeres.bastionbot.org/images/pokemon/423.png,"It has a pliable body without any bones. If any part of its body is torn off, it grows right back."
+424,Ambipom,Normal,Long Tail,False,False,4,https://pokeres.bastionbot.org/images/pokemon/424.png,"They work in large colonies and make rings by linking their tails, apparently in friendship."
+425,Drifloon,Flying|Ghost,,,,,,
+426,Drifblim,Flying|Ghost,,,,,,
+427,Buneary,Normal,,,,,,
+428,Lopunny,Normal,,,,,,
+429,Mismagius,Ghost,,,,,,
+430,Honchkrow,Flying|Dark,,,,,,
+431,Glameow,Normal,,,,,,
+432,Purugly,Normal,,,,,,
+433,Chingling,Psychic,,,,,,
+434,Stunky,Dark|Poison,,,,,,
+435,Skuntank,Dark|Poison,,,,,,
+436,Bronzor,Psychic|Steel,,,,,,
+437,Bronzong,Psychic|Steel,,,,,,
+438,Bonsly,Rock,,,,,,
+439,Mime Jr.,Psychic|Fairy,,,,,,
+440,Happiny,Normal,,,,,,
+441,Chatot,Flying|Normal,,,,,,
+442,Spiritomb,Dark|Ghost,,,,,,
+443,Gible,Ground|Dragon,,,,,,
+444,Gabite,Ground|Dragon,,,,,,
+445,Garchomp,Ground|Dragon,,,,,,
+446,Munchlax,Normal,,,,,,
+447,Riolu,Fighting,,,,,,
+448,Lucario,Steel|Fighting,,,,,,
+449,Hippopotas,Ground,,,,,,
+450,Hippowdon,Ground,,,,,,
+451,Skorupi,Bug|Poison,,,,,,
+452,Drapion,Dark|Poison,,,,,,
+453,Croagunk,Fighting|Poison,,,,,,
+454,Toxicroak,Fighting|Poison,,,,,,
+455,Carnivine,Grass,,,,,,
+456,Finneon,Water,,,,,,
+457,Lumineon,Water,,,,,,
+458,Mantyke,Flying|Water,,,,,,
+459,Snover,Ice|Grass,,,,,,
+460,Abomasnow,Ice|Grass,,,,,,
+461,Weavile,Dark|Ice,,,,,,
+462,Magnezone,Electric|Steel,,,,,,
+463,Lickilicky,Normal,,,,,,
+464,Rhyperior,Ground|Rock,,,,,,
+465,Tangrowth,Grass,,,,,,
+466,Electivire,Electric,,,,,,
+467,Magmortar,Fire,,,,,,
+468,Togekiss,Flying|Fairy,,,,,,
+469,Yanmega,Flying|Bug,,,,,,
+470,Leafeon,Grass,,,,,,
+471,Glaceon,Ice,,,,,,
+472,Gliscor,Flying|Ground,,,,,,
+473,Mamoswine,Ice|Ground,,,,,,
+474,Porygon-Z,Normal,,,,,,
+475,Gallade,Psychic|Fighting,,,,,,
+476,Probopass,Steel|Rock,,,,,,
+477,Dusknoir,Ghost,,,,,,
+478,Froslass,Ice|Ghost,,,,,,
+479,Rotom,Electric|Ghost,,,,,,
+480,Uxie,Psychic,,,,,,
+481,Mesprit,Psychic,,,,,,
+482,Azelf,Psychic,,,,,,
+483,Dialga,Dragon|Steel,,,,,,
+484,Palkia,Water|Dragon,,,,,,
+485,Heatran,Fire|Steel,,,,,,
+486,Regigigas,Normal,,,,,,
+487,Giratina,Dragon|Ghost,,,,,,
+488,Cresselia,Psychic,,,,,,
+489,Phione,Water,,,,,,
+490,Manaphy,Water,,,,,,
+491,Darkrai,Dark,,,,,,
+492,Shaymin,Grass,,,,,,
+493,Arceus,Normal,,,,,,
+494,Victini,Fire|Psychic,,,,,,
+495,Snivy,Grass,,,,,,
+496,Servine,Grass,,,,,,
+497,Serperior,Grass,,,,,,
+498,Tepig,Fire,,,,,,
+499,Pignite,Fire|Fighting,,,,,,
+500,Emboar,Fire|Fighting,,,,,,
+501,Oshawott,Water,,,,,,
+502,Dewott,Water,,,,,,
+503,Samurott,Water,,,,,,
+504,Patrat,Normal,,,,,,
+505,Watchog,Normal,,,,,,
+506,Lillipup,Normal,,,,,,
+507,Herdier,Normal,,,,,,
+508,Stoutland,Normal,,,,,,
+509,Purrloin,Dark,,,,,,
+510,Liepard,Dark,,,,,,
+511,Pansage,Grass,,,,,,
+512,Simisage,Grass,,,,,,
+513,Pansear,Fire,,,,,,
+514,Simisear,Fire,,,,,,
+515,Panpour,Water,,,,,,
+516,Simipour,Water,,,,,,
+517,Munna,Psychic,,,,,,
+518,Musharna,Psychic,,,,,,
+519,Pidove,Flying|Normal,,,,,,
+520,Tranquill,Flying|Normal,,,,,,
+521,Unfezant,Flying|Normal,,,,,,
+522,Blitzle,Electric,,,,,,
+523,Zebstrika,Electric,,,,,,
+524,Roggenrola,Rock,,,,,,
+525,Boldore,Rock,,,,,,
+526,Gigalith,Rock,,,,,,
+527,Woobat,Flying|Psychic,,,,,,
+528,Swoobat,Flying|Psychic,,,,,,
+529,Drilbur,Ground,,,,,,
+530,Excadrill,Ground|Steel,,,,,,
+531,Audino,Normal,,,,,,
+532,Timburr,Fighting,,,,,,
+533,Gurdurr,Fighting,,,,,,
+534,Conkeldurr,Fighting,,,,,,
+535,Tympole,Water,,,,,,
+536,Palpitoad,Ground|Water,,,,,,
+537,Seismitoad,Ground|Water,,,,,,
+538,Throh,Fighting,,,,,,
+539,Sawk,Fighting,,,,,,
+540,Sewaddle,Grass|Bug,,,,,,
+541,Swadloon,Grass|Bug,,,,,,
+542,Leavanny,Grass|Bug,,,,,,
+543,Venipede,Bug|Poison,,,,,,
+544,Whirlipede,Bug|Poison,,,,,,
+545,Scolipede,Bug|Poison,,,,,,
+546,Cottonee,Grass|Fairy,,,,,,
+547,Whimsicott,Grass|Fairy,,,,,,
+548,Petilil,Grass,,,,,,
+549,Lilligant,Grass,,,,,,
+550,Basculin,Water,,,,,,
+551,Sandile,Dark|Ground,,,,,,
+552,Krokorok,Dark|Ground,,,,,,
+553,Krookodile,Dark|Ground,,,,,,
+554,Darumaka,Fire,,,,,,
+555,Darmanitan,Fire,,,,,,
+556,Maractus,Grass,,,,,,
+557,Dwebble,Bug|Rock,,,,,,
+558,Crustle,Bug|Rock,,,,,,
+559,Scraggy,Dark|Fighting,,,,,,
+560,Scrafty,Dark|Fighting,,,,,,
+561,Sigilyph,Flying|Psychic,,,,,,
+562,Yamask,Ghost,,,,,,
+563,Cofagrigus,Ghost,,,,,,
+564,Tirtouga,Water|Rock,,,,,,
+565,Carracosta,Water|Rock,,,,,,
+566,Archen,Flying|Rock,,,,,,
+567,Archeops,Flying|Rock,,,,,,
+568,Trubbish,Poison,,,,,,
+569,Garbodor,Poison,,,,,,
+570,Zorua,Dark,,,,,,
+571,Zoroark,Dark,,,,,,
+572,Minccino,Normal,,,,,,
+573,Cinccino,Normal,,,,,,
+574,Gothita,Psychic,,,,,,
+575,Gothorita,Psychic,,,,,,
+576,Gothitelle,Psychic,,,,,,
+577,Solosis,Psychic,,,,,,
+578,Duosion,Psychic,,,,,,
+579,Reuniclus,Psychic,,,,,,
+580,Ducklett,Flying|Water,,,,,,
+581,Swanna,Flying|Water,,,,,,
+582,Vanillite,Ice,,,,,,
+583,Vanillish,Ice,,,,,,
+584,Vanilluxe,Ice,,,,,,
+585,Deerling,Grass|Normal,,,,,,
+586,Sawsbuck,Grass|Normal,,,,,,
+587,Emolga,Flying|Electric,,,,,,
+588,Karrablast,Bug,,,,,,
+589,Escavalier,Steel|Bug,,,,,,
+590,Foongus,Grass|Poison,,,,,,
+591,Amoonguss,Grass|Poison,,,,,,
+592,Frillish,Water|Ghost,,,,,,
+593,Jellicent,Water|Ghost,,,,,,
+594,Alomomola,Water,,,,,,
+595,Joltik,Electric|Bug,,,,,,
+596,Galvantula,Electric|Bug,,,,,,
+597,Ferroseed,Grass|Steel,,,,,,
+598,Ferrothorn,Grass|Steel,,,,,,
+599,Klink,Steel,,,,,,
+600,Klang,Steel,,,,,,
+601,Klinklang,Steel,,,,,,
+602,Tynamo,Electric,,,,,,
+603,Eelektrik,Electric,,,,,,
+604,Eelektross,Electric,,,,,,
+605,Elgyem,Psychic,,,,,,
+606,Beheeyem,Psychic,,,,,,
+607,Litwick,Fire|Ghost,,,,,,
+608,Lampent,Fire|Ghost,,,,,,
+609,Chandelure,Fire|Ghost,,,,,,
+610,Axew,Dragon,,,,,,
+611,Fraxure,Dragon,,,,,,
+612,Haxorus,Dragon,,,,,,
+613,Cubchoo,Ice,,,,,,
+614,Beartic,Ice,,,,,,
+615,Cryogonal,Ice,,,,,,
+616,Shelmet,Bug,,,,,,
+617,Accelgor,Bug,,,,,,
+618,Stunfisk,Ground|Electric,,,,,,
+619,Mienfoo,Fighting,,,,,,
+620,Mienshao,Fighting,,,,,,
+621,Druddigon,Dragon,,,,,,
+622,Golett,Ground|Ghost,,,,,,
+623,Golurk,Ground|Ghost,,,,,,
+624,Pawniard,Dark|Steel,,,,,,
+625,Bisharp,Dark|Steel,,,,,,
+626,Bouffalant,Normal,,,,,,
+627,Rufflet,Flying|Normal,,,,,,
+628,Braviary,Flying|Normal,,,,,,
+629,Vullaby,Flying|Dark,,,,,,
+630,Mandibuzz,Flying|Dark,,,,,,
+631,Heatmor,Fire,,,,,,
+632,Durant,Steel|Bug,,,,,,
+633,Deino,Dark|Dragon,,,,,,
+634,Zweilous,Dark|Dragon,,,,,,
+635,Hydreigon,Dark|Dragon,,,,,,
+636,Larvesta,Fire|Bug,,,,,,
+637,Volcarona,Fire|Bug,,,,,,
+638,Cobalion,Fighting|Steel,,,,,,
+639,Terrakion,Fighting|Rock,,,,,,
+640,Virizion,Grass|Fighting,,,,,,
+641,TornadusIncarnate Forme,Flying,,,,,,
+641,TornadusTherian Forme,Flying,,,,,,
+642,ThundurusIncarnate Forme,Flying|Electric,,,,,,
+642,ThundurusTherian Forme,Flying|Electric,,,,,,
+643,Reshiram,Fire|Dragon,,,,,,
+644,Zekrom,Electric|Dragon,,,,,,
+645,LandorusIncarnate Forme,Flying|Ground,,,,,,
+645,LandorusTherian Forme,Flying|Ground,,,,,,
+646,Kyurem,Ice|Dragon,,,,,,
+646,KyuremBlack Kyurem,Ice|Dragon,,,,,,
+646,KyuremWhite Kyurem,Ice|Dragon,,,,,,
+647,KeldeoOrdinary Forme,Water|Fighting,,,,,,
+647,KeldeoResolute Forme,Water|Fighting,,,,,,
+648,MeloettaAria Forme,Psychic|Normal,,,,,,
+648,MeloettaPirouette Forme,Fighting|Normal,,,,,,
+649,Genesect,Steel|Bug,,,,,,
+650,Chespin,Grass,,,,,,
+651,Quilladin,Grass,,,,,,
+652,Chesnaught,Grass|Fighting,,,,,,
+653,Fennekin,Fire,,,,,,
+654,Braixen,Fire,,,,,,
+655,Delphox,Fire|Psychic,,,,,,
+656,Froakie,Water,,,,,,
+657,Frogadier,Water,,,,,,
+658,Greninja,Dark|Water,,,,,,
+658,GreninjaAsh-Greninja,Dark|Water,,,,,,
+659,Bunnelby,Normal,,,,,,
+660,Diggersby,Ground|Normal,,,,,,
+661,Fletchling,Flying|Normal,,,,,,
+662,Fletchinder,Fire|Flying,,,,,,
+663,Talonflame,Fire|Flying,,,,,,
+664,Scatterbug,Bug,,,,,,
+665,Spewpa,Bug,,,,,,
+666,Vivillon,Flying|Bug,,,,,,
+667,Litleo,Fire|Normal,,,,,,
+668,Pyroar,Fire|Normal,,,,,,
+669,Flabébé,Fairy,,,,,,
+670,Floette,Fairy,,,,,,
+671,Florges,Fairy,,,,,,
+672,Skiddo,Grass,,,,,,
+673,Gogoat,Grass,,,,,,
+674,Pancham,Fighting,,,,,,
+675,Pangoro,Dark|Fighting,,,,,,
+676,Furfrou,Normal,,,,,,
+677,Espurr,Psychic,,,,,,
+678,MeowsticFemale,Psychic,,,,,,
+678,MeowsticMale,Psychic,,,,,,
+679,Honedge,Ghost|Steel,,,,,,
+680,Doublade,Ghost|Steel,,,,,,
+681,AegislashBlade Forme,Ghost|Steel,,,,,,
+681,AegislashShield Forme,Ghost|Steel,,,,,,
+682,Spritzee,Fairy,,,,,,
+683,Aromatisse,Fairy,,,,,,
+684,Swirlix,Fairy,,,,,,
+685,Slurpuff,Fairy,,,,,,
+686,Inkay,Dark|Psychic,,,,,,
+687,Malamar,Dark|Psychic,,,,,,
+688,Binacle,Water|Rock,,,,,,
+689,Barbaracle,Water|Rock,,,,,,
+690,Skrelp,Water|Poison,,,,,,
+691,Dragalge,Dragon|Poison,,,,,,
+692,Clauncher,Water,,,,,,
+693,Clawitzer,Water,,,,,,
+694,Helioptile,Electric|Normal,,,,,,
+695,Heliolisk,Electric|Normal,,,,,,
+696,Tyrunt,Dragon|Rock,,,,,,
+697,Tyrantrum,Dragon|Rock,,,,,,
+698,Amaura,Ice|Rock,,,,,,
+699,Aurorus,Ice|Rock,,,,,,
+700,Sylveon,Fairy,,,,,,
+701,Hawlucha,Flying|Fighting,,,,,,
+702,Dedenne,Electric|Fairy,,,,,,
+703,Carbink,Fairy|Rock,,,,,,
+704,Goomy,Dragon,,,,,,
+705,Sliggoo,Dragon,,,,,,
+706,Goodra,Dragon,,,,,,
+707,Klefki,Steel|Fairy,,,,,,
+708,Phantump,Grass|Ghost,,,,,,
+709,Trevenant,Grass|Ghost,,,,,,
+710,PumpkabooAverage Size,Grass|Ghost,,,,,,
+710,PumpkabooLarge Size,Grass|Ghost,,,,,,
+710,PumpkabooSmall Size,Grass|Ghost,,,,,,
+710,PumpkabooSuper Size,Grass|Ghost,,,,,,
+711,GourgeistAverage Size,Grass|Ghost,,,,,,
+711,GourgeistLarge Size,Grass|Ghost,,,,,,
+711,GourgeistSmall Size,Grass|Ghost,,,,,,
+711,GourgeistSuper Size,Grass|Ghost,,,,,,
+712,Bergmite,Ice,,,,,,
+713,Avalugg,Ice,,,,,,
+714,Noibat,Flying|Dragon,,,,,,
+715,Noivern,Flying|Dragon,,,,,,
+716,Xerneas,Fairy,,,,,,
+717,Yveltal,Flying|Dark,,,,,,
+718,Zygarde10% Forme,Ground|Dragon,,,,,,
+718,Zygarde50% Forme,Ground|Dragon,,,,,,
+718,ZygardeComplete Forme,Ground|Dragon,,,,,,
+719,Diancie,Fairy|Rock,,,,,,
+719,DiancieMega Diancie,Fairy|Rock,,,,,,
+720,HoopaHoopa Confined,Psychic|Ghost,,,,,,
+720,HoopaHoopa Unbound,Dark|Psychic,,,,,,
+721,Volcanion,Fire|Water,,,,,,
+722,Rowlet,Flying|Grass,,,,,,
+723,Dartrix,Flying|Grass,,,,,,
+724,Decidueye,Grass|Ghost,,,,,,
+725,Litten,Fire,,,,,,
+726,Torracat,Fire,,,,,,
+727,Incineroar,Fire|Dark,,,,,,
+728,Popplio,Water,,,,,,
+729,Brionne,Water,,,,,,
+730,Primarina,Water|Fairy,,,,,,
+731,Pikipek,Flying|Normal,,,,,,
+732,Trumbeak,Flying|Normal,,,,,,
+733,Toucannon,Flying|Normal,,,,,,
+734,Yungoos,Normal,,,,,,
+735,Gumshoos,Normal,,,,,,
+736,Grubbin,Bug,,,,,,
+737,Charjabug,Electric|Bug,,,,,,
+738,Vikavolt,Electric|Bug,,,,,,
+739,Crabrawler,Fighting,,,,,,
+740,Crabominable,Ice|Fighting,,,,,,
+741,OricorioBaile Style,Fire|Flying,,,,,,
+741,OricorioPa'u Style,Flying|Psychic,,,,,,
+741,OricorioPom-Pom Style,Flying|Electric,,,,,,
+741,OricorioSensu Style,Flying|Ghost,,,,,,
+742,Cutiefly,Bug|Fairy,,,,,,
+743,Ribombee,Bug|Fairy,,,,,,
+744,Rockruff,Rock,,,,,,
+744,RockruffOwn Tempo Rockruff,Rock,,,,,,
+745,LycanrocDusk Form,Rock,,,,,,
+745,LycanrocMidday Form,Rock,,,,,,
+745,LycanrocMidnight Form,Rock,,,,,,
+746,WishiwashiSchool Form,Water,,,,,,
+746,WishiwashiSolo Form,Water,,,,,,
+747,Mareanie,Water|Poison,,,,,,
+748,Toxapex,Water|Poison,,,,,,
+749,Mudbray,Ground,,,,,,
+750,Mudsdale,Ground,,,,,,
+751,Dewpider,Water|Bug,,,,,,
+752,Araquanid,Water|Bug,,,,,,
+753,Fomantis,Grass,,,,,,
+754,Lurantis,Grass,,,,,,
+755,Morelull,Grass|Fairy,,,,,,
+756,Shiinotic,Grass|Fairy,,,,,,
+757,Salandit,Fire|Poison,,,,,,
+758,Salazzle,Fire|Poison,,,,,,
+759,Stufful,Fighting|Normal,,,,,,
+760,Bewear,Fighting|Normal,,,,,,
+761,Bounsweet,Grass,,,,,,
+762,Steenee,Grass,,,,,,
+763,Tsareena,Grass,,,,,,
+764,Comfey,Fairy,,,,,,
+765,Oranguru,Psychic|Normal,,,,,,
+766,Passimian,Fighting,,,,,,
+767,Wimpod,Water|Bug,,,,,,
+768,Golisopod,Water|Bug,,,,,,
+769,Sandygast,Ground|Ghost,,,,,,
+770,Palossand,Ground|Ghost,,,,,,
+771,Pyukumuku,Water,,,,,,
+772,Type: Null,Normal,,,,,,
+773,Silvally,Normal,,,,,,
+774,MiniorCore Form,Flying|Rock,,,,,,
+774,MiniorMeteor Form,Flying|Rock,,,,,,
+775,Komala,Normal,,,,,,
+776,Turtonator,Fire|Dragon,,,,,,
+777,Togedemaru,Electric|Steel,,,,,,
+778,Mimikyu,Ghost|Fairy,,,,,,
+779,Bruxish,Water|Psychic,,,,,,
+780,Drampa,Dragon|Normal,,,,,,
+781,Dhelmise,Grass|Ghost,,,,,,
+782,Jangmo-o,Dragon,,,,,,
+783,Hakamo-o,Dragon|Fighting,,,,,,
+784,Kommo-o,Dragon|Fighting,,,,,,
+785,Tapu Koko,Electric|Fairy,,,,,,
+786,Tapu Lele,Psychic|Fairy,,,,,,
+787,Tapu Bulu,Grass|Fairy,,,,,,
+788,Tapu Fini,Water|Fairy,,,,,,
+789,Cosmog,Psychic,,,,,,
+790,Cosmoem,Psychic,,,,,,
+791,Solgaleo,Psychic|Steel,,,,,,
+792,Lunala,Psychic|Ghost,,,,,,
+793,Nihilego,Poison|Rock,,,,,,
+794,Buzzwole,Fighting|Bug,,,,,,
+795,Pheromosa,Fighting|Bug,,,,,,
+796,Xurkitree,Electric,,,,,,
+797,Celesteela,Flying|Steel,,,,,,
+798,Kartana,Grass|Steel,,,,,,
+799,Guzzlord,Dark|Dragon,,,,,,
+800,Necrozma,Psychic,,,,,,
+800,NecrozmaDawn Wings Necrozma,Psychic|Ghost,,,,,,
+800,NecrozmaDusk Mane Necrozma,Psychic|Steel,,,,,,
+800,NecrozmaUltra Necrozma,Dragon|Psychic,,,,,,
+801,Magearna,Steel|Fairy,,,,,,
+802,Marshadow,Ghost|Fighting,,,,,,
+803,Poipole,Poison,,,,,,
+804,Naganadel,Dragon|Poison,,,,,,
+805,Stakataka,Steel|Rock,,,,,,
+806,Blacephalon,Fire|Ghost,,,,,,
+807,Zeraora,Electric,,,,,,
+808,Meltan,Steel,,,,,,
+809,Melmetal,Steel,,,,,,
+,,,,,,,,
