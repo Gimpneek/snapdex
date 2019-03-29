@@ -1,3 +1,4 @@
+dist: xenial
 addons:
   sonarcloud:
     organization: "gimpneek-github"
