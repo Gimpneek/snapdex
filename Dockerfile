@@ -1,6 +1,6 @@
 FROM python:3.7
 
-LABEL version="1.0.1"
+LABEL version="1.0.2"
 LABEL description="Discord bot to create a pokedex from Pokemon Go AR pics"
 
 # Set up environment variable for the discord key

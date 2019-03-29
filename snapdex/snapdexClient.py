@@ -57,6 +57,7 @@ class SnapdexClient(Client):
             if not found_pokemon:
                 await message.channel.send('Who\'s that Pokemon?')
                 await self.handle_pokemon_name_options(message, images[0])
+                return
             if len(found_pokemon) > 1:
                 options = '{0} or {1}'.format(
                     ', '.join(found_pokemon[:-1]), found_pokemon[-1])
@@ -211,7 +212,9 @@ class SnapdexClient(Client):
             await message.channel.send('Sorry, you took too long to respond')
         else:
             found_pokemon = self.get_pokemon_names(reply.content)
+            pokemon_details = \
+                self.pokedex.get_pokemon_by_name(found_pokemon[0])
             self.pokemon_images[message.id] = PokedexEntry(
-                found_pokemon[0], image.url, message.author)
+                found_pokemon[0], image, message, pokemon_details[0])
             await message.channel.send(
                 'Cool, {0} pic'.format(found_pokemon[0]))

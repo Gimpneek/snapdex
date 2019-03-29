@@ -95,7 +95,7 @@ Number,Name,Types,Species,Legendary,Mythical,Generation,Sprite,Description, Alia
 080,Slowbro,Water|Psychic,Hermit Crab,False,False,1,https://pokeres.bastionbot.org/images/pokemon/80.png,An attached SHELLDER won't let go because of the tasty flavor that oozes out of its tail.,,False
 081,Magnemite,Electric|Steel,Magnet,False,False,1,https://pokeres.bastionbot.org/images/pokemon/81.png,The electricity emitted by the units on each side of its body cause it to become a strong magnet.,,False
 082,Magneton,Electric|Steel,Magnet,False,False,1,https://pokeres.bastionbot.org/images/pokemon/82.png,"When many MAGNETON gather together, the resulting magnetic storm disrupts radio waves.",,False
-083,Farfetch'd,Flying|Normal,Wild Duck,False,False,1,https://pokeres.bastionbot.org/images/pokemon/83.png,"In order to prevent their extinction, more people have made an effort to breed these POKéMON.",Farfetchd,True
+083,Farfetch'd,Flying|Normal,Wild Duck,False,False,1,https://pokeres.bastionbot.org/images/pokemon/83.png,"In order to prevent their extinction, more people have made an effort to breed these POKéMON.","Farfetchd|Farfetch’d",True
 084,Doduo,Flying|Normal,Twin Bird,False,False,1,https://pokeres.bastionbot.org/images/pokemon/84.png,"It lives on a grassy plain where it can see a long way. If it sees an enemy, it runs away at 60 mph.",,False
 085,Dodrio,Flying|Normal,Triple Bird,False,False,1,https://pokeres.bastionbot.org/images/pokemon/85.png,An enemy that takes its eyes off any of the three heads--even for a second--will get pecked severely.,,False
 086,Seel,Water,Sea Lion,False,False,1,https://pokeres.bastionbot.org/images/pokemon/86.png,The light blue fur that covers it keeps it protected against the cold. It loves iceberg-filled oceans.,,False
