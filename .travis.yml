@@ -1,3 +1,4 @@
+dist: xenial
 addons:
   sonarcloud:
     organization: "gimpneek-github"
@@ -7,9 +8,9 @@ services:
   - docker
 language: python
 python:
-  - 3.6
+  - 3.7
 script:
-  - echo "This will do stuff"
+  - nosetests
   - sonar-scanner
 deploy:
   provider: script

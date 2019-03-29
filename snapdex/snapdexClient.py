@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 """ SnapdexClient Class """
-from discord import Client
+import re
+from discord import Client, Embed
 import logging
+from pokedex.pokedex import Pokedex
 from asyncio import TimeoutError
 from snapdex.pokedexEntry import PokedexEntry
 
@@ -17,6 +19,7 @@ class SnapdexClient(Client):
         self.pokemon_list = pokemon_list
         self.pokedexes = {}
         self.pokemon_images = {}
+        self.pokedex = Pokedex()
 
     async def on_ready(self):
         """
@@ -47,27 +50,66 @@ class SnapdexClient(Client):
             'Got message: {0.content} from {0.author}'.format(message))
         if message.author == self.user:
             return
+        content = message.content
         images = self.get_images(message)
         if images:
-            found_pokemon = self.get_pokemon_names(message)
+            found_pokemon = self.get_pokemon_names(content)
             if not found_pokemon:
                 await message.channel.send('Who\'s that Pokemon?')
+                await self.handle_pokemon_name_options(message, images[0])
             if len(found_pokemon) > 1:
-                await self.handle_pokemon_name_options(
-                    found_pokemon, message, images[0])
+                options = '{0} or {1}'.format(
+                    ', '.join(found_pokemon[:-1]), found_pokemon[-1])
+                await message.channel.send(
+                    'Which Pokemon is it? {0}?'.format(options))
+                await self.handle_pokemon_name_options(message, images[0])
                 return
+            pokemon_details = \
+            self.pokedex.get_pokemon_by_name(found_pokemon[0])
             self.pokemon_images[message.id] = PokedexEntry(
-                found_pokemon[0], images[0].url, message.author)
-            await message.channel.send(
-                'That\'s a sick pic of {0}'.format(found_pokemon[0]))
-        if '$snapdex show' in message.content:
-            found_pokemon = self.get_pokemon_names(message)
+                pokemon_name=found_pokemon[0],
+                image=images[0],
+                original_message=message,
+                details=pokemon_details[0]
+            )
+
+        if '$snapdex show' in content:
+            found_pokemon = self.get_pokemon_names(content)
             for pokemon in found_pokemon:
                 for entry in self.pokedexes.get(message.author, []):
                     if entry.pokemon_name == pokemon:
-                        await message.channel.send(
-                            'Heres your {0} pic by {1}: {2}'.format(
-                                pokemon, entry.author, entry.image_url))
+                        dex_entry = Embed(
+                            description=entry.original_message.content,
+                            type="rich",
+                            title="{0} by {1}".format(pokemon, entry.author),
+                            color=0xff2600
+                        )
+                        dex_entry.set_thumbnail(url=entry.image.url)
+                        dex_entry.set_author(
+                            name=entry.author,
+                            icon_url=entry.author.avatar_url
+                        )
+                        dex_entry.add_field(
+                            name="Name",
+                            value=pokemon,
+                            inline=True)
+                        dex_entry.add_field(
+                            name="Pokedex Number",
+                            value=entry.details.get('number', ''),
+                            inline=True)
+                        dex_entry.add_field(
+                            name="Types",
+                            value="/".join(entry.details.get('types', [])),
+                            inline=True)
+                        dex_entry.add_field(
+                            name="Date Taken",
+                            value=entry.original_message.created_at,
+                            inline=True)
+                        dex_entry.set_footer(
+                            text=entry.details.get('description', ''),
+                            icon_url=entry.details.get('sprite', '')
+                        )
+                        await message.channel.send(embed=dex_entry)
 
     async def on_reaction_add(self, reaction, user):
         """
@@ -114,22 +156,25 @@ class SnapdexClient(Client):
                 images.append(attachment)
         return images
 
-    def get_pokemon_names(self, message):
+    def get_pokemon_names(self, content):
         """
         Extract the Pokemon referenced in the posted message
 
-        :param message: The message posted to discord that accompanied the
+        :param content: The text posted to discord that accompanied the
             AR pic
-        :type message: discord.Message
+        :type content: basestring
         :return: A list of Pokemon names extracted from the message content
         :rtype: basestring[]
         """
-        content = message.content.lower()
-        found_pokemon = \
-            [word.title() for word in self.pokemon_list if word in content]
-        return found_pokemon
+        content = content.lower()
+        found_pokemon = []
+        for pokemon in self.pokemon_list:
+            names = pokemon.get_name_search_list()
+            if re.findall(names, content):
+                found_pokemon.append(pokemon)
+        return [pokemon.name.title() for pokemon in found_pokemon]
 
-    async def handle_pokemon_name_options(self, pokemon, message, image):
+    async def handle_pokemon_name_options(self, message, image):
         """
         Handle asking the user to clarify which Pokemon was in the AR pic
         posted.
@@ -137,15 +182,11 @@ class SnapdexClient(Client):
         This takes advantage of the discord.Client.wait_for method which
         polls the channel for a reply
 
-        :param pokemon: A list of possible Pokemon the image could contain
         :param message: The message for the AR pic
         :param image: The AR pic
-        :type pokemon: basestring[]
         :type message: discord.Message
         :type image: discord.Attachment
         """
-        options = '{0} or {1}'.format(', '.join(pokemon[:-1]), pokemon[-1])
-        await message.channel.send('Which Pokemon is it? {0}?'.format(options))
 
         def handle_reply(reply_message):
             """
@@ -158,7 +199,7 @@ class SnapdexClient(Client):
             :rtype: bool
             """
             if reply_message.author == message.author:
-                reply_pokemon = self.get_pokemon_names(reply_message)
+                reply_pokemon = self.get_pokemon_names(reply_message.content)
                 if len(reply_pokemon) == 1:
                     return True
 
@@ -169,7 +210,7 @@ class SnapdexClient(Client):
         except TimeoutError:
             await message.channel.send('Sorry, you took too long to respond')
         else:
-            found_pokemon = self.get_pokemon_names(reply)
+            found_pokemon = self.get_pokemon_names(reply.content)
             self.pokemon_images[message.id] = PokedexEntry(
                 found_pokemon[0], image.url, message.author)
             await message.channel.send(
