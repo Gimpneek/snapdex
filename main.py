@@ -20,10 +20,11 @@ all_pokemon = []
 with open('pokemon.csv', 'r') as f:
     reader = csv.reader(f)
     for pokemon in list(reader)[1:]:
+        alias_list = [] if pokemon[9] == '' else pokemon[9].split('|')
         all_pokemon.append(
             PokemonListItem(
                 name=pokemon[1],
-                alias_list=pokemon[9].split('|'),
+                alias_list=alias_list,
                 number=pokemon[0],
                 types=pokemon[2].split('|'),
                 dex_entries=pokemon[8].split('|'),
@@ -32,8 +33,6 @@ with open('pokemon.csv', 'r') as f:
                 mythic=pokemon[5],
                 regional=pokemon[10])
         )
-
-all_pokemon = set(all_pokemon)
 
 client = SnapdexClient(pokemon_list=all_pokemon)
 client.run(os.environ.get('DISCORD_KEY'))
