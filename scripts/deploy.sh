@@ -11,7 +11,7 @@ sudo apt-get install jq -y
 echo $DOCKER_HUB_PASSWORD | docker login --username $DOCKER_HUB_USER --password-stdin
 
 # build the docker image and push to an image repository
-docker build -t $IMAGE_REPO_URL .
+docker build -t $IMAGE_REPO_URL:$TRAVIS_TAG .
 docker tag $IMAGE_REPO_URL:$TRAVIS_TAG $IMAGE_REPO_URL:$TRAVIS_TAG
 docker push $IMAGE_REPO_URL:$TRAVIS_TAG
 
