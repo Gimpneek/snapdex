@@ -11,6 +11,14 @@ BUILDDIR        	= docs/build
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+unit_test:
+	nosetests snapdex
+
+sonarqube:
+	sonar-scanner
+
+ci_test: unit_test sonarqube
+
 install_bot_deps:
 	pip install -r requirements.txt
 
@@ -27,7 +35,7 @@ install_ecs_deps:
 
 # Build the docker image
 build_docker:
-	docker build -t $$IMAGE_REPO_URL:$TRAVIS_TAG -t $$IMAGE_REPO_URL:latest .
+	docker build -t $$IMAGE_REPO_URL:$$TRAVIS_TAG -t $$IMAGE_REPO_URL:latest .
 
 # Test the docker image
 test_docker:

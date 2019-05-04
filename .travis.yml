@@ -12,10 +12,9 @@ python:
 install:
   - make install_bot_deps
 script:
-  - nosetests snapdex
-  - sonar-scanner
-  - make build_docker
-  - make test_docker
+  - make ci_test
+  - make install_aws_cli
+  - make install_ecs_deps
 before_deploy:
   - make install_aws_cli
   - make install_ecs_deps
