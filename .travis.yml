@@ -9,11 +9,18 @@ services:
 language: python
 python:
   - 3.7
+install:
+  - make install_bot_deps
 script:
-  - nosetests
+  - nosetests snapdex
   - sonar-scanner
+  - make build_docker
+  - make test_docker
+before_deploy:
+  - make install_aws_cli
+  - make install_ecs_deps
 deploy:
   provider: script
-  script: bash scripts/deploy.sh
+  script: make deploy
   on:
     tags: true
