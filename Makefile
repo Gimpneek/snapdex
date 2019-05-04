@@ -53,7 +53,7 @@ deploy_docker:
 
 deploy: build_docker test_docker publish_docker deploy_docker
 
-.PHONY: help Makefile install_aws install_deps build_docker test_docker publish_docker deploy_docker deploy
+.PHONY: help Makefile install_aws install_deps build_docker test_docker publish_docker deploy_docker deploy unit_test sonarqube ci_test
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).

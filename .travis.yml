@@ -13,8 +13,6 @@ install:
   - make install_bot_deps
 script:
   - make ci_test
-  - make install_aws
-  - make install_ecs_deps
 before_deploy:
   - make install_aws
   - make install_ecs_deps
