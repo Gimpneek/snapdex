@@ -13,6 +13,7 @@ install:
   - make install_bot_deps
 script:
   - make ci_test
+  - make docker
 before_deploy:
   - make install_aws
   - make install_ecs_deps

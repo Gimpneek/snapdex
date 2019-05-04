@@ -51,9 +51,11 @@ publish_docker:
 deploy_docker:
 	bash scripts/ecs-deploy.sh -c $$CLUSTER_NAME -n $$SERVICE_NAME -i $$IMAGE_REPO_URL:$$TRAVIS_TAG
 
-deploy: build_docker test_docker publish_docker deploy_docker
+docker: build_docker test_docker
 
-.PHONY: help Makefile install_aws install_deps build_docker test_docker publish_docker deploy_docker deploy unit_test sonarqube ci_test
+deploy: publish_docker deploy_docker
+
+.PHONY: help Makefile install_aws install_deps build_docker test_docker publish_docker deploy_docker deploy unit_test sonarqube ci_test docker
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
