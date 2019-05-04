@@ -3,13 +3,13 @@ import pytest
 
 
 @pytest.mark.usefixtures("host")
-class TestRequirements(TestCase):
+class TestFiles(TestCase):
     """
     Check that the files needed to run the bot are in the Docker image
     """
 
     def setUp(self):
-        super(TestRequirements, self).setUp()
+        super(TestFiles, self).setUp()
         self.pokemon = self.host.file('/src/pokemon.csv')
         self.bot = self.host.file('/src/main.py')
 
