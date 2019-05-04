@@ -1,3 +1,4 @@
+.EXPORT_ALL_VARIABLES
 # Minimal makefile for Sphinx documentation
 #
 
