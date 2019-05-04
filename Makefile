@@ -6,10 +6,6 @@ SPHINXOPTS      	=
 SPHINXBUILD     	= sphinx-build
 SOURCEDIR       	= docs/source
 BUILDDIR        	= docs/build
-IMAGE_REPO_URL		= $$IMAGE_REPO_URL
-TRAVIS_TAG			= $$TRAVIS_TAG
-DISCORD_KEY			= $$DISCORD_KEY
-export
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -39,21 +35,21 @@ install_ecs_deps:
 
 # Build the docker image
 build_docker:
-	docker build -t $(IMAGE_REPO_URL):$(TRAVIS_TAG) -t $(IMAGE_REPO_URL):latest .
+	@docker build -t $(IMAGE_REPO_URL):$(TRAVIS_TAG) -t $(IMAGE_REPO_URL):latest .
 
 # Test the docker image
 test_docker:
-	DISCORD_KEY=$(DISCORD_KEY) pytest docker
+	@DISCORD_KEY=$(DISCORD_KEY) pytest docker
 
 # Publish the docker image to DockerHub
 publish_docker:
-	@echo $$DOCKER_HUB_PASSWORD | docker login --username $$DOCKER_HUB_USER --password-stdin
-	docker tag $$IMAGE_REPO_URL:$$TRAVIS_TAG $$IMAGE_REPO_URL:$$TRAVIS_TAG
-	docker push $$IMAGE_REPO_URL:$$TRAVIS_TAG
+	@echo $(DOCKER_HUB_PASSWORD) | docker login --username $(DOCKER_HUB_USER) --password-stdin
+	docker tag $(IMAGE_REPO_URL):$(TRAVIS_TAG) $(IMAGE_REPO_URL):$(TRAVIS_TAG)
+	docker push $(IMAGE_REPO_URL):$(TRAVIS_TAG)
 
 # Deploy the new version to AWS ECS
 deploy_docker:
-	bash scripts/ecs-deploy.sh -c $$CLUSTER_NAME -n $$SERVICE_NAME -i $$IMAGE_REPO_URL:$$TRAVIS_TAG
+	bash scripts/ecs-deploy.sh -c $(CLUSTER_NAME) -n $(SERVICE_NAME) -i $(IMAGE_REPO_URL):$(TRAVIS_TAG)
 
 docker: build_docker test_docker
 
