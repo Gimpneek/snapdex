@@ -13,12 +13,13 @@ install:
   - make install_bot_deps
 script:
   - make ci_test
-  - make docker
+  - make build_docker
+  - make test_docker
 before_deploy:
   - make install_aws
   - make install_ecs_deps
 deploy:
   provider: script
-  script: make deploy
+  script: bash scripts/deploy.sh
   on:
     tags: true
