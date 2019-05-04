@@ -1,4 +1,3 @@
-.EXPORT_ALL_VARIABLES
 # Minimal makefile for Sphinx documentation
 #
 
@@ -7,7 +6,7 @@ SPHINXOPTS      	=
 SPHINXBUILD     	= sphinx-build
 SOURCEDIR       	= docs/source
 BUILDDIR        	= docs/build
-
+export
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
