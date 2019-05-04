@@ -6,7 +6,11 @@ SPHINXOPTS      	=
 SPHINXBUILD     	= sphinx-build
 SOURCEDIR       	= docs/source
 BUILDDIR        	= docs/build
+IMAGE_REPO_URL		= $$IMAGE_REPO_URL
+TRAVIS_TAG			= $$TRAVIS_TAG
+DISCORD_KEY			= $$DISCORD_KEY
 export
+
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
@@ -35,11 +39,11 @@ install_ecs_deps:
 
 # Build the docker image
 build_docker:
-	docker build -t $$IMAGE_REPO_URL:$$TRAVIS_TAG -t $$IMAGE_REPO_URL:latest .
+	docker build -t $(IMAGE_REPO_URL):$(TRAVIS_TAG) -t $(IMAGE_REPO_URL):latest .
 
 # Test the docker image
 test_docker:
-	DISCORD_KEY=$$DISCORD_KEY pytest docker
+	DISCORD_KEY=$(DISCORD_KEY) pytest docker
 
 # Publish the docker image to DockerHub
 publish_docker:
