@@ -6,7 +6,9 @@ SPHINXOPTS      	=
 SPHINXBUILD     	= sphinx-build
 SOURCEDIR       	= docs/source
 BUILDDIR        	= docs/build
-export
+IMAGE				= $$IMAGE_REPO_URL
+TAG					= $$TRAVIS_TAG
+
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -36,7 +38,7 @@ install_ecs_deps:
 
 # Build the docker image
 build_docker:
-	@docker build -t $$IMAGE_REPO_URL:$$TRAVIS_TAG -t $$IMAGE_REPO_URL:latest .
+	@docker build -t $$IMAGE:$$TRAVIS -t $$IMAGE:latest .
 
 # Test the docker image
 test_docker:
