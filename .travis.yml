@@ -13,8 +13,8 @@ install:
   - make install_bot_deps
 script:
   - make ci_test
-  - make build_docker
-  - make test_docker
+  - docker build -t $IMAGE_REPO_URL:$TRAVIS_TAG  -t $IMAGE_REPO_URL:latest .
+  - DISCORD_KEY=$DISCORD_KEY pytest docker
 before_deploy:
   - make install_aws
   - make install_ecs_deps
