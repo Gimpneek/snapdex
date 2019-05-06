@@ -38,7 +38,7 @@ install_ecs_deps:
 
 # Build the docker image
 build_docker:
-	@docker build -t $$IMAGE:$$TRAVIS -t $$IMAGE:latest .
+	@docker build -t $(IMAGE):$(TAG)  -t $(IMAGE):latest .
 
 # Test the docker image
 test_docker:
